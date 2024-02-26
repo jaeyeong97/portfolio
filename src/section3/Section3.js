@@ -633,69 +633,6 @@ const Section3 = () => {
             </div>
           </div>
         </div>
-        <div className="row row7 row_odd">
-          <div className="page_img"></div>
-          <div className="page_text">
-            <div className="explain">
-              <span className="title">미술관</span>
-              <span className="s_title">🏅프로젝트 개요</span>
-              <span>• </span>
-              <span>• 개인 프로젝트</span>
-              <span className="s_title">💻구현기능 </span>
-              <span>• </span>
-              <span>• </span>
-              <span className="s_title">🚨문제점</span>
-              <span className="ss_title">문제 배경</span>
-              <span>문제 배경 설명</span>
-              <span className="ss_title">🎯해결 방법</span>
-              <span>해결 방법 설명</span>
-              <span className="ss_title">✨결과 및 알게된 점</span>
-              <span> 결과 및 알게된 점 설명</span>
-            </div>
-            <div className="language_wrap">
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="html_icon"></div>
-                  <div className="html txt">Html</div>
-                </div>
-                <div className="html_percent_wrap">
-                  <div className="html_percent_bar"></div>
-                  <div className="html_percent_txt"></div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="css_icon"></div>
-                  <div className="css txt">Css</div>
-                </div>
-                <div className="css_percent_wrap">
-                  <div className="css_percent_bar"></div>
-                  <div className="css_percent_txt"></div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="js_icon"></div>
-                  <div className="js_txt">Js</div>
-                </div>
-                <div className="js_percent_wrap">
-                  <div className="js_percent_bar"></div>
-                  <div className="js_percent_txt"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="eye">
-            <div className="eye_in1">
-              <div className="eye_img"></div>
-              <span>View Project</span>
-            </div>
-            <div className="eye_in2">
-              <div className="eye_img"></div>
-              <span>Click</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
