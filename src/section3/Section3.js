@@ -137,9 +137,11 @@ const Section3 = () => {
       </h2>
       <div className="projects_wrap">
         <div className="row row1 row_odd">
-          <div className="page_img">
-            <img src="/assets/petdoc-frame.png" alt="펫닥 웹사이트 이미지" />
-          </div>
+          <a href="https://jaeyeong97-petdoc.web.app/" target="_blank">
+            <div className="page_img">
+              <img src="/assets/petdoc-frame.png" alt="펫닥 웹사이트 이미지" />
+            </div>
+          </a>
           <div className="page_text">
             <div className="explain">
               <span className="title">Petdoc</span>
@@ -160,15 +162,29 @@ const Section3 = () => {
               <span>• NaverMap API로 지도 제작 및 마커기능 구현</span>
               <span>• 전화하기 기능 구현</span>
               <span>• 실시간을 기준으로 '영업중', '영업종료' 기능 구현</span>
-              <span>• Geolocation API를 활용하여 사용자 위치 정보를 받아, 동물병원과의 거리 도출</span>
+              <span>
+                • Geolocation API를 활용하여 사용자 위치 정보를 받아,
+                동물병원과의 거리 도출
+              </span>
               <span>• 반려동물 추가, 수정, 삭제페이지 제작</span>
               <span>• 로딩페이지 제작</span>
               <span className="s_title">🚨문제점</span>
-              <span>• '상담하기' 페이지에서, 상담 채팅 기록을 관리하는 함수에서 무한루프가 되는 오류 발생 </span>
+              <span>
+                • '상담하기' 페이지에서, 상담 채팅 기록을 관리하는 함수에서
+                무한루프가 되는 오류 발생{" "}
+              </span>
               <span className="ss_title">🎯해결 방법</span>
-              <span>• useEffect 훅을 사용하여, 의존성 배열에 상담버튼을 관리하는 상태변수를 넣어서 버튼의 상태가 변경될 때마다 채팅 기록이 업데이트되게 하였습니다. </span>
+              <span>
+                • useEffect 훅을 사용하여, 의존성 배열에 상담버튼을 관리하는
+                상태변수를 넣어서 버튼의 상태가 변경될 때마다 채팅 기록이
+                업데이트되게 하였습니다.{" "}
+              </span>
               <span className="ss_title">✨결과 및 알게된 점</span>
-              <span>• useEffect의 의존성 배열을 올바르게 설정하는 것이 무한루프 오류를 방지하는데 중요하다는 점을 깨달았습니다.</span>
+              <span>
+                • useEffect의 의존성 배열을 올바르게 설정하는 것이 무한루프
+                오류를 방지하는데 중요하다는 점을 깨달았습니다.
+              </span>
+              <span className="ss_title">📈언어 사용 비율</span>
             </div>
             <div className="language_wrap">
               <div className="language">
@@ -236,28 +252,59 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row2 row_even">
-          <div className="page_img">
-            <img src="/assets/movie-frame.png" alt="영화 웹사이트 이미지" />
-          </div>
+          <a href="https://jaeyeong97-movie-web.web.app/" target="_blank">
+            <div className="page_img">
+              <img src="/assets/movie-frame.png" alt="영화 웹사이트 이미지" />
+            </div>
+          </a>
           <div className="page_text">
             <div className="explain">
               <span className="title">2020년 ~ 2023년 흥행 영화 웹사이트</span>
               <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 2020년 ~ 2023년 흥행 한 영화의 정보를 확인 할 수 있는 웹사이트입니다.</span>
+              <span>
+                • 2020년 ~ 2023년 흥행 한 영화의 정보를 확인 할 수 있는
+                웹사이트입니다.
+              </span>
               <span>• 리액트로 구현하였습니다.</span>
               <span>• 개인 프로젝트</span>
               <span className="s_title">💻구현기능 </span>
-              <span>• filter 메서드를 활용하여 각 년도 버튼을 클릭 시, 각 년도에 맞는 영화가 화면에 출력되게 하였습니다.  </span>
-              <span>• 사용자가 리뷰를 10글자 이내로 작성 시, alert을 띄워 10글자 이상 작성하게 구현하였습니다.</span>
-              <span>• onKeyDown 이벤트 핸들러를 사용하여, 사용자가 리뷰 작성 후 enter키를 누를 시에도 리뷰가 입력되게 하여 사용자 편의를 더하였습니다.</span>
-              <span>• 영화의 평점에 따라 별 개수를 반환하는 함수를 만들어, 시각적으로 사용자가 평점을 확인하기 쉽게 하였습니다.</span>
+              <span>
+                • filter 메서드를 활용하여 각 년도 버튼을 클릭 시, 각 년도에
+                맞는 영화가 화면에 출력되게 하였습니다.
+              </span>
+              <span>
+                • 사용자가 리뷰를 10글자 이내로 작성 시, alert을 띄워 10글자
+                이상 작성하게 구현하였습니다.
+              </span>
+              <span>
+                • onKeyDown 이벤트 핸들러를 사용하여, 사용자가 리뷰 작성 후
+                enter키를 누를 시에도 리뷰가 입력되게 하여 사용자 편의를
+                더하였습니다.
+              </span>
+              <span>
+                • 영화의 평점에 따라 별 개수를 반환하는 함수를 만들어,
+                시각적으로 사용자가 평점을 확인하기 쉽게 하였습니다.
+              </span>
               <span className="s_title">🚨문제점</span>
-              <span>• 등록 된 리뷰가 길어 질 경우, 리뷰에 길이에 따라 스크롤 길이가 정해지는 문제점이 발생하였습니다.</span>
+              <span>
+                • 등록 된 리뷰가 길어 질 경우, 리뷰에 길이에 따라 스크롤 길이가
+                정해지는 문제점이 발생하였습니다.
+              </span>
               <span className="ss_title">🎯해결 방법</span>
-              <span>• 리뷰가 작성되는 섹션에 max-height 값을 넣고, overflow-y의 값으로 scroll을 주어서, 리뷰가 길어 질 경우, 리뷰 작성 영역에만 스크롤이 생기게 설정하였습니다.</span>
+              <span>
+                • 리뷰가 작성되는 섹션에 max-height 값을 넣고, overflow-y의
+                값으로 scroll을 주어서, 리뷰가 길어 질 경우, 리뷰 작성 영역에만
+                스크롤이 생기게 설정하였습니다.
+              </span>
               <span className="ss_title">✨결과 및 알게된 점</span>
-              <span>• CSS 속성을 활용하여 스크롤 관련 문제를 해결하는 방법을 익혔습니다.</span>
-              <span>• 사용자 경험 측면에서 스크롤 제어가 중요하다는 점을 배웠습니다.</span>
+              <span>
+                • CSS 속성을 활용하여 스크롤 관련 문제를 해결하는 방법을
+                익혔습니다.
+              </span>
+              <span>
+                • 사용자 경험 측면에서 스크롤 제어가 중요하다는 점을 배웠습니다.
+              </span>
+              <span className="ss_title">📈언어 사용 비율</span>
             </div>
             <div className="language_wrap">
               <div className="language">
@@ -325,16 +372,21 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row3 row_odd">
-          <div className="page_img">
-            <img src="/assets/bbq-frame.png" alt="비비큐 웹사이트 이미지" />
-          </div>
+          <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank">
+            <div className="page_img">
+              <img src="/assets/bbq-frame.png" alt="비비큐 웹사이트 이미지" />
+            </div>
+          </a>
           <div className="page_text">
             <div className="explain">
               <span className="title">BBQ</span>
               <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 기존의 BBQ 웹사이트를 새롭게 디자인한 반응형 웹사이트입니다.</span>
+              <span>
+                • 기존의 BBQ 웹사이트를 새롭게 디자인한 반응형 웹사이트입니다.
+              </span>
               <span>• 메인페이지, 메뉴페이지를 제작하였습니다.</span>
               <span>• 개인 프로젝트</span>
+              <span className="ss_title">📈언어 사용 비율</span>
             </div>
             <div className="language_wrap">
               <div className="language">
@@ -402,15 +454,21 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row4 row_even">
-          <div className="page_img">
-            <img src="/assets/ulsan-frame.png" alt="울산 웹사이트 이미지" />
-          </div>
+          <a href="https://jaeyeong97-ulsan-web.netlify.app/" target="_blank">
+            <div className="page_img">
+              <img src="/assets/ulsan-frame.png" alt="울산 웹사이트 이미지" />
+            </div>
+          </a>
           <div className="page_text">
             <div className="explain">
               <span className="title">울산 관광 웹페이지</span>
               <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 기존의 울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형 웹페이지입니다.</span>
+              <span>
+                • 기존의 울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형
+                웹페이지입니다.
+              </span>
               <span>• 개인 프로젝트</span>
+              <span className="ss_title">📈언어 사용 비율</span>
             </div>
             <div className="language_wrap">
               <div className="language">
@@ -478,16 +536,24 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row5 row_odd">
-          <div className="page_img">
-            <img src="/assets/volvo-frame.png" alt="볼보 웹사이트 이미지" />
-          </div>
+          <a href="https://jaeyeong97-volvo.netlify.app/" target="_blank">
+            <div className="page_img">
+              <img src="/assets/volvo-frame.png" alt="볼보 웹사이트 이미지" />
+            </div>
+          </a>
           <div className="page_text">
             <div className="explain">
               <span className="title">Volvo</span>
               <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 기존의 볼보자동차 웹사이트를 새롭게 디자인한 1440px 고정형 웹사이트입니다.</span>
-              <span>• 메인페이지, 모델페이지, 구매페이지를 제작하였습니다.</span>
+              <span>
+                • 기존의 볼보자동차 웹사이트를 새롭게 디자인한 1440px 고정형
+                웹사이트입니다.
+              </span>
+              <span>
+                • 메인페이지, 모델페이지, 구매페이지를 제작하였습니다.
+              </span>
               <span>• 개인 프로젝트</span>
+              <span className="ss_title">📈언어 사용 비율</span>
             </div>
             <div className="language_wrap">
               <div className="language">
@@ -555,18 +621,24 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row6 row_even">
-          <div className="page_img">
-            <img
-              src="/assets/bookstore-frame.png"
-              alt="교보문고 웹사이트 이미지"
-            />
-          </div>
+          <a href="https://jaeyeong97-bookstore.netlify.app/" target="_blank">
+            <div className="page_img">
+              <img
+                src="/assets/bookstore-frame.png"
+                alt="교보문고 웹사이트 이미지"
+              />
+            </div>
+          </a>
           <div className="page_text">
             <div className="explain">
               <span className="title">교보문고</span>
               <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 기존의 교보문고 도서리스트 페이지를 클론 코딩한 웹페이지입니다.</span>
+              <span>
+                • 기존의 교보문고 도서리스트 페이지를 리디자인한
+                웹페이지입니다.
+              </span>
               <span>• 개인 프로젝트</span>
+              <span className="ss_title">📈언어 사용 비율</span>
             </div>
             <div className="language_wrap">
               <div className="language">
@@ -614,6 +686,106 @@ const Section3 = () => {
                     <AnimatedCountUp
                       start={0}
                       end={7.4}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="eye">
+            <div className="eye_in1">
+              <div className="eye_img"></div>
+              <span>View Project</span>
+            </div>
+            <div className="eye_in2">
+              <div className="eye_img"></div>
+              <span>Click</span>
+            </div>
+          </div>
+        </div>
+        <div className="row row7 row_odd">
+          <a href="https://jaeyeong97-3d-gallery-44701.web.app" target="_blank">
+            <div className="page_img">
+              <img
+                src="/assets/gallery-frame.png"
+                alt="3d-갤러리 웹 이미지"
+              />
+            </div>
+          </a>
+          <div className="page_text">
+            <div className="explain">
+              <span className="title">3D Gallery Web</span>
+              <span className="s_title">🏅프로젝트 개요</span>
+              <span>
+                • 미술작품 사진 전시회 웹 페이지입니다.
+              </span>
+              <span>• 개인 프로젝트</span>
+              <span className="s_title">💻구현기능 </span>
+              <span>
+                • CSS 속성인 transform-style을 활용하여 입체적인 공간을 구현하였습니다. 
+              </span>
+              <span>
+                •  fetch 함수를 사용하여 사진 API 데이터를 가져오고, async와 await을 활용하여 비동기적으로 데이터를 처리하였습니다.
+              </span>
+              <span>
+                • 스위치 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한 느낌을 주었습니다.
+              </span>
+              <span>
+                • linear-gradient값을 활용하여 음영이 지는 느낌을 주었습니다.
+              </span>
+              <span>
+                • 왼쪽, 오른쪽 버튼 클릭 시, 사진이 변경되게 구현하였습니다.
+              </span>
+              <span className="ss_title">📈언어 사용 비율</span>
+            </div>
+            <div className="language_wrap">
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="html_icon"></div>
+                  <div className="html txt">Html</div>
+                </div>
+                <div className="html_percent_wrap">
+                  <div className="html_percent_bar"></div>
+                  <div className="html_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={17.8}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="css_icon"></div>
+                  <div className="css txt">Css</div>
+                </div>
+                <div className="css_percent_wrap">
+                  <div className="css_percent_bar"></div>
+                  <div className="css_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={76.9}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="js_icon"></div>
+                  <div className="js_txt">Js</div>
+                </div>
+                <div className="js_percent_wrap">
+                  <div className="js_percent_bar"></div>
+                  <div className="js_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={5.3}
                       duration={2.5}
                       decimal={1}
                     />

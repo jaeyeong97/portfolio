@@ -227,6 +227,7 @@
 }
 #section3 .projects_wrap .row .page_text {
   position: relative;
+  width: 100%;
   color: var(--text-color);
 }
 #section3 .projects_wrap .row .page_text .explain {
@@ -546,7 +547,7 @@
   .language
   .html_percent_wrap
   .html_percent_bar {
-  width: 200px;
+  width: 17.8%;
 }
 #section3
   .projects_wrap
@@ -556,7 +557,7 @@
   .language
   .css_percent_wrap
   .css_percent_bar {
-  width: 200px;
+  width: 76.9%;
 }
 #section3
   .projects_wrap
@@ -566,7 +567,7 @@
   .language
   .js_percent_wrap
   .js_percent_bar {
-  width: 200px;
+  width: 5.3%;
 }
 #section3
   .projects_wrap
@@ -628,11 +629,7 @@
   #section3 .projects_wrap .row:nth-child(even) {
     flex-direction: row-reverse;
   }
-  #section3 .projects_wrap .row .page_img {
-    width: 50%;
-  }
   #section3 .projects_wrap .row .page_text {
-    width: 50%;
     margin: 0 0 0 20px;
   }
   #section3 .projects_wrap .row:nth-child(even) .page_text {
