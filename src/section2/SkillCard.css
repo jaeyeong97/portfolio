@@ -26,6 +26,10 @@
 .skill_card .icon {
   position: relative;
   width: 40%;
+  cursor: pointer;
+}
+.skill_card:hover .cube_face{
+  box-shadow: 0px 0px 10px #148370;
 }
 .skill_card .txt {
   position: relative;

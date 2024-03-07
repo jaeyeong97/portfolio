@@ -127,6 +127,42 @@ const Section3 = () => {
         el.style.animation = "row6_js_percent 1s ease-out forwards";
       },
     });
+    sr.reveal(".row7 .html_percent_bar", {
+      duration: 1000,
+      beforeReveal: (el) => {
+        el.style.animation = "row7_html_percent 1s ease-out forwards";
+      },
+    });
+    sr.reveal(".row7 .css_percent_bar", {
+      duration: 1000,
+      beforeReveal: (el) => {
+        el.style.animation = "row7_css_percent 1s ease-out forwards";
+      },
+    });
+    sr.reveal(".row7 .js_percent_bar", {
+      duration: 1000,
+      beforeReveal: (el) => {
+        el.style.animation = "row7_js_percent 1s ease-out forwards";
+      },
+    });
+    sr.reveal(".row8 .html_percent_bar", {
+      duration: 1000,
+      beforeReveal: (el) => {
+        el.style.animation = "row8_html_percent 1s ease-out forwards";
+      },
+    });
+    sr.reveal(".row8 .css_percent_bar", {
+      duration: 1000,
+      beforeReveal: (el) => {
+        el.style.animation = "row8_css_percent 1s ease-out forwards";
+      },
+    });
+    sr.reveal(".row8 .js_percent_bar", {
+      duration: 1000,
+      beforeReveal: (el) => {
+        el.style.animation = "row8_js_percent 1s ease-out forwards";
+      },
+    });
   }, []);
 
   return (
@@ -376,6 +412,203 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row3 row_odd">
+          <a href="https://jaeyeong97-3d-gallery-44701.web.app" target="_blank">
+            <div className="page_img">
+              <img src="/assets/gallery-frame.png" alt="3d-갤러리 웹 이미지" />
+            </div>
+          </a>
+          <div className="page_text">
+            <div className="explain">
+              <span className="title">3D Gallery Web</span>
+              <span className="s_title">🏅프로젝트 개요</span>
+              <span>• 미술작품 전시회 웹 페이지입니다.</span>
+              <span>• 개인 프로젝트</span>
+              <span className="s_title">💻구현기능 </span>
+              <span>
+                • CSS 속성인 transform-style을 활용하여 입체적인 공간을
+                구현하였습니다.
+              </span>
+              <span>
+                • fetch 함수를 사용하여 사진 API 데이터를 가져오고, async와
+                await을 활용하여 비동기적으로 데이터를 처리하였습니다.
+              </span>
+              <span>
+                • 스위치 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한
+                느낌을 주었습니다.
+              </span>
+              <span>
+                • linear-gradient값을 활용하여 음영이 지는 느낌을 주었습니다.
+              </span>
+              <span>
+                • 기둥에 있는 버튼 클릭 시, 사진이 변경되게 하였습니다.
+              </span>
+              <span className="ss_title">📊언어 사용 비율</span>
+            </div>
+            <div className="language_wrap">
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="html_icon"></div>
+                  <div className="html txt">Html</div>
+                </div>
+                <div className="html_percent_wrap">
+                  <div className="html_percent_bar"></div>
+                  <div className="html_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={17.8}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="css_icon"></div>
+                  <div className="css txt">Css</div>
+                </div>
+                <div className="css_percent_wrap">
+                  <div className="css_percent_bar"></div>
+                  <div className="css_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={76.9}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="js_icon"></div>
+                  <div className="js_txt">Js</div>
+                </div>
+                <div className="js_percent_wrap">
+                  <div className="js_percent_bar"></div>
+                  <div className="js_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={5.3}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="eye">
+            <a
+              href="https://jaeyeong97-3d-gallery-44701.web.app"
+              target="_blank"
+            >
+              <div className="eye_in1">
+                <div className="eye_img"></div>
+                <span>View Project</span>
+              </div>
+              <div className="eye_in2">
+                <div className="eye_img"></div>
+                <span>Click</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="row row4 row_even">
+          <a href="https://jaeyeong97-speechnrecord.web.app/" target="_blank">
+            <div className="page_img">
+              <img src="/assets/recipes-frame.png" alt="레시피 웹사이트 이미지" />
+            </div>
+          </a>
+          <div className="page_text">
+            <div className="explain">
+              <span className="title">레시피 파인더</span>
+              <span className="s_title">🏅프로젝트 개요</span>
+              <span>• 음성인식 기능을 활용하여 레시피를 찾을 수 있는 웹사이트입니다.</span>
+              <span>• 개인 프로젝트</span>
+              <span className="s_title">💻구현기능 </span>
+              <span>
+                • Web Speech API를 활용하여 음성인식으로 레시피 이름을 찾을 수 있게 구현하였습니다.
+              </span>
+              <span>
+                • 무한 스크롤을 구현하여 api로 가져온 레시피 메뉴가 한번에 12개씩 출력되도록 하였습니다. 
+              </span>
+              <span>
+                • 검색창을 만들어 레시피명, 재료명에 맞게 검색 기능을 구현하였습니다.
+              </span>
+              <span className="ss_title">📊언어 사용 비율</span>
+            </div>
+            <div className="language_wrap">
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="html_icon"></div>
+                  <div className="html txt">Html</div>
+                </div>
+                <div className="html_percent_wrap">
+                  <div className="html_percent_bar"></div>
+                  <div className="html_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={1.0}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="css_icon"></div>
+                  <div className="css txt">Css</div>
+                </div>
+                <div className="css_percent_wrap">
+                  <div className="css_percent_bar"></div>
+                  <div className="css_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={11.7}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="js_icon"></div>
+                  <div className="js_txt">Js</div>
+                </div>
+                <div className="js_percent_wrap">
+                  <div className="js_percent_bar"></div>
+                  <div className="js_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={87.3}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="eye">
+            <a
+              href="https://jaeyeong97-speechnrecord.web.app/"
+              target="_blank"
+            >
+              <div className="eye_in1">
+                <div className="eye_img"></div>
+                <span>View Project</span>
+              </div>
+              <div className="eye_in2">
+                <div className="eye_img"></div>
+                <span>Click</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="row row5 row_odd">
           <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank">
             <div className="page_img">
               <img src="/assets/bbq-frame.png" alt="비비큐 웹사이트 이미지" />
@@ -468,7 +701,7 @@ const Section3 = () => {
             </a>
           </div>
         </div>
-        <div className="row row4 row_even">
+        <div className="row row6 row_even">
           <a href="https://jaeyeong97-ulsan-web.netlify.app/" target="_blank">
             <div className="page_img">
               <img src="/assets/ulsan-frame.png" alt="울산 웹사이트 이미지" />
@@ -579,7 +812,7 @@ const Section3 = () => {
             </a>
           </div>
         </div>
-        <div className="row row5 row_odd">
+        <div className="row row7 row_odd">
           <a href="https://jaeyeong97-volvo.netlify.app/" target="_blank">
             <div className="page_img">
               <img src="/assets/volvo-frame.png" alt="볼보 웹사이트 이미지" />
@@ -675,7 +908,7 @@ const Section3 = () => {
             </a>
           </div>
         </div>
-        <div className="row row6 row_even">
+        <div className="row row8 row_even">
           <a href="https://jaeyeong97-bookstore.netlify.app/" target="_blank">
             <div className="page_img">
               <img
@@ -758,109 +991,6 @@ const Section3 = () => {
           </div>
           <div className="eye">
             <a href="https://jaeyeong97-bookstore.netlify.app/" target="_blank">
-              <div className="eye_in1">
-                <div className="eye_img"></div>
-                <span>View Project</span>
-              </div>
-              <div className="eye_in2">
-                <div className="eye_img"></div>
-                <span>Click</span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="row row7 row_odd">
-          <a href="https://jaeyeong97-3d-gallery-44701.web.app" target="_blank">
-            <div className="page_img">
-              <img src="/assets/gallery-frame.png" alt="3d-갤러리 웹 이미지" />
-            </div>
-          </a>
-          <div className="page_text">
-            <div className="explain">
-              <span className="title">3D Gallery Web</span>
-              <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 미술작품 전시회 웹 페이지입니다.</span>
-              <span>• 개인 프로젝트</span>
-              <span className="s_title">💻구현기능 </span>
-              <span>
-                • CSS 속성인 transform-style을 활용하여 입체적인 공간을
-                구현하였습니다.
-              </span>
-              <span>
-                • fetch 함수를 사용하여 사진 API 데이터를 가져오고, async와
-                await을 활용하여 비동기적으로 데이터를 처리하였습니다.
-              </span>
-              <span>
-                • 스위치 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한
-                느낌을 주었습니다.
-              </span>
-              <span>
-                • linear-gradient값을 활용하여 음영이 지는 느낌을 주었습니다.
-              </span>
-              <span>
-                • 기둥의 왼쪽, 오른쪽 버튼 클릭 시, 사진이 변경되게 구현하였습니다.
-              </span>
-              <span className="ss_title">📊언어 사용 비율</span>
-            </div>
-            <div className="language_wrap">
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="html_icon"></div>
-                  <div className="html txt">Html</div>
-                </div>
-                <div className="html_percent_wrap">
-                  <div className="html_percent_bar"></div>
-                  <div className="html_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={17.8}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="css_icon"></div>
-                  <div className="css txt">Css</div>
-                </div>
-                <div className="css_percent_wrap">
-                  <div className="css_percent_bar"></div>
-                  <div className="css_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={76.9}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="js_icon"></div>
-                  <div className="js_txt">Js</div>
-                </div>
-                <div className="js_percent_wrap">
-                  <div className="js_percent_bar"></div>
-                  <div className="js_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={5.3}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="eye">
-            <a
-              href="https://jaeyeong97-3d-gallery-44701.web.app"
-              target="_blank"
-            >
               <div className="eye_in1">
                 <div className="eye_img"></div>
                 <span>View Project</span>
