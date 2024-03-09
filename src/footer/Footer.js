@@ -5,6 +5,9 @@ const Footer = () => {
     return (
         <footer id="footer">
             <div className='footer_in'>
+                <a href='https://github.com/jaeyeong97' target='_blank'>
+                    <img src='/assets/GitHub.png' alt='깃허브 이미지' />
+                </a>
                 <span>© 2024 JaeYeongJang All rights reserved.</span>
                 <Link to="nav_home" smooth={true}>
                     <div className='go_top'>

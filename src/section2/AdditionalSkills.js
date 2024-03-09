@@ -1,6 +1,6 @@
 import SkillCard from "./SkillCard";
 import './AdditionalSkills.css';
-const AdditionalSkills = ({ iconImgs, skillsExplain, skillsTitle}) => {
+const AdditionalSkills = ({ iconImgs, skillsExplain, skillsTitle }) => {
   return (
     <div className="additional_skills">
       <SkillCard
@@ -18,6 +18,7 @@ const AdditionalSkills = ({ iconImgs, skillsExplain, skillsTitle}) => {
         skillsExplain={skillsExplain.githubEx}
         skillsTitle={skillsTitle.githubTitle}
       />
+
       <SkillCard
         iconImgs={iconImgs.vscIcon}
         skillsExplain={skillsExplain.vscEx}
