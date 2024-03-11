@@ -394,12 +394,12 @@ const Section3 = () => {
             <div className="explain">
               <span className="title">3D Gallery Web</span>
               <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 미술작품 전시회 웹 페이지입니다.</span>
+              <span>• 사진 전시회 웹 페이지입니다.</span>
               <span>• React로 구현</span>
               <span>• 개인 프로젝트</span>
               <span className="s_title">💻구현기능 </span>
               <span>
-                • CSS 속성인 transform-style을 활용하여 입체적인 공간을
+                • CSS 속성인 transform-style: preserve-3d을 활용하여 입체적인 공간을
                 구현하였습니다.
               </span>
               <span>
@@ -409,9 +409,6 @@ const Section3 = () => {
               <span>
                 • 스위치 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한
                 느낌을 주었습니다.
-              </span>
-              <span>
-                • linear-gradient값을 활용하여 음영이 지는 느낌을 주었습니다.
               </span>
               <span>
                 • 기둥에 있는 버튼 클릭 시, 사진이 변경되게 하였습니다.
