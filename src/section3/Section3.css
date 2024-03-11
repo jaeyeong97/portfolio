@@ -36,7 +36,7 @@
     width: 0%;
   }
   100% {
-    width: 9.6%;
+    width: 11.7%;
   }
 }
 @keyframes row2_js_percent {
@@ -44,7 +44,7 @@
     width: 0%;
   }
   100% {
-    width: 89.4%;
+    width: 87.3%;
   }
 }
 @keyframes row3_html_percent {
@@ -76,7 +76,7 @@
     width: 0%;
   }
   100% {
-    width: 1.0%;
+    width: 64%;
   }
 }
 @keyframes row4_css_percent {
@@ -84,7 +84,7 @@
     width: 0%;
   }
   100% {
-    width: 11.7%;
+    width: 31.9%;
   }
 }
 @keyframes row4_js_percent {
@@ -92,7 +92,7 @@
     width: 0%;
   }
   100% {
-    width: 87.3%;
+    width: 4.1%;
   }
 }
 @keyframes row5_html_percent {
@@ -100,7 +100,7 @@
     width: 0%;
   }
   100% {
-    width: 64%;
+    width: 1%;
   }
 }
 @keyframes row5_css_percent {
@@ -108,7 +108,7 @@
     width: 0%;
   }
   100% {
-    width: 31.9%;
+    width: 9.6%;
   }
 }
 @keyframes row5_js_percent {
@@ -116,7 +116,7 @@
     width: 0%;
   }
   100% {
-    width: 4.1%;
+    width: 70.4%;
   }
 }
 @keyframes row6_html_percent {

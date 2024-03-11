@@ -290,6 +290,298 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row2 row_even">
+          <a href="https://jaeyeong97-speechnrecord.web.app/" target="_blank">
+            <div className="page_img">
+              <img src="/assets/recipes-frame.png" alt="레시피 웹사이트 이미지" />
+            </div>
+          </a>
+          <div className="page_text">
+            <div className="explain">
+              <span className="title">레시피 파인더</span>
+              <span className="s_title">🏅프로젝트 개요</span>
+              <span>• 음성인식 기능을 활용하여 레시피를 찾을 수 있는 웹사이트입니다.</span>
+              <span>• React로 구현</span>
+              <span>• 개인 프로젝트</span>
+              <span className="s_title">💻구현기능 </span>
+              <span>
+                • Web Speech API를 활용하여 음성인식으로 레시피 이름을 찾을 수 있게 구현하였습니다.
+              </span>
+              <span>
+                • 무한 스크롤을 구현하여 api로 가져온 레시피 메뉴가 한번에 24개씩 출력되도록 하였습니다.
+              </span>
+              <span>
+                • 검색창을 만들어 레시피명, 재료명에 맞게 검색 기능을 구현하였습니다.
+              </span>
+              <span className="ss_title">📊언어 사용 비율</span>
+            </div>
+            <div className="language_wrap">
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="html_icon"></div>
+                  <div className="html txt">Html</div>
+                </div>
+                <div className="html_percent_wrap">
+                  <div className="html_percent_bar"></div>
+                  <div className="html_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={1.0}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="css_icon"></div>
+                  <div className="css txt">Css</div>
+                </div>
+                <div className="css_percent_wrap">
+                  <div className="css_percent_bar"></div>
+                  <div className="css_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={11.7}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="js_icon"></div>
+                  <div className="js_txt">Js</div>
+                </div>
+                <div className="js_percent_wrap">
+                  <div className="js_percent_bar"></div>
+                  <div className="js_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={87.3}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="eye">
+            <a
+              href="https://jaeyeong97-speechnrecord.web.app/"
+              target="_blank"
+            >
+              <div className="eye_in1">
+                <div className="eye_img"></div>
+                <span>View Project</span>
+              </div>
+              <div className="eye_in2">
+                <div className="eye_img"></div>
+                <span>Click</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="row row3 row_odd">
+          <a href="https://jaeyeong97-3d-gallery-44701.web.app" target="_blank">
+            <div className="page_img">
+              <img src="/assets/gallery-frame.png" alt="3d-갤러리 웹 이미지" />
+            </div>
+          </a>
+          <div className="page_text">
+            <div className="explain">
+              <span className="title">3D Gallery Web</span>
+              <span className="s_title">🏅프로젝트 개요</span>
+              <span>• 미술작품 전시회 웹 페이지입니다.</span>
+              <span>• React로 구현</span>
+              <span>• 개인 프로젝트</span>
+              <span className="s_title">💻구현기능 </span>
+              <span>
+                • CSS 속성인 transform-style을 활용하여 입체적인 공간을
+                구현하였습니다.
+              </span>
+              <span>
+                • fetch 함수를 사용하여 사진 API 데이터를 가져오고, async와
+                await을 활용하여 비동기적으로 데이터를 처리하였습니다.
+              </span>
+              <span>
+                • 스위치 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한
+                느낌을 주었습니다.
+              </span>
+              <span>
+                • linear-gradient값을 활용하여 음영이 지는 느낌을 주었습니다.
+              </span>
+              <span>
+                • 기둥에 있는 버튼 클릭 시, 사진이 변경되게 하였습니다.
+              </span>
+              <span className="ss_title">📊언어 사용 비율</span>
+            </div>
+            <div className="language_wrap">
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="html_icon"></div>
+                  <div className="html txt">Html</div>
+                </div>
+                <div className="html_percent_wrap">
+                  <div className="html_percent_bar"></div>
+                  <div className="html_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={17.8}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="css_icon"></div>
+                  <div className="css txt">Css</div>
+                </div>
+                <div className="css_percent_wrap">
+                  <div className="css_percent_bar"></div>
+                  <div className="css_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={76.9}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="js_icon"></div>
+                  <div className="js_txt">Js</div>
+                </div>
+                <div className="js_percent_wrap">
+                  <div className="js_percent_bar"></div>
+                  <div className="js_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={5.3}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="eye">
+            <a
+              href="https://jaeyeong97-3d-gallery-44701.web.app"
+              target="_blank"
+            >
+              <div className="eye_in1">
+                <div className="eye_img"></div>
+                <span>View Project</span>
+              </div>
+              <div className="eye_in2">
+                <div className="eye_img"></div>
+                <span>Click</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="row row4 row_even">
+          <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank">
+            <div className="page_img">
+              <img src="/assets/bbq-frame.png" alt="비비큐 웹사이트 이미지" />
+            </div>
+          </a>
+          <div className="page_text">
+            <div className="explain">
+              <span className="title">BBQ</span>
+              <span className="s_title">🏅프로젝트 개요</span>
+              <span>
+                • 기존의 BBQ 웹사이트를 새롭게 디자인한 반응형 웹사이트입니다.
+              </span>
+              <span>• 메인페이지, 메뉴페이지를 제작하였습니다.</span>
+              <span>• 개인 프로젝트</span>
+              <span className="s_title">🚩프로젝트 목적</span>
+              <span>• 기존 웹사이트 보다 더 현대적이고 사용자 친화적인 디자인을 구현</span>
+              <span className="s_title">👀변경된 부분</span>
+              <span>• 반응형 디자인을 적용하여 사용자의 디바이스에 맞는 적절한 화면 구성을 하였습니다.</span>
+              <span>• 메인슬라이더 영역에 커서 이미지를 추가하고, CSS에서 keyframes를 이용하여 애니메이션을 추가해 사용자에게 시각적 흥미를 주었습니다.</span>
+              <span>• 다른 치킨 브랜드 웹사이트를 참고하여 BBQ 웹사이트에서 부족하다고 생각되는 부분을 추가하였습니다.</span>
+              <span className="s_title">✨결과 및 알게된 점</span>
+              <span>• 이 프로젝트를 통해 다양한 웹사이트들의 구조를 학습할 수 있었습니다.</span>
+              <span>• 반응형 웹사이트 디자인에 대한 실전 경험을 쌓을 수 있었습니다.</span>
+              <span className="ss_title">📊언어 사용 비율</span>
+            </div>
+            <div className="language_wrap">
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="html_icon"></div>
+                  <div className="html txt">Html</div>
+                </div>
+                <div className="html_percent_wrap">
+                  <div className="html_percent_bar"></div>
+                  <div className="html_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={64}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="css_icon"></div>
+                  <div className="css txt">Css</div>
+                </div>
+                <div className="css_percent_wrap">
+                  <div className="css_percent_bar"></div>
+                  <div className="css_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={31.9}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="language">
+                <div className="txt_wrap">
+                  <div className="js_icon"></div>
+                  <div className="js_txt">Js</div>
+                </div>
+                <div className="js_percent_wrap">
+                  <div className="js_percent_bar"></div>
+                  <div className="js_percent_txt">
+                    <AnimatedCountUp
+                      start={0}
+                      end={4.1}
+                      duration={2.5}
+                      decimal={1}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="eye">
+            <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank">
+              <div className="eye_in1">
+                <div className="eye_img"></div>
+                <span>View Project</span>
+              </div>
+              <div className="eye_in2">
+                <div className="eye_img"></div>
+                <span>Click</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="row row5 row_odd">
           <a href="https://jaeyeong97-movie-web.web.app/" target="_blank">
             <div className="page_img">
               <img src="/assets/movie-frame.png" alt="영화 웹사이트 이미지" />
@@ -303,7 +595,7 @@ const Section3 = () => {
                 • 2020년 ~ 2023년 흥행 한 영화의 정보를 확인 할 수 있는
                 웹사이트입니다.
               </span>
-              <span>• 리액트로 구현하였습니다.</span>
+              <span>• React로 구현</span>
               <span>• 개인 프로젝트</span>
               <span className="s_title">💻구현기능 </span>
               <span>
@@ -400,296 +692,6 @@ const Section3 = () => {
           </div>
           <div className="eye">
             <a href="https://jaeyeong97-movie-web.web.app/" target="_blank">
-              <div className="eye_in1">
-                <div className="eye_img"></div>
-                <span>View Project</span>
-              </div>
-              <div className="eye_in2">
-                <div className="eye_img"></div>
-                <span>Click</span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="row row3 row_odd">
-          <a href="https://jaeyeong97-3d-gallery-44701.web.app" target="_blank">
-            <div className="page_img">
-              <img src="/assets/gallery-frame.png" alt="3d-갤러리 웹 이미지" />
-            </div>
-          </a>
-          <div className="page_text">
-            <div className="explain">
-              <span className="title">3D Gallery Web</span>
-              <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 미술작품 전시회 웹 페이지입니다.</span>
-              <span>• 개인 프로젝트</span>
-              <span className="s_title">💻구현기능 </span>
-              <span>
-                • CSS 속성인 transform-style을 활용하여 입체적인 공간을
-                구현하였습니다.
-              </span>
-              <span>
-                • fetch 함수를 사용하여 사진 API 데이터를 가져오고, async와
-                await을 활용하여 비동기적으로 데이터를 처리하였습니다.
-              </span>
-              <span>
-                • 스위치 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한
-                느낌을 주었습니다.
-              </span>
-              <span>
-                • linear-gradient값을 활용하여 음영이 지는 느낌을 주었습니다.
-              </span>
-              <span>
-                • 기둥에 있는 버튼 클릭 시, 사진이 변경되게 하였습니다.
-              </span>
-              <span className="ss_title">📊언어 사용 비율</span>
-            </div>
-            <div className="language_wrap">
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="html_icon"></div>
-                  <div className="html txt">Html</div>
-                </div>
-                <div className="html_percent_wrap">
-                  <div className="html_percent_bar"></div>
-                  <div className="html_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={17.8}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="css_icon"></div>
-                  <div className="css txt">Css</div>
-                </div>
-                <div className="css_percent_wrap">
-                  <div className="css_percent_bar"></div>
-                  <div className="css_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={76.9}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="js_icon"></div>
-                  <div className="js_txt">Js</div>
-                </div>
-                <div className="js_percent_wrap">
-                  <div className="js_percent_bar"></div>
-                  <div className="js_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={5.3}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="eye">
-            <a
-              href="https://jaeyeong97-3d-gallery-44701.web.app"
-              target="_blank"
-            >
-              <div className="eye_in1">
-                <div className="eye_img"></div>
-                <span>View Project</span>
-              </div>
-              <div className="eye_in2">
-                <div className="eye_img"></div>
-                <span>Click</span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="row row4 row_even">
-          <a href="https://jaeyeong97-speechnrecord.web.app/" target="_blank">
-            <div className="page_img">
-              <img src="/assets/recipes-frame.png" alt="레시피 웹사이트 이미지" />
-            </div>
-          </a>
-          <div className="page_text">
-            <div className="explain">
-              <span className="title">레시피 파인더</span>
-              <span className="s_title">🏅프로젝트 개요</span>
-              <span>• 음성인식 기능을 활용하여 레시피를 찾을 수 있는 웹사이트입니다.</span>
-              <span>• 개인 프로젝트</span>
-              <span className="s_title">💻구현기능 </span>
-              <span>
-                • Web Speech API를 활용하여 음성인식으로 레시피 이름을 찾을 수 있게 구현하였습니다.
-              </span>
-              <span>
-                • 무한 스크롤을 구현하여 api로 가져온 레시피 메뉴가 한번에 12개씩 출력되도록 하였습니다. 
-              </span>
-              <span>
-                • 검색창을 만들어 레시피명, 재료명에 맞게 검색 기능을 구현하였습니다.
-              </span>
-              <span className="ss_title">📊언어 사용 비율</span>
-            </div>
-            <div className="language_wrap">
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="html_icon"></div>
-                  <div className="html txt">Html</div>
-                </div>
-                <div className="html_percent_wrap">
-                  <div className="html_percent_bar"></div>
-                  <div className="html_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={1.0}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="css_icon"></div>
-                  <div className="css txt">Css</div>
-                </div>
-                <div className="css_percent_wrap">
-                  <div className="css_percent_bar"></div>
-                  <div className="css_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={11.7}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="js_icon"></div>
-                  <div className="js_txt">Js</div>
-                </div>
-                <div className="js_percent_wrap">
-                  <div className="js_percent_bar"></div>
-                  <div className="js_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={87.3}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="eye">
-            <a
-              href="https://jaeyeong97-speechnrecord.web.app/"
-              target="_blank"
-            >
-              <div className="eye_in1">
-                <div className="eye_img"></div>
-                <span>View Project</span>
-              </div>
-              <div className="eye_in2">
-                <div className="eye_img"></div>
-                <span>Click</span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="row row5 row_odd">
-          <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank">
-            <div className="page_img">
-              <img src="/assets/bbq-frame.png" alt="비비큐 웹사이트 이미지" />
-            </div>
-          </a>
-          <div className="page_text">
-            <div className="explain">
-              <span className="title">BBQ</span>
-              <span className="s_title">🏅프로젝트 개요</span>
-              <span>
-                • 기존의 BBQ 웹사이트를 새롭게 디자인한 반응형 웹사이트입니다.
-              </span>
-              <span>• 메인페이지, 메뉴페이지를 제작하였습니다.</span>
-              <span>• 개인 프로젝트</span>
-              <span className="s_title">🚩프로젝트 목적</span>
-              <span>• 기존 웹사이트 보다 더 현대적이고 사용자 친화적인 디자인을 구현</span>
-              <span className="s_title">👀변경된 부분</span>
-              <span>• 반응형 디자인을 적용하여 사용자의 디바이스에 맞는 적절한 화면 구성을 하였습니다.</span>
-              <span>• 메인슬라이더 영역에 커서 이미지를 추가하고, CSS에서 keyframes를 이용하여 애니메이션을 추가해 사용자에게 시각적 흥미를 주었습니다.</span>
-              <span>• 다른 치킨 브랜드 웹사이트를 참고하여 BBQ 웹사이트에서 부족하다고 생각되는 부분을 추가하였습니다.</span>
-              <span className="s_title">✨결과 및 알게된 점</span>
-              <span>• 이 프로젝트를 통해 다양한 웹사이트들의 구조를 학습할 수 있었습니다.</span>
-              <span>• 반응형 웹사이트 디자인에 대한 실전 경험을 쌓을 수 있었습니다.</span>
-              <span className="ss_title">📊언어 사용 비율</span>
-            </div>
-            <div className="language_wrap">
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="html_icon"></div>
-                  <div className="html txt">Html</div>
-                </div>
-                <div className="html_percent_wrap">
-                  <div className="html_percent_bar"></div>
-                  <div className="html_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={64}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="css_icon"></div>
-                  <div className="css txt">Css</div>
-                </div>
-                <div className="css_percent_wrap">
-                  <div className="css_percent_bar"></div>
-                  <div className="css_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={31.9}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="language">
-                <div className="txt_wrap">
-                  <div className="js_icon"></div>
-                  <div className="js_txt">Js</div>
-                </div>
-                <div className="js_percent_wrap">
-                  <div className="js_percent_bar"></div>
-                  <div className="js_percent_txt">
-                    <AnimatedCountUp
-                      start={0}
-                      end={4.1}
-                      duration={2.5}
-                      decimal={1}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="eye">
-            <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank">
               <div className="eye_in1">
                 <div className="eye_img"></div>
                 <span>View Project</span>
