@@ -1,0 +1,17 @@
+@charset "utf-8";
+.additional_skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.additional_skills a {
+  display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .additional_skills {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
