@@ -5,8 +5,7 @@ import AdditionalSkills from "./AdditionalSkills";
 import { useState } from "react";
 
 const Section2 = () => {
-  // 스킬 선택 버튼
-  const [selectedSkills, setSelectedSkills] = useState(1);
+  const [selectedSkills, setSelectedSkills] = useState(1); // 스킬 선택 버튼
 
   const handleBtnClick = (num) => {
     setSelectedSkills(num);

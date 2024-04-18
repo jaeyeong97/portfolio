@@ -173,7 +173,7 @@ const Section3 = () => {
       </h2>
       <div className="projects_wrap">
         <div className="row row1 row_odd">
-          <a href="https://jaeyeong97-petdoc.web.app/" target="_blank">
+          <a href="https://jaeyeong97-petdoc.web.app/" target="_blank" rel="noreferrer">
             <div className="page_img">
               <img src="/assets/petdoc-frame.png" alt="펫닥 웹사이트 이미지" />
             </div>
@@ -277,7 +277,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="eye">
-            <a href="https://jaeyeong97-petdoc.web.app/" target="_blank">
+            <a href="https://jaeyeong97-petdoc.web.app/" target="_blank" rel="noreferrer">
               <div className="eye_in1">
                 <div className="eye_img"></div>
                 <span>View Project</span>
@@ -290,7 +290,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row2 row_even">
-          <a href="https://jaeyeong97-speechnrecord.web.app/" target="_blank">
+          <a href="https://jaeyeong97-speechnrecord.web.app/" target="_blank" rel="noreferrer">
             <div className="page_img">
               <img src="/assets/recipes-frame.png" alt="레시피 웹사이트 이미지" />
             </div>
@@ -371,7 +371,7 @@ const Section3 = () => {
           <div className="eye">
             <a
               href="https://jaeyeong97-speechnrecord.web.app/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <div className="eye_in1">
                 <div className="eye_img"></div>
@@ -385,7 +385,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row3 row_odd">
-          <a href="https://jaeyeong97-3d-gallery-44701.web.app" target="_blank">
+          <a href="https://jaeyeong97-3d-gallery-44701.web.app" target="_blank" rel="noreferrer">
             <div className="page_img">
               <img src="/assets/gallery-frame.png" alt="3d-갤러리 웹 이미지" />
             </div>
@@ -472,7 +472,7 @@ const Section3 = () => {
           <div className="eye">
             <a
               href="https://jaeyeong97-3d-gallery-44701.web.app"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <div className="eye_in1">
                 <div className="eye_img"></div>
@@ -486,7 +486,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row4 row_even">
-          <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank">
+          <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank" rel="noreferrer">
             <div className="page_img">
               <img src="/assets/bbq-frame.png" alt="비비큐 웹사이트 이미지" />
             </div>
@@ -566,7 +566,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="eye">
-            <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank">
+            <a href="https://jaeyeong97-bbq.netlify.app/" target="_blank" rel="noreferrer">
               <div className="eye_in1">
                 <div className="eye_img"></div>
                 <span>View Project</span>
@@ -579,7 +579,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row5 row_odd">
-          <a href="https://jaeyeong97-movie-web.web.app/" target="_blank">
+          <a href="https://jaeyeong97-movie-web.web.app/" target="_blank" rel="noreferrer">
             <div className="page_img">
               <img src="/assets/movie-frame.png" alt="영화 웹사이트 이미지" />
             </div>
@@ -688,7 +688,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="eye">
-            <a href="https://jaeyeong97-movie-web.web.app/" target="_blank">
+            <a href="https://jaeyeong97-movie-web.web.app/" target="_blank" rel="noreferrer">
               <div className="eye_in1">
                 <div className="eye_img"></div>
                 <span>View Project</span>
@@ -701,7 +701,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row6 row_even">
-          <a href="https://jaeyeong97-ulsan-web.netlify.app/" target="_blank">
+          <a href="https://jaeyeong97-ulsan-web.netlify.app/" target="_blank" rel="noreferrer">
             <div className="page_img">
               <img src="/assets/ulsan-frame.png" alt="울산 웹사이트 이미지" />
             </div>
@@ -799,7 +799,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="eye">
-            <a href="https://jaeyeong97-ulsan-web.netlify.app/" target="_blank">
+            <a href="https://jaeyeong97-ulsan-web.netlify.app/" target="_blank" rel="noreferrer">
               <div className="eye_in1">
                 <div className="eye_img"></div>
                 <span>View Project</span>
@@ -812,7 +812,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row7 row_odd">
-          <a href="https://jaeyeong97-volvo.netlify.app/" target="_blank">
+          <a href="https://jaeyeong97-volvo.netlify.app/" target="_blank" rel="noreferrer">
             <div className="page_img">
               <img src="/assets/volvo-frame.png" alt="볼보 웹사이트 이미지" />
             </div>
@@ -895,7 +895,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="eye">
-            <a href="https://jaeyeong97-volvo.netlify.app/" target="_blank">
+            <a href="https://jaeyeong97-volvo.netlify.app/" target="_blank" rel="noreferrer">
               <div className="eye_in1">
                 <div className="eye_img"></div>
                 <span>View Project</span>
@@ -908,7 +908,7 @@ const Section3 = () => {
           </div>
         </div>
         <div className="row row8 row_even">
-          <a href="https://jaeyeong97-bookstore.netlify.app/" target="_blank">
+          <a href="https://jaeyeong97-bookstore.netlify.app/" target="_blank" rel="noreferrer">
             <div className="page_img">
               <img
                 src="/assets/bookstore-frame.png"
@@ -989,7 +989,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="eye">
-            <a href="https://jaeyeong97-bookstore.netlify.app/" target="_blank">
+            <a href="https://jaeyeong97-bookstore.netlify.app/" target="_blank" rel="noreferrer">
               <div className="eye_in1">
                 <div className="eye_img"></div>
                 <span>View Project</span>
