@@ -1,0 +1,663 @@
+@charset "utf-8";
+:root {
+  --text-color: #edebe0;
+  --background-color: #17413f;
+  --accent-color: #148370;
+  --outline-padding: 20px;
+}
+@keyframes arrow_down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(12px);
+  }
+}
+@keyframes recipes_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 1%;
+  }
+}
+@keyframes recipes_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 11.6%;
+  }
+}
+@keyframes recipes_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 87.4%;
+  }
+}
+@keyframes petdoc_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0.8%;
+  }
+}
+@keyframes petdoc_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 18.2%;
+  }
+}
+@keyframes petdoc_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 81%;
+  }
+}
+@keyframes bbq_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 64.3%;
+  }
+}
+@keyframes bbq_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 31.6%;
+  }
+}
+@keyframes bbq_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 4.1%;
+  }
+}
+@keyframes book_store_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 66.9%;
+  }
+}
+@keyframes book_store_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25.8%;
+  }
+}
+@keyframes book_store_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 7.3%;
+  }
+}
+@keyframes gallery_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0.9%;
+  }
+}
+@keyframes gallery_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 73.4%;
+  }
+}
+@keyframes gallery_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25.7%;
+  }
+}
+@keyframes ulsan_tour_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55.8%;
+  }
+}
+@keyframes ulsan_tour_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40.2%;
+  }
+}
+@keyframes ulsan_tour_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 4%;
+  }
+}
+@keyframes volvo_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 72.1%;
+  }
+}
+@keyframes volvo_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 27.2%;
+  }
+}
+@keyframes volvo_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0.7%;
+  }
+}
+@keyframes movie_web_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0.8%;
+  }
+}
+@keyframes movie_web_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10.6%;
+  }
+}
+@keyframes movie_web_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 88.6%;
+  }
+}
+.components_wrap {
+  width: 100%;
+  background-color: #00000d;
+  color: var(--text-color);
+}
+.components_wrap .main {
+  position: relative;
+  width: 100%;
+}
+.petdoc .main .main_img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-indent: -9999px;
+  background-image: url(../../../public/assets/petdoc-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.recipes .main .main_img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-indent: -9999px;
+  background-image: url(../../../public/assets/Food.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery .main .main_img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-indent: -9999px;
+  background-image: url(../../../public/assets/gallery-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bbq .main .main_img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-indent: -9999px;
+  background-image: url(../../../public/assets/bbq-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.movie_web .main .main_img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-indent: -9999px;
+  background-image: url(../../../public/assets/movie-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ulsan_tour .main .main_img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-indent: -9999px;
+  background-image: url(../../../public/assets/ulsan-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.volvo .main .main_img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-indent: -9999px;
+  background-image: url(../../../public/assets/volvo-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.book_store .main .main_img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-indent: -9999px;
+  background-image: url(../../../public/assets/bookstore-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.components_wrap .main .main_img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #00000d);
+}
+.components_wrap .main .main_txt_wrap_center {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.components_wrap .main .main_txt_wrap {
+  position: absolute;
+  left: 20px;
+  bottom: 150px;
+  width: calc(100% - 20px);
+}
+.components_wrap .main .main_txt_wrap .main_txt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  line-height: 1.8em;
+  font-family: "JalnanGothic";
+}
+.components_wrap .main .main_txt_wrap .main_txt::after {
+  content: "";
+  width: calc(100% - 20px);
+  height: 0.5px;
+  margin: 20px 0;
+  background: linear-gradient(90deg, var(--text-color), #00000d);
+}
+.components_wrap .main .main_txt_wrap .main_txt .title {
+  font-size: 35px;
+  line-height: 2em;
+  font-weight: 400;
+}
+.components_wrap .main .main_txt_wrap .main_txt .t1 {
+  font-size: 14px;
+}
+.components_wrap .main .main_txt_wrap .main_txt .t2 {
+  font-size: 12px;
+  margin-top: 30px;
+}
+.components_wrap .main .main_txt_wrap .main_txt .t3 {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.components_wrap .main .main_txt_wrap .main_txt .t3 .open {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.components_wrap .main .main_txt_wrap .main_txt .t3 a {
+  color: var(--text-color);
+}
+.components_wrap .main .main_txt_wrap .main_txt .t3:hover a {
+  text-decoration: underline;
+}
+.components_wrap .main .main_txt_wrap .eye {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 140px;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+}
+.components_wrap .main .main_txt_wrap .eye .eye_in1,
+.components_wrap .main .main_txt_wrap .eye .eye_in2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #00000d;
+  transition: 0.3s;
+  background-color: var(--text-color);
+  transform-origin: 50% 50% -10px;
+}
+.components_wrap .main .main_txt_wrap .eye .eye_in2 {
+  transform: rotateX(90deg) translateZ(10px);
+}
+.components_wrap .main .main_txt_wrap .eye:hover .eye_in2 {
+  transform: rotateX(0deg) translateZ(10px);
+}
+.components_wrap .main .main_txt_wrap .eye:hover .eye_in1 {
+  transform: rotateX(-90deg) translateZ(10px);
+}
+.components_wrap .main .main_txt_wrap .eye .eye_img {
+  margin-top: 4px;
+  margin-right: 8px;
+}
+.components_wrap .main .main_txt_wrap .eye .eye_in2 .eye_img {
+  margin: 0;
+}
+.components_wrap .main .main_txt_wrap .eye .eye_img .eye_icon {
+  font-size: 23px;
+  color: #00000d;
+}
+.material-symbols-outlined.eye_icon {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.components_wrap .main .main_txt_wrap .eye span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #00000d;
+}
+.components_wrap .main .main_txt_wrap .arrow_down {
+  position: absolute;
+  bottom: -115px;
+  left: calc(50% - 14px);
+  border-radius: 50%;
+  background-color: var(--text-color);
+  padding: 2px 1px 1px 1px;
+  color: #00000d;
+  cursor: pointer;
+  font-size: 28px;
+  animation: arrow_down 0.5s infinite alternate ease-in;
+}
+.material-symbols-outlined.arrow_down {
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 24;
+}
+.components_wrap section {
+  padding: 50px var(--outline-padding);
+}
+.components_wrap .explain {
+  display: flex;
+  flex-direction: column;
+}
+.components_wrap .ex_title {
+  font-family: "JalnanGothic";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 2em;
+}
+.components_wrap .explain span {
+  font-size: 16px;
+  line-height: 1.8em;
+  margin: 10px 0;
+}
+.components_wrap .img_wrap {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.components_wrap .img_wrap img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--text-color);
+  transition: 0.3s;
+}
+/* 추가 설명 토글 부분 */
+.components_wrap .explain .span_wrap {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  margin-left: -10px;
+}
+.components_wrap .explain .span_wrap:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.components_wrap .explain .span_wrap .arrow {
+  font-size: 30px;
+  transition: 0.1s;
+  margin: 0;
+}
+.components_wrap .explain .span_wrap .arrow.rotate {
+  transform: rotate(90deg);
+}
+.components_wrap .img_wrap .ani_wrap {
+  max-width: 800px;
+  margin-left: 30px;
+  transition: 0.3s;
+  /* margin: 0 auto; */
+}
+.components_wrap .img_wrap.hide .ani_wrap {
+  height: 0;
+  transform: translateY(-100%);
+}
+.components_wrap .img_wrap.show .ani_wrap {
+  height: auto;
+  transform: translateY(0);
+}
+.components_wrap .img_wrap .ani_wrap span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.components_wrap .img_wrap span {
+  font-size: 12px;
+  line-height: 2em;
+  color: #ffffffab;
+}
+/* 추가 설명 토글 부분 끝*/
+/* petdoc */
+.petdoc .section_petdoc_explain1 .img_wrap,
+.petdoc .section_petdoc_explain2 .img_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.petdoc .section_petdoc_explain1 .img_wrap .w,
+.petdoc .section_petdoc_explain2 .img_wrap .w {
+  width: calc(33.33% - 15px);
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.petdoc .section_petdoc_explain1 .img_wrap img,
+.petdoc .section_petdoc_explain2 .img_wrap img {
+  border: none;
+}
+/* petdoc 끝 */
+
+/* 사용 언어 퍼센트 바 */
+.components_wrap .language_wrap {
+  padding: 10px 20px;
+  border: 1px solid var(--text-color);
+}
+.components_wrap .language {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.components_wrap .txt_wrap {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.components_wrap .html_icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../public/assets/Html5.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+}
+.components_wrap .css_icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../public/assets/Css3.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+}
+.components_wrap .js_icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../public/assets/JavaScript.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+}
+.components_wrap .html_percent_wrap,
+.components_wrap .css_percent_wrap,
+.components_wrap .js_percent_wrap {
+  width: 100%;
+}
+.components_wrap .bar {
+  height: 15px;
+  margin-bottom: 5px;
+  background-color: #edebe0;
+}
+/* 사용 언어 퍼센트 바 끝*/
+
+/* 767px 시작 */
+@media screen and (min-width: 767px) {
+  .components_wrap .main .main_txt_wrap {
+    position: absolute;
+    left: 60px;
+    width: calc(100% - 120px);
+  }
+  .components_wrap .main .main_txt_wrap .main_txt .title {
+    font-size: 40px;
+  }
+  .components_wrap section {
+    padding: 80px 60px;
+  }
+  .components_wrap .ex_title {
+    font-size: 28px;
+  }
+  .components_wrap .explain span {
+    font-size: 18px;
+  }
+  .components_wrap .img_wrap span {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+/* 1024px 시작 */
+@media screen and (min-width: 1024px) {
+  /* 공통 */
+  .components_wrap .main .main_txt_wrap .eye {
+    top: 270px;
+    width: 160px;
+    height: 45px;
+  }
+  .components_wrap .main .main_txt_wrap .eye span {
+    font-size: 16px;
+  }
+  .components_wrap .main .main_txt_wrap {
+    position: absolute;
+    left: 0;
+    bottom: 180px;
+    width: 100%;
+  }
+  .components_wrap .main .main_txt_wrap .main_txt .title {
+    font-size: 50px;
+  }
+  .components_wrap .main .main_txt_wrap .main_txt .t1 {
+    font-size: 17px;
+  }
+  .components_wrap .main .main_txt_wrap .main_txt .t2,
+  .components_wrap .main .main_txt_wrap .main_txt .t3 {
+    font-size: 13px;
+    line-height: 1.8em;
+  }
+  .components_wrap section {
+    padding: 120px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .components_wrap .ex_title {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  /* 공통 끝*/
+  .components_wrap .img_wrap .ani_wrap span {
+    font-size: 16px;
+  }
+  .components_wrap .img_wrap .ani_wrap h3 {
+    font-size: 18px;
+  }
+  /* petdoc */
+  .petdoc .section_petdoc_explain1 .img_wrap,
+  .petdoc .section_petdoc_explain2 .img_wrap {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  /* petdoc 끝*/
+
+  /* 사용 언어 퍼센트 바 */
+  .components_wrap .language_wrap {
+    padding: 20px;
+  }
+  .components_wrap .language {
+    padding: 10px 0;
+  }
+  /* 사용 언어 퍼센트 바 끝*/
+}

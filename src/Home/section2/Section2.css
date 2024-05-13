@@ -1,0 +1,92 @@
+@charset "utf-8";
+:root {
+  --text-color: #edebe0;
+  --background-color: #17413f;
+  --accent-color: #148370;
+  --outline-padding-mo: 20px;
+  --outline-padding-pc: 40px;
+  --header-height: 75px;
+  --section-title-padding: 50px;
+  --hover-color: #93948e;
+}
+#section2 {
+  padding: var(--outline-padding-mo);
+  background-color: var(--background-color);
+}
+#section2 .title {
+  text-align: center;
+  font-size: 40px;
+  font-family: "JalnanGothic";
+  line-height: 1em;
+  color: var(--text-color);
+  padding: var(--section-title-padding) 0;
+  user-select: none;
+}
+#section2 .title:hover .underbar {
+  width: 40%;
+}
+#section2 .title .underbar {
+  width: 20%;
+  height: 3px;
+  transition: 0.2s;
+  margin: 15px auto 0 auto;
+  background-color: var(--text-color);
+}
+#section2 .skills_wrap .buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#section2 .skills_wrap .buttons button {
+  position: relative;
+  width: 100px;
+  height: 35px;
+  margin: 0 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  overflow: hidden;
+  color: var(--text-color);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#section2 .skills_wrap .buttons .clicked {
+  background-color: var(--accent-color);
+}
+#section2 .skills_wrap .buttons button .btn_wrap_first {
+  transition: 0.3s;
+}
+#section2 .skills_wrap .buttons button .btn_wrap_second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translateY(30px) translate(-50%, -50%);
+  transition: 0.3s;
+}
+#section2 .skills_wrap .buttons button:hover .btn_wrap_first {
+  transform: translateY(-30px);
+}
+#section2 .skills_wrap .buttons button:hover .btn_wrap_second {
+  transform: translateY(0) translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.4);
+}
+/* 767px 시작 */
+@media screen and (min-width: 767px) {
+  #section2 {
+    padding: 0 var(--outline-padding-pc);
+  }
+}
+/* 1024px 시작 */
+@media screen and (min-width: 1024px) {
+  #section2 .skills_wrap .buttons button {
+    font-size: 16px;
+  }
+}
+/* 1440px 시작 */
+@media screen and (min-width: 1440px) {
+  #section2 .skills_wrap {
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+}

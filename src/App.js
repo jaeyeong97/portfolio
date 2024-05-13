@@ -1,15 +1,20 @@
-import Loading from './loading/Loading';
-import Header from './header/Header';
-import Main from './main/Main';
-import Section1 from './section1/Section1';
-import Section2 from './section2/Section2';
-import Section3 from './section3/Section3';
-import Footer from './footer/Footer';
+import Loading from './Home/loading/Loading'
 import { useEffect, useState } from 'react';
+import Home from './Home/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Petdoc from './components/projectPages/Petdoc';
+import Recipes from './components/projectPages/Recipes';
+import Bbq from './components/projectPages/Bbq';
+import BookStore from './components/projectPages/BookStore';
+import Gallery from './components/projectPages/Gallery';
+import Volvo from './components/projectPages/Volvo';
+import UlsanTour from './components/projectPages/UlsanTour';
+import MovieWeb from './components/projectPages/MovieWeb';
+
 function App() {
+  const [loading, setLoading] = useState(true); // 로딩
 
-  const [loading, setLoading] = useState(true);
-
+  // 로딩 시간 함수
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
@@ -21,14 +26,22 @@ function App() {
     <>
       {loading ? <Loading /> : (
         <div className="App">
-          <Header />
-          <Main />
-          <Section1 />
-          <Section2 />
-          <Section3 />
-          <Footer />
-        </div>
-      )}
+          <Router>
+            <Routes>
+              <Route path="/petdoc" element={<Petdoc />} />
+              <Route path="/recipes" element={<Recipes />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/bbq" element={<Bbq />} />
+              <Route path="/movie" element={<MovieWeb />} />
+              <Route path="/ulsan-tour" element={<UlsanTour />} />
+              <Route path="/volvo" element={<Volvo />} />
+              <Route path="/bookstore" element={<BookStore />} />
+              <Route path="/" element={<Home />} />
+            </Routes>
+          </Router>
+        </div >
+      )
+      }
     </>
   );
 }
