@@ -46,7 +46,7 @@ const Section3 = () => {
           <div className="page_img">
             <img src="/assets/petdoc.jpg" alt="펫닥 웹사이트 이미지" />
             <span className="txt">petdoc</span>
-            <div className="explain">반려동물을 추가하여 사용자의 반려동물 정보를 기반으로 동물병원에 손쉽게 예약할 수 있는  웹 앱입니다.</div>
+            <div className="explain">반려동물을 추가하여 사용자의 반려동물 정보를 기반으로 동물병원에 손쉽게 예약할 수 있는  웹 사이트입니다.</div>
           </div>
         </div>
         <div className="project" onClick={() => { handleChangePage('recipes') }}>
@@ -60,14 +60,14 @@ const Section3 = () => {
           <div className="page_img">
             <img src="/assets/gallery.jpg" alt="3d-갤러리 웹 이미지" />
             <span className="txt">전시회</span>
-            <div className="explain">CSS만을 사용하여 입체적인 공간을 만들었습니다. 몰입도를 높히고 사용자와 상호작용을 강조한 CSS Art 웹페이지입니다.</div>
+            <div className="explain">CSS만을 사용하여 입체적인 공간을 만들었습니다. 몰입도를 높히고 사용자와 상호작용을 강조한 CSS Art 웹 사이트입니다.</div>
           </div>
         </div>
         <div className="project" onClick={() => { handleChangePage('bbq') }}>
           <div className="page_img">
             <img src="/assets/bbq.jpg" alt="비비큐 웹사이트 이미지" />
             <span className="txt">BBQ</span>
-            <div className="explain">기존 BBQ 웹사이트를 트렌드에 맞게 새롭게 디자인한 반응형 웹 페이지입니다.</div>
+            <div className="explain">기존 BBQ 웹사이트를 트렌드에 맞게 새롭게 디자인한 반응형 웹 사이트입니다.</div>
           </div>
         </div>
         <div className="project" onClick={() => { handleChangePage('movie') }}>
@@ -81,7 +81,7 @@ const Section3 = () => {
           <div className="page_img">
             <img src="/assets/ulsan-tour.jpg" alt="울산 웹사이트 이미지" />
             <span className="txt">울산 관광</span>
-            <div className="explain">기존의 울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형 웹 페이지입니다. </div>
+            <div className="explain">기존의 울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형 웹 사이트입니다. </div>
           </div>
         </div>
         <div className="project" onClick={() => { handleChangePage('volvo') }}>

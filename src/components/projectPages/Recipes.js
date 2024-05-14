@@ -56,7 +56,7 @@ const Recipes = () => {
           <div className="main_txt_wrap">
             <div className="main_txt">
               <h2 className="title">레시피 파인더</h2>
-              <span className="t1">음성인식 기능이 탑재된 레시피 웹 앱</span>
+              <span className="t1">음성인식 기능이 탑재된 레시피 웹 사이트</span>
               <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/Recipes" target="_blank" rel="noreferrer">github.com/jaeyeong97/Recipes</a>
                 <span className="material-symbols-outlined open">
@@ -92,7 +92,7 @@ const Recipes = () => {
         <h3 className="ex_title">개요</h3>
         <div className="loading_txt">
           <div className="explain">
-            <span>• 사용자들에게 다양한 요리 레시피 정보를 제공하는 웹 앱입니다.</span>
+            <span>• 사용자들에게 다양한 요리 레시피 정보를 제공하는 웹 사이트입니다.</span>
             <span>• 사용자가 원하는 요리를 검색하고 레시피를 확인할 수 있으며, 음성인식 기능을 통하여 원하는 레시피의 정보를 찾을 수도 있습니다.</span>
           </div>
         </div>

@@ -54,7 +54,7 @@ const Gallery = () => {
           <div className="main_txt_wrap">
             <div className="main_txt">
               <h2 className="title">전시회</h2>
-              <span className="t1">입체적인 공간으로 구현한 전시회 웹사이트</span>
+              <span className="t1">입체적인 공간으로 구현한 전시회 웹 사이트</span>
               <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/3d-gallery" target="_blank" rel="noreferrer">github.com/jaeyeong97/3d-gallery</a>
                 <span className="material-symbols-outlined open">

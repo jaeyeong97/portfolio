@@ -81,7 +81,7 @@ const Petdoc = () => {
           <div className="main_txt_wrap">
             <div className="main_txt">
               <h2 className="title">petdoc</h2>
-              <span className="t1">반려 동물 병원 예약 웹 앱</span>
+              <span className="t1">반려 동물 병원 예약 웹 사이트</span>
               <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/petdoc" target="_blank" rel="noreferrer">github.com/jaeyeong97/petdoc</a>
                 <span className="material-symbols-outlined open">
@@ -118,7 +118,7 @@ const Petdoc = () => {
         <div className="loading_txt">
           <div className="explain">
             <span>• 팀 프로젝트 &lt;프론트엔드 4명&gt;</span>
-            <span>• 반려동물 병원 예약 웹 앱으로써, 반려동물 소유자들이 편리하게 병원 진료 예약 및 반려동물의 건강 기록을 관리할 수 있는 플랫폼입니다.</span>
+            <span>• 반려동물 병원 예약 웹 사이트로써, 반려동물 소유자들이 편리하게 병원 진료 예약 및 반려동물의 건강 기록을 관리할 수 있는 플랫폼입니다.</span>
           </div>
         </div>
       </section>
