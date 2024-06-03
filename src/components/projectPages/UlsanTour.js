@@ -11,19 +11,6 @@ const UlsanTour = () => {
         window.scrollTo(0, 0);
     }, []);
     useEffect(() => {
-        // 프로젝트 스크롤 애니메이션
-        // sr.reveal(".row_odd", {
-        //     origin: "right",
-        //     duration: 1000,
-        //     distance: "500px",
-        //     interval: true,
-        // });
-        // sr.reveal(".row_even", {
-        //     origin: "left",
-        //     duration: 1000,
-        //     distance: "500px",
-        //     interval: true,
-        // });
 
         //프로젝트 퍼센트 바 애니메이션
         sr.reveal(".ulsan_tour_html_percent_bar", {
@@ -53,8 +40,8 @@ const UlsanTour = () => {
                 <div className="main_txt_wrap_center">
                     <div className="main_txt_wrap">
                         <div className="main_txt">
-                            <h2 className="title">울산 관광 웹사이트</h2>
-                            <span className="t1">울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형 웹사이트입니다.</span>
+                            <h2 className="title">울산 관광</h2>
+                            <span className="t1">울산 관광 웹 사이트를 새롭게 디자인한 1680px 고정형 웹 사이트</span>
                             <span className="t2">사용 기술: HTML, CSS, JavaScript, JQuery</span>
                             <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/visit-ulsan-web" target="_blank" rel="noreferrer">github.com/jaeyeong97/visit-ulsan-web</a>
                                 <span className="material-symbols-outlined open">
@@ -66,11 +53,11 @@ const UlsanTour = () => {
                             <a href="https://jaeyeong97-ulsan-web.netlify.app/" target="_blank" rel="noreferrer">
                                 <div className="eye_in1">
                                     <div className="eye_img">
-                                        <span class="material-symbols-outlined eye_icon">
+                                        <span className="material-symbols-outlined eye_icon">
                                             visibility
                                         </span>
                                     </div>
-                                    <span>View Project</span>
+                                    <span>프로젝트 보기</span>
                                 </div>
                                 <div className="eye_in2">
                                     <div className="eye_img"></div>
@@ -79,7 +66,7 @@ const UlsanTour = () => {
                             </a>
                         </div>
                         <Link to="section_start" smooth={true} offset={-90}>
-                            <span class="material-symbols-outlined arrow_down">
+                            <span className="material-symbols-outlined arrow_down">
                                 expand_more
                             </span>
                         </Link>

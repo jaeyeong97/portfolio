@@ -26,7 +26,7 @@
     width: 0%;
   }
   100% {
-    width: 11.6%;
+    width: 1.8%;
   }
 }
 @keyframes recipes_js_percent {
@@ -34,7 +34,7 @@
     width: 0%;
   }
   100% {
-    width: 87.4%;
+    width: 97.2%;
   }
 }
 @keyframes petdoc_html_percent {

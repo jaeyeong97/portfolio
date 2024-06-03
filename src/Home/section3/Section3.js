@@ -53,7 +53,7 @@ const Section3 = () => {
           <div className="page_img">
             <img src="/assets/recipes.jpg" alt="레시피 웹사이트 이미지" />
             <span className="txt">레시피 파인더</span>
-            <div className="explain">음성인식 기능을 활용하여 찾고 싶은 레시피의 재료, 조리법 등을 알 수 있게 구현하였습니다.</div>
+            <div className="explain">음성인식 기능을 활용하여 요리의 레시피를 확인 할 수 있는 웹 사이트입니다.</div>
           </div>
         </div>
         <div className="project" onClick={() => { handleChangePage('gallery') }}>

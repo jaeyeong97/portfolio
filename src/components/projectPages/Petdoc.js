@@ -38,19 +38,6 @@ const Petdoc = () => {
   }, []);
 
   useEffect(() => {
-    // 프로젝트 스크롤 애니메이션
-    // sr.reveal(".row_odd", {
-    //     origin: "right",
-    //     duration: 1000,
-    //     distance: "500px",
-    //     interval: true,
-    // });
-    // sr.reveal(".row_even", {
-    //     origin: "left",
-    //     duration: 1000,
-    //     distance: "500px",
-    //     interval: true,
-    // });
 
     //프로젝트 퍼센트 바 애니메이션
     sr.reveal(".petdoc_html_percent_bar", {
@@ -97,7 +84,7 @@ const Petdoc = () => {
                       visibility
                     </span>
                   </div>
-                  <span>View Project</span>
+                  <span>프로젝트 보기</span>
                 </div>
                 <div className="eye_in2">
                   <div className="eye_img"></div>
@@ -106,7 +93,7 @@ const Petdoc = () => {
               </a>
             </div>
             <Link to="section_start" smooth={true} offset={-90}>
-              <span class="material-symbols-outlined arrow_down">
+              <span className="material-symbols-outlined arrow_down">
                 expand_more
               </span>
             </Link>

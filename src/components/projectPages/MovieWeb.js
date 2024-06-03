@@ -11,19 +11,6 @@ const MovieWeb = () => {
         window.scrollTo(0, 0);
     }, []);
     useEffect(() => {
-        // 프로젝트 스크롤 애니메이션
-        // sr.reveal(".row_odd", {
-        //     origin: "right",
-        //     duration: 1000,
-        //     distance: "500px",
-        //     interval: true,
-        // });
-        // sr.reveal(".row_even", {
-        //     origin: "left",
-        //     duration: 1000,
-        //     distance: "500px",
-        //     interval: true,
-        // });
 
         //프로젝트 퍼센트 바 애니메이션
         sr.reveal(".movie_web_html_percent_bar", {
@@ -54,7 +41,7 @@ const MovieWeb = () => {
                     <div className="main_txt_wrap">
                         <div className="main_txt">
                             <h2 className="title">흥행 영화</h2>
-                            <span className="t1">2020년 ~ 2023년 흥행한 영화의 정보를 확인 할 수 있는 웹사이트</span>
+                            <span className="t1">2020년 ~ 2023년 흥행한 영화의 정보를 확인 할 수 있는 웹 사이트</span>
                             <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
                             <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/2020-2023-movies-web" target="_blank" rel="noreferrer">github.com/jaeyeong97/2020-2023-movies-web</a>
                                 <span className="material-symbols-outlined open">
@@ -66,11 +53,11 @@ const MovieWeb = () => {
                             <a href="https://jaeyeong97-movie-web.web.app/" target="_blank" rel="noreferrer">
                                 <div className="eye_in1">
                                     <div className="eye_img">
-                                        <span class="material-symbols-outlined eye_icon">
+                                        <span className="material-symbols-outlined eye_icon">
                                             visibility
                                         </span>
                                     </div>
-                                    <span>View Project</span>
+                                    <span>프로젝트 보기</span>
                                 </div>
                                 <div className="eye_in2">
                                     <div className="eye_img"></div>
@@ -79,7 +66,7 @@ const MovieWeb = () => {
                             </a>
                         </div>
                         <Link to="section_start" smooth={true} offset={-90}>
-                            <span class="material-symbols-outlined arrow_down">
+                            <span className="material-symbols-outlined arrow_down">
                                 expand_more
                             </span>
                         </Link>

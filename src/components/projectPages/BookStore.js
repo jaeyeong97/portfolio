@@ -6,24 +6,8 @@ import { Link } from 'react-scroll';
 import sr from "../../util/ScrollReveal";
 import AnimatedCountUp from "../../util/AnimatedCountUp";
 const BookStore = () => {
+
     useEffect(() => {
-        // 페이지 이동 후 스크롤을 최상단으로
-        window.scrollTo(0, 0);
-    }, []);
-    useEffect(() => {
-        // 프로젝트 스크롤 애니메이션
-        // sr.reveal(".row_odd", {
-        //     origin: "right",
-        //     duration: 1000,
-        //     distance: "500px",
-        //     interval: true,
-        // });
-        // sr.reveal(".row_even", {
-        //     origin: "left",
-        //     duration: 1000,
-        //     distance: "500px",
-        //     interval: true,
-        // });
 
         //프로젝트 퍼센트 바 애니메이션
         sr.reveal(".book_store_html_percent_bar", {
@@ -54,7 +38,7 @@ const BookStore = () => {
                     <div className="main_txt_wrap">
                         <div className="main_txt">
                             <h2 className="title">교보문고</h2>
-                            <span className="t1">기존의 교보문고 도서리스트 페이지를 반응형으로 제작한 웹페이지입니다.</span>
+                            <span className="t1">기존의 교보문고 도서리스트 페이지를 반응형으로 제작한 웹 페이지</span>
                             <span className="t2">사용 기술: HTML, CSS, JavaScript</span>
                             <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/bookstore" target="_blank" rel="noreferrer">github.com/jaeyeong97/bookstore</a>
                                 <span className="material-symbols-outlined open">
@@ -66,11 +50,11 @@ const BookStore = () => {
                             <a href="https://jaeyeong97-bookstore.netlify.app/" target="_blank" rel="noreferrer">
                                 <div className="eye_in1">
                                     <div className="eye_img">
-                                        <span class="material-symbols-outlined eye_icon">
+                                        <span className="material-symbols-outlined eye_icon">
                                             visibility
                                         </span>
                                     </div>
-                                    <span>View Project</span>
+                                    <span>프로젝트 보기</span>
                                 </div>
                                 <div className="eye_in2">
                                     <div className="eye_img"></div>
@@ -79,7 +63,7 @@ const BookStore = () => {
                             </a>
                         </div>
                         <Link to="section_start" smooth={true} offset={-90}>
-                            <span class="material-symbols-outlined arrow_down">
+                            <span className="material-symbols-outlined arrow_down">
                                 expand_more
                             </span>
                         </Link>
