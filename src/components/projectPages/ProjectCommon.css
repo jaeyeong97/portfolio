@@ -439,10 +439,16 @@
   font-weight: 400;
   line-height: 2em;
 }
-.components_wrap .explain span {
+.components_wrap .explain span,
+.components_wrap .explain div {
   font-size: 16px;
   line-height: 1.8em;
   margin: 10px 0;
+}
+.components_wrap .explain .em {
+  background-color: #148370;
+  border-radius: 3px;
+  padding: 2px 5px;
 }
 .components_wrap .img_wrap {
   display: flex;
@@ -482,7 +488,6 @@
   max-width: 800px;
   margin-left: 30px;
   transition: 0.3s;
-  /* margin: 0 auto; */
 }
 .components_wrap .img_wrap.hide .ani_wrap {
   height: 0;

@@ -68,7 +68,7 @@ const Petdoc = () => {
           <div className="main_txt_wrap">
             <div className="main_txt">
               <h2 className="title">petdoc</h2>
-              <span className="t1">반려 동물 병원 예약 웹 사이트</span>
+              <span className="t1">반려 동물 병원 예약 웹사이트</span>
               <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/petdoc" target="_blank" rel="noreferrer">github.com/jaeyeong97/petdoc</a>
                 <span className="material-symbols-outlined open">
@@ -104,8 +104,8 @@ const Petdoc = () => {
         <h3 className="ex_title">개요</h3>
         <div className="loading_txt">
           <div className="explain">
-            <span>• 팀 프로젝트 &lt;프론트엔드 4명&gt;</span>
-            <span>• 반려동물 병원 예약 웹 사이트로써, 반려동물 소유자들이 편리하게 병원 진료 예약 및 반려동물의 건강 기록을 관리할 수 있는 플랫폼입니다.</span>
+            <div>• <span className="em">팀 프로젝트</span> &lt;프론트엔드 4명&gt;</div>
+            <div>• <span className="em">반려동물 병원 예약</span> 웹사이트로써, 반려동물 소유자들이 편리하게 병원 진료 예약 및 반려동물의 건강 기록을 관리할 수 있는 플랫폼입니다.</div>
           </div>
         </div>
       </section>
@@ -167,8 +167,7 @@ const Petdoc = () => {
             <div className={`img_wrap ${toggle3 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
                 <span>- 병원 목록에서 검색 기능을 구현하였습니다.</span>
-                <span>- filter 메서드를 활용하여 사용자가 입력한 검색어에 따라 병원 목록을 필터링합니다.</span>
-                <span>- 검색어는 병원 이름에 포함되는지 확인하여 결과를 반환하도록 구현하였습니다.</span>
+                <span>- filter 메서드를 활용하여 사용자가 입력한 검색어에 따라 병원 목록을 필터링하도록 구현하였습니다.</span>
               </div>
             </div>
           </div>

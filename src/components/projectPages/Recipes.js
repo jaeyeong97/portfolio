@@ -43,7 +43,7 @@ const Recipes = () => {
           <div className="main_txt_wrap">
             <div className="main_txt">
               <h2 className="title">레시피 파인더</h2>
-              <span className="t1">음성인식 기능이 탑재된 레시피 웹 사이트</span>
+              <span className="t1">음성인식 기능이 탑재된 레시피 웹사이트</span>
               <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/Recipes" target="_blank" rel="noreferrer">github.com/jaeyeong97/Recipes</a>
                 <span className="material-symbols-outlined open">
@@ -79,8 +79,8 @@ const Recipes = () => {
         <h3 className="ex_title">개요</h3>
         <div className="summary_txt">
           <div className="explain">
-            <span>• 사용자들에게 다양한 요리 레시피 정보를 제공하는 웹 사이트입니다.</span>
-            <span>• 사용자가 원하는 레시피를 검색하고 확인할 수 있으며, 음성인식 기능을 통하여 원하는 레시피를 찾을 수도 있습니다.</span>
+            <div>• 사용자들에게 다양한 요리 <span className="em">레시피</span> 를 제공하는 웹사이트입니다.</div>
+            <div>• 사용자가 원하는 레시피를 검색하고 확인할 수 있으며, <span className="em">음성인식</span> 기능을 통하여 원하는 레시피를 찾을 수도 있습니다.</div>
           </div>
         </div>
       </section>
@@ -88,11 +88,11 @@ const Recipes = () => {
         <h3 className="ex_title">구현기능</h3>
         <div className="function_txt">
           <div className="explain">
-            <span>• react-speech-recognition 라이브러리를 통해 음성인식 기능을 구현하였습니다.</span>
-            <span>• 카테고리를 만들어 사용자가 원하는 레시피 종류를 볼 수 있게 하였습니다.</span>
-            <span>• 즐겨찾기 기능을 추가하여 사용자가 즐겨찾기 한 레시피 목록을 따로 볼 수 있게 하였습니다.</span>
-            <span>• 페이지네이션 기능으로 레시피가 한 페이지당 12개씩 출력되게 하였습니다.</span>
-            <span>• styled-components를 사용하여 컴포넌트별로 CSS를 관리하였습니다.</span>
+            <div>• react-speech-recognition 라이브러리를 통해 <span className="em">음성인식</span> 기능을 구현하였습니다.</div>
+            <div>• 레시피 종류별로 <span className="em">카테고리</span> 를 만들어 사용자가 원하는 레시피를 볼 수 있게 하였습니다.</div>
+            <div>• <span className="em">즐겨찾기</span> 기능을 추가하여 사용자가 즐겨찾기 한 레시피 목록을 따로 볼 수 있게 하였습니다.</div>
+            <div>• <span className="em">페이지네이션</span> 기능으로 레시피가 한 페이지당 12개씩 출력되게 하였습니다.</div>
+            <div>• <span className="em">styled-components</span> 를 사용하여 컴포넌트별로 CSS를 관리하였습니다.</div>
           </div>
         </div>
       </section>

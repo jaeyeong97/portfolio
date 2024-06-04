@@ -41,7 +41,7 @@ const Volvo = () => {
                     <div className="main_txt_wrap">
                         <div className="main_txt">
                             <h2 className="title">VOLVO</h2>
-                            <span className="t1">기존의 볼보 웹사이트를 새롭게 디자인한 1440px 고정형 웹 사이트</span>
+                            <span className="t1">기존의 볼보 웹사이트를 새롭게 디자인한 1440px 고정형 웹사이트</span>
                             <span className="t2">사용 기술: HTML, CSS, JQuery</span>
                             <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/volvo" target="_blank" rel="noreferrer">github.com/jaeyeong97/volvo</a>
                                 <span className="material-symbols-outlined open">
@@ -77,8 +77,8 @@ const Volvo = () => {
                 <h3 className="ex_title">개요</h3>
                 <div className="summary_txt">
                     <div className="explain">
-                        <span>• 기존의 볼보 웹사이트를 새롭게 디자인한 1440px 고정형 웹사이트입니다.</span>
-                        <span>• 메인페이지, 모델페이지, 구매페이지를 제작하였습니다.</span>
+                        <div>• 기존의 볼보 웹사이트를 새롭게 디자인한 <span className="em">1440px 고정형</span> 웹사이트입니다.</div>
+                        <div>• <span className="em">메인페이지</span> , <span className="em">모델페이지</span> , <span className="em">구매페이지</span> 를 제작하였습니다.</div>
                     </div>
                 </div>
             </section>

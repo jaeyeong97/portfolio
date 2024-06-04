@@ -41,7 +41,7 @@ const Bbq = () => {
                     <div className="main_txt_wrap">
                         <div className="main_txt">
                             <h2 className="title">BBQ</h2>
-                            <span className="t1">BBQ 웹사이트를 새롭게 디자인한 반응형 웹 사이트</span>
+                            <span className="t1">BBQ 웹사이트를 새롭게 디자인한 반응형 웹사이트</span>
                             <span className="t2">사용 기술: HTML, CSS, JQuery</span>
                             <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/bbq" target="_blank" rel="noreferrer">github.com/jaeyeong97/bbq</a>
                                 <span className="material-symbols-outlined open">
@@ -77,8 +77,8 @@ const Bbq = () => {
                 <h3 className="ex_title">개요</h3>
                 <div className="summary_txt">
                     <div className="explain">
-                        <span>• 기존의 BBQ 웹사이트를 새롭게 디자인한 반응형 웹사이트입니다.</span>
-                        <span>• 메인페이지, 메뉴페이지를 제작하였습니다.</span>
+                        <div>• 기존의 BBQ 웹사이트를 새롭게 디자인한 <span className="em">반응형</span> 웹사이트입니다.</div>
+                        <div>• <span className="em">메인페이지</span> , <span className="em">메뉴페이지</span> 를 제작하였습니다.</div>
                     </div>
                 </div>
             </section>
@@ -95,8 +95,7 @@ const Bbq = () => {
                 <div className="changed_txt">
                     <div className="explain">
                         <span>• 반응형 디자인을 적용하여 사용자의 디바이스에 맞는 적절한 화면 구성을 하였습니다.</span>
-                        <span>• 메인슬라이더 영역에 커서 이미지를 추가하고, CSS에서 keyframes를 이용하여 애니메
-                            이션을 추가해 사용자에게 시각적 흥미를 주었습니다.</span>
+                        <span>• 메인슬라이더 영역에 커서 이미지를 추가하고, CSS에서 keyframes를 이용하여 애니메이션을 추가해 사용자에게 시각적 흥미를 주었습니다.</span>
                         <span>• 다른 치킨 브랜드 웹사이트를 참고하여 BBQ 웹사이트에서 부족하다고 생각되는 부분을
                             추가하였습니다.</span>
                     </div>

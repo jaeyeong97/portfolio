@@ -41,7 +41,7 @@ const MovieWeb = () => {
                     <div className="main_txt_wrap">
                         <div className="main_txt">
                             <h2 className="title">흥행 영화</h2>
-                            <span className="t1">2020년 ~ 2023년 흥행한 영화의 정보를 확인 할 수 있는 웹 사이트</span>
+                            <span className="t1">2020년 ~ 2023년 흥행한 영화의 정보를 확인 할 수 있는 웹사이트</span>
                             <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
                             <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/2020-2023-movies-web" target="_blank" rel="noreferrer">github.com/jaeyeong97/2020-2023-movies-web</a>
                                 <span className="material-symbols-outlined open">
@@ -85,10 +85,11 @@ const MovieWeb = () => {
                 <h3 className="ex_title">구현기능</h3>
                 <div className="function_txt">
                     <div className="explain">
-                        <span>• filter 메서드를 활용하여 각 년도 버튼을 클릭 시, 각 년도에 맞는 영화가 화면에 출력되게 하였습니다.</span>
-                        <span>• 사용자가 리뷰를 10글자 이내로 작성 시, alert을 띄워 10글자 이상 작성하게 구현하였습니다.</span>
-                        <span>• onKeyDown 이벤트 핸들러를 사용하여, 사용자가 리뷰 작성 후 enter키를 누를 시에도 리뷰가 입력되게 하여 사용자 편의를 더하였습니다.</span>
-                        <span>• 영화의 평점에 따라 별 개수를 반환하는 함수를 만들어, 시각적으로 사용자가 평점을 확인하기 쉽게 하였습니다.</span>
+                        <div>• <span className="em">filter</span> 메서드를 활용하여 각 년도 버튼을 클릭 시, 각 년도에 맞는 영화가 화면에 출력되게 하였습니다.</div>
+                        <div>• 사용자가 리뷰를 10글자 이내로 작성 시, <span className="em">alert</span> 을 띄워 10글자 이상 작성하게 구현하였습니다.</div>
+                        <div>• <span className="em">onKeyDown</span> 이벤트 핸들러를 사용하여, 사용자가 리뷰 작성 후 enter키를 누를 시에도 리뷰가 입력되게 하여 사용자 편의를 더하였습니다.</div>
+                        <div>• 영화의 평점에 따라 별 개수를 반환하는 함수를 만들어, 시각적으로 사용자가 평점을 확인하기 쉽게 하였습니다.</div>
+                        <div><span className="em">로컬 스토리지</span> 에 작성된 리뷰를 저장하여 페이지가 새로고침이 되어도 리뷰가 유지되게 하였습니다.</div>
                     </div>
                 </div>
             </section>

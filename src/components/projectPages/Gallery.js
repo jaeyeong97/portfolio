@@ -41,7 +41,7 @@ const Gallery = () => {
           <div className="main_txt_wrap">
             <div className="main_txt">
               <h2 className="title">전시회</h2>
-              <span className="t1">입체적인 공간으로 구현한 전시회 웹 사이트</span>
+              <span className="t1">입체적인 공간으로 구현한 전시회 웹사이트</span>
               <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/3d-gallery" target="_blank" rel="noreferrer">github.com/jaeyeong97/3d-gallery</a>
                 <span className="material-symbols-outlined open">
@@ -77,7 +77,7 @@ const Gallery = () => {
         <h3 className="ex_title">개요</h3>
         <div className="summary_txt">
           <div className="explain">
-            <span>• CSS 속성인 transform-style을 사용하여 입체적인 공간을 구현하였습니다.</span>
+            <div>• CSS 속성인 transform-style을 사용하여 <span className="em">입체적인 공간</span> 을 구현하였습니다.</div>
           </div>
         </div>
       </section>
@@ -88,8 +88,8 @@ const Gallery = () => {
         </div>
         <div className="out_txt">
           <div className="explain">
-            <span>• 문을 클릭하여 전시회 안팎을 드나들 수 있게 하였습니다.</span>
-            <span>• keyframes를 사용하여 비가 오는 애니메이션을 주었습니다.</span>
+            <div>• <span className="em">문</span> 을 클릭하여 전시회 안팎을 드나들 수 있게 하였습니다.</div>
+            <div>• <span className="em">keyframes</span> 를 사용하여 비가 오는 애니메이션을 주었습니다.</div>
           </div>
         </div>
       </section>
@@ -100,9 +100,9 @@ const Gallery = () => {
         </div>
         <div className="in_txt">
           <div className="explain">
-            <span>• 스위치 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한 느낌을 주었습니다.</span>
-            <span>• 기둥에 있는 버튼 클릭 시, 사진이 변경되게 하였습니다.</span>
-            <span>• keyframes를 사용하여 번개와 비가 오는 애니메이션을 구현하였습니다.</span>
+            <div>• <span className="em">스위치</span> 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한 느낌을 주었습니다.</div>
+            <div>• 기둥에 있는 <span className="em">버튼</span> 클릭 시, 사진이 변경되게 하였습니다.</div>
+            <div>• keyframes를 사용하여 번개와 비가 오는 <span className="em">애니메이션</span> 을 구현하였습니다.</div>
           </div>
         </div>
       </section>

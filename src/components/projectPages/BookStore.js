@@ -38,7 +38,7 @@ const BookStore = () => {
                     <div className="main_txt_wrap">
                         <div className="main_txt">
                             <h2 className="title">교보문고</h2>
-                            <span className="t1">기존의 교보문고 도서리스트 페이지를 반응형으로 제작한 웹 페이지</span>
+                            <span className="t1">기존의 교보문고 도서리스트 페이지를 반응형으로 제작한 웹페이지</span>
                             <span className="t2">사용 기술: HTML, CSS, JavaScript</span>
                             <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/bookstore" target="_blank" rel="noreferrer">github.com/jaeyeong97/bookstore</a>
                                 <span className="material-symbols-outlined open">
@@ -74,7 +74,7 @@ const BookStore = () => {
                 <h3 className="ex_title">개요</h3>
                 <div className="summary_txt">
                     <div className="explain">
-                        <span>• 기존의 교보문고 도서리스트 페이지를 반응형으로 제작한 웹페이지입니다.</span>
+                        <div>• 기존의 교보문고 도서리스트 페이지를 <span className="em">반응형</span> 으로 제작한 웹페이지입니다.</div>
                     </div>
                 </div>
             </section>
