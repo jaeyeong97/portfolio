@@ -8,6 +8,11 @@ import AnimatedCountUp from "../../util/AnimatedCountUp";
 const BookStore = () => {
 
     useEffect(() => {
+        // 페이지 이동 후 스크롤을 최상단으로
+        window.scrollTo(0, 0);
+    }, []);
+
+    useEffect(() => {
 
         //프로젝트 퍼센트 바 애니메이션
         sr.reveal(".book_store_html_percent_bar", {
