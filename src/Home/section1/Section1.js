@@ -23,12 +23,12 @@ const Section1 = () => {
           <div className="text">
             <span>안녕하세요!</span>
             <div>
-              <span className="accent">신입 프론트엔드 개발자 장재영</span>
+              <span className="accent">프론트엔드 개발자 장재영</span>
               <span>입니다.</span>
             </div>
-            <span>개발의 매력에 빠져 주도적인 학습과 문제 해결 능력을 바탕으로 꾸준히 트렌드를 관찰하며 학습하고 있습니다.</span>
-            <span>사용자 경험을 우선시하며, 친화적인 UI/UX를 구현하여 프로젝트에 적용해보았습니다.</span>
-            <span>효율적이고 창의적인 사고력을 발휘하여 함께 하고싶습니다!</span>
+            <span>저는 꾸준한 학습을 통해 전문성을 갖춘 개발자가 되는 것을 목표로 하고 있습니다. </span>
+            <span>코드 품질 향상에 중점을 두어 유지 보수하기 좋은 개발을 함으로써 회사의 발전에 기여하고 싶습니다.</span>
+            <span></span>
           </div>
         </div>
       </div>

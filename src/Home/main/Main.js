@@ -8,7 +8,7 @@ const Main = () => {
     // 메인 타이핑 모션
     useEffect(() => {
         new Typed(typing.current, {
-            strings: ["성장하는 것을 좋아합니다.", "효율성을 중요시 생각합니다.",],
+            strings: ["학습하는 것을 좋아합니다.", "효율성을 중요시 생각합니다.",],
             typeSpeed: 80,
             backSpeed: 30,
             backDelay: 1000,
@@ -27,7 +27,7 @@ const Main = () => {
                             <span>안녕하세요</span>
                             <span className="hand">👋</span>
                         </div>
-                        <span className="accent t2">신입 프론트엔드 개발자</span>
+                        <span className="accent t2">프론트엔드 개발자</span>
                         <div className="t3">
                             <span className="accent">장재영</span>
                             <span>입니다.</span>
