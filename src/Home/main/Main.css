@@ -73,13 +73,13 @@
   margin-top: 50px;
 }
 #main .main_wrap .main_txt span {
-  font-size: 38px;
+  font-size: 33px;
   line-height: 1.4em;
   color: var(--text-color);
 }
 #main .main_wrap .main_txt .hand {
   display: inline-block;
-  font-size: 45px;
+  font-size: 40px;
   transform-origin: right bottom;
   animation: shaking ease-in-out 0.6s alternate infinite;
 }
@@ -88,7 +88,7 @@
 }
 #main .main_wrap .main_txt .typing {
   margin-left: 15px;
-  font-size: 25px;
+  font-size: 22px;
 }
 /* 768px 시작 */
 @media screen and (min-width: 768px) {

@@ -19,6 +19,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .skill_card:hover .cube_in {
   animation: rotationCube 5s infinite linear alternate;
@@ -26,7 +27,6 @@
 .skill_card .icon {
   position: relative;
   width: 40%;
-  cursor: pointer;
 }
 .skill_card:hover .cube_face {
   box-shadow: 0px 0px 10px #148370;

@@ -12,7 +12,7 @@ const FrontSkills = ({ iconImgs, skillsExplain, skillsTitle }) => {
             <SkillCard iconImgs={iconImgs.jsIcon} skillsExplain={skillsExplain.jsEx} skillsTitle={skillsTitle.jsTitle} />
             <SkillCard iconImgs={iconImgs.reactIcon} skillsExplain={skillsExplain.reactEx} skillsTitle={skillsTitle.reactTitle} />
             <SkillCard iconImgs={iconImgs.jqueryIcon} skillsExplain={skillsExplain.jqueryEx} skillsTitle={skillsTitle.jqueryTitle} />
-            <div className="empty"></div>
+            <SkillCard iconImgs={iconImgs.scssIcon} skillsExplain={skillsExplain.scssEx} skillsTitle={skillsTitle.scssTitle} />
         </div>
     );
 };
