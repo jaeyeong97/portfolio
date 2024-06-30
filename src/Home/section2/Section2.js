@@ -21,7 +21,7 @@ const Section2 = () => {
     figmaIcon: "/assets/Figma.png",
     githubIcon: "/assets/GitHub.png",
     vscIcon: "/assets/VisualStudio.png",
-    scssIcon: "/assets/scss.png",
+    scssIcon: "/assets/Scss.png",
   };
   const skillsExplain = {
     htmlEx:
