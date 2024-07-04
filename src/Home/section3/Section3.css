@@ -74,7 +74,7 @@
 }
 #section3 .projects_wrap .project .page_img:hover img {
   transform: scale(1.05);
-  filter: blur(2px);
+  filter: blur(5px);
 }
 #section3 .projects_wrap .project .page_img:hover::after {
   transform: scale(1.05);

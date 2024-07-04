@@ -100,9 +100,9 @@ const Recipes = () => {
         <h3 className="ex_title">언어 사용 비율</h3>
         <div className="language_wrap">
           <div className="language">
-            <div className="txt_wrap">
+            <div className="txt_wrap ml">
               <div className="html_icon"></div>
-              <div className="html txt">Html</div>
+              <div className="html txt">HTML</div>
             </div>
             <div className="html_percent_wrap">
               <div className="recipes_html_percent_bar bar"></div>
@@ -119,7 +119,7 @@ const Recipes = () => {
           <div className="language">
             <div className="txt_wrap">
               <div className="css_icon"></div>
-              <div className="css txt">Css</div>
+              <div className="css txt">CSS</div>
             </div>
             <div className="css_percent_wrap">
               <div className="recipes_css_percent_bar bar"></div>
@@ -136,7 +136,7 @@ const Recipes = () => {
           <div className="language">
             <div className="txt_wrap">
               <div className="js_icon"></div>
-              <div className="js_txt">Js</div>
+              <div className="js_txt">JS</div>
             </div>
             <div className="js_percent_wrap">
               <div className="recipes_js_percent_bar bar"></div>

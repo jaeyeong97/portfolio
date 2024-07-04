@@ -82,24 +82,11 @@ const Gallery = () => {
         </div>
       </section>
       <section className="section_out">
-        <h3 className="ex_title">전시회 외부</h3>
-        <div className="img_wrap">
-          <img src="/assets/gallery_out.png" alt="전시회 외부" />
-        </div>
+        <h3 className="ex_title">구현 기능</h3>
         <div className="out_txt">
           <div className="explain">
             <div>• <span className="em">문</span> 을 클릭하여 전시회 안팎을 드나들 수 있게 하였습니다.</div>
             <div>• <span className="em">keyframes</span> 를 사용하여 비가 오는 애니메이션을 주었습니다.</div>
-          </div>
-        </div>
-      </section>
-      <section className="section_in">
-        <h3 className="ex_title">전시회 내부</h3>
-        <div className="img_wrap">
-          <img src="/assets/gallery_in.png" alt="전시회 내부" />
-        </div>
-        <div className="in_txt">
-          <div className="explain">
             <div>• <span className="em">스위치</span> 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한 느낌을 주었습니다.</div>
             <div>• 기둥에 있는 <span className="em">버튼</span> 클릭 시, 사진이 변경되게 하였습니다.</div>
             <div>• keyframes를 사용하여 번개와 비가 오는 <span className="em">애니메이션</span> 을 구현하였습니다.</div>
@@ -110,9 +97,9 @@ const Gallery = () => {
         <h3 className="ex_title">언어 사용 비율</h3>
         <div className="language_wrap">
           <div className="language">
-            <div className="txt_wrap">
+            <div className="txt_wrap ml">
               <div className="html_icon"></div>
-              <div className="html txt">Html</div>
+              <div className="html txt">HTML</div>
             </div>
             <div className="html_percent_wrap">
               <div className="gallery_html_percent_bar bar"></div>
@@ -129,7 +116,7 @@ const Gallery = () => {
           <div className="language">
             <div className="txt_wrap">
               <div className="css_icon"></div>
-              <div className="css txt">Css</div>
+              <div className="css txt">CSS</div>
             </div>
             <div className="css_percent_wrap">
               <div className="gallery_css_percent_bar bar"></div>
@@ -146,7 +133,7 @@ const Gallery = () => {
           <div className="language">
             <div className="txt_wrap">
               <div className="js_icon"></div>
-              <div className="js_txt">Js</div>
+              <div className="js_txt">JS</div>
             </div>
             <div className="js_percent_wrap">
               <div className="gallery_js_percent_bar bar"></div>

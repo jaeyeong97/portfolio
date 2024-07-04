@@ -61,54 +61,6 @@
     width: 81%;
   }
 }
-@keyframes bbq_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 64.3%;
-  }
-}
-@keyframes bbq_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 31.6%;
-  }
-}
-@keyframes bbq_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 4.1%;
-  }
-}
-@keyframes book_store_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 66.9%;
-  }
-}
-@keyframes book_store_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 25.8%;
-  }
-}
-@keyframes book_store_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 7.3%;
-  }
-}
 @keyframes gallery_html_percent {
   0% {
     width: 0%;
@@ -133,76 +85,28 @@
     width: 25.7%;
   }
 }
-@keyframes ulsan_tour_html_percent {
+@keyframes windows_html_percent {
   0% {
     width: 0%;
   }
   100% {
-    width: 55.8%;
+    width: 32.6%;
   }
 }
-@keyframes ulsan_tour_css_percent {
+@keyframes windows_css_percent {
   0% {
     width: 0%;
   }
   100% {
-    width: 40.2%;
+    width: 45%;
   }
 }
-@keyframes ulsan_tour_js_percent {
+@keyframes windows_js_percent {
   0% {
     width: 0%;
   }
   100% {
-    width: 4%;
-  }
-}
-@keyframes volvo_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 72.1%;
-  }
-}
-@keyframes volvo_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 27.2%;
-  }
-}
-@keyframes volvo_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 0.7%;
-  }
-}
-@keyframes movie_web_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 0.8%;
-  }
-}
-@keyframes movie_web_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 10.6%;
-  }
-}
-@keyframes movie_web_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 88.6%;
+    width: 22.4%;
   }
 }
 .components_wrap {
@@ -244,52 +148,12 @@
   background-size: cover;
   background-position: center;
 }
-.bbq .main .main_img {
+.windows .main .main_img {
   position: relative;
   width: 100%;
   height: 100vh;
   text-indent: -9999px;
-  background-image: url(../../../public/assets/bbq-frame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.movie_web .main .main_img {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  text-indent: -9999px;
-  background-image: url(../../../public/assets/movie-frame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.ulsan_tour .main .main_img {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  text-indent: -9999px;
-  background-image: url(../../../public/assets/ulsan-frame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.volvo .main .main_img {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  text-indent: -9999px;
-  background-image: url(../../../public/assets/volvo-frame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.book_store .main .main_img {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  text-indent: -9999px;
-  background-image: url(../../../public/assets/bookstore-frame.png);
+  background-image: url(../../../public/assets/window-frame.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -545,10 +409,34 @@
   flex-direction: column;
   align-items: center;
 }
+.components_wrap .txt_wrap.ml {
+  margin-left: -3.5px;
+  margin-right: 6px;
+}
+.components_wrap .txt_wrap.ml2 {
+  margin-left: -3px;
+  margin-right: 7.5px;
+}
 .components_wrap .html_icon {
   width: 30px;
   height: 30px;
   background-image: url(../../../public/assets/Html5.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+}
+.components_wrap .css_icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../public/assets/Css3.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+}
+.components_wrap .scss_icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../../public/assets/Scss.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-bottom: 2px;
@@ -572,11 +460,12 @@
 .components_wrap .html_percent_wrap,
 .components_wrap .css_percent_wrap,
 .components_wrap .js_percent_wrap {
+  transform: translateY(2px);
   width: 100%;
 }
 .components_wrap .bar {
-  height: 15px;
-  margin-bottom: 5px;
+  height: 18px;
+  margin-bottom: 10px;
   background-color: #edebe0;
 }
 /* 사용 언어 퍼센트 바 끝*/

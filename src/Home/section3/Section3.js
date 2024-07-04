@@ -7,6 +7,9 @@ const Section3 = () => {
   // 페이지 이동
   const handleChangePage = (page) => {
     switch (page) {
+      case 'windows-xp':
+        navigate('/windows-xp');
+        break;
       case 'petdoc':
         navigate('/petdoc');
         break;
@@ -15,21 +18,6 @@ const Section3 = () => {
         break;
       case 'gallery':
         navigate('/gallery');
-        break;
-      case 'bbq':
-        navigate('/bbq');
-        break;
-      case 'movie':
-        navigate('/movie');
-        break;
-      case 'ulsan':
-        navigate('/ulsan-tour');
-        break;
-      case 'volvo':
-        navigate('/volvo');
-        break;
-      case 'bookstore':
-        navigate('/bookstore');
         break;
       default:
         break;
@@ -42,6 +30,13 @@ const Section3 = () => {
         <div className="underbar"></div>
       </h2>
       <div className="projects_wrap">
+        <div className="project" onClick={() => { handleChangePage('windows-xp') }}>
+          <div className="page_img">
+            <img src="/assets/window.jpg" alt="윈도우 xp 웹사이트 이미지" />
+            <span className="txt">윈도우 XP</span>
+            <div className="explain">추억의 윈도우 XP를 다시 느낄 수 있게 웹사이트로 구현하였습니다.</div>
+          </div>
+        </div>
         <div className="project" onClick={() => { handleChangePage('petdoc') }}>
           <div className="page_img">
             <img src="/assets/petdoc.jpg" alt="펫닥 웹사이트 이미지" />
@@ -61,44 +56,6 @@ const Section3 = () => {
             <img src="/assets/gallery.jpg" alt="3d-갤러리 웹 이미지" />
             <span className="txt">전시회</span>
             <div className="explain">CSS만을 사용하여 입체적인 공간을 만들었습니다. 몰입도를 높히고 사용자와 상호작용을 강조한 CSS Art 웹사이트입니다.</div>
-          </div>
-        </div>
-        <div className="project" onClick={() => { handleChangePage('bbq') }}>
-          <div className="page_img">
-            <img src="/assets/bbq.jpg" alt="비비큐 웹사이트 이미지" />
-            <span className="txt">BBQ</span>
-            <div className="explain">기존 BBQ 웹사이트를 트렌드에 맞게 새롭게 디자인한 반응형 웹사이트입니다.</div>
-          </div>
-        </div>
-        <div className="project" onClick={() => { handleChangePage('movie') }}>
-          <div className="page_img">
-            <img src="/assets/movie.jpg" alt="영화 웹사이트 이미지" />
-            <span className="txt">흥행영화</span>
-            <div className="explain">연도별로 흥행한 영화의 정보를 찾고 평점을 줄 수 있는 웹사이트입니다.</div>
-          </div>
-        </div>
-        <div className="project" onClick={() => { handleChangePage('ulsan') }}>
-          <div className="page_img">
-            <img src="/assets/ulsan-tour.jpg" alt="울산 웹사이트 이미지" />
-            <span className="txt">울산 관광</span>
-            <div className="explain">기존의 울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형 웹사이트입니다. </div>
-          </div>
-        </div>
-        <div className="project" onClick={() => { handleChangePage('volvo') }}>
-          <div className="page_img">
-            <img src="/assets/volvo.jpg" alt="볼보 웹사이트 이미지" />
-            <span className="txt">Volvo</span>
-            <div className="explain">기존의 볼보자동차 웹사이트를 새롭게 디자인한 1440px 고정형 웹사이트입니다.</div>
-          </div>
-        </div>
-        <div className="project" onClick={() => { handleChangePage('bookstore') }}>
-          <div className="page_img">
-            <img
-              src="/assets/bookstore.jpg"
-              alt="교보문고 웹사이트 이미지"
-            />
-            <span className="txt">교보문고</span>
-            <div className="explain">교보문고 도서리스트 페이지를 반응형으로 제작한 웹페이지입니다.</div>
           </div>
         </div>
         <div className="project">
