@@ -91,7 +91,7 @@ const Windows = () => {
                 <h3 className="ex_title">윈도우 구현 기능</h3>
                 <div className="function_txt">
                     <div className="explain">
-                        <div>• 로그인 성공 시 바탕화면으로 이동되도록 구현</div>
+                        <div>• <span className="em">웹디자인/퍼블리싱</span> 관련 프로젝트를 인터넷 익스플로러 창에 추가 하였습니다.</div>
                         <div>• <span className="em">시작 메뉴</span> 클릭 시 내 컴퓨터, 메모장, 인터넷, 시스템 종료 등 항목에 접근 가능</div>
                         <div>• <span className="em">창</span>을 움직일 수 있고, 전체 화면 기능 구현</div>
                         <div>• <span className="em">메모장</span> 저장 기능 및 아이콘 추가 기능 구현</div>
