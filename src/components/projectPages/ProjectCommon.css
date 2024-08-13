@@ -469,7 +469,25 @@
   background-color: #edebe0;
 }
 /* 사용 언어 퍼센트 바 끝*/
-
+.components_wrap .to_project {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.components_wrap .to_project:hover .text {
+  text-decoration: underline;
+}
+.components_wrap .to_project a {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+}
+.components_wrap .to_project .text {
+  margin-right: 3px;
+}
+.components_wrap .to_project .arrow--right {
+  margin-right: -3px;
+}
 /* 767px 시작 */
 @media screen and (min-width: 767px) {
   .components_wrap .main .main_txt_wrap {

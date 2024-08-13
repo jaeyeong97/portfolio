@@ -175,6 +175,14 @@ const Windows = () => {
                         </div>
                     </div>
                 </div>
+                <div className="to_project">
+                    <a href="https://window-xp.netlify.app/" target="_blank" rel="noreferrer">
+                        <span className="text">프로젝트 보기</span>
+                        <span className="material-symbols-outlined arrow_forward arrow--right">
+                            arrow_forward
+                        </span>
+                    </a>
+                </div>
             </section>
             <PjFooter />
         </div>

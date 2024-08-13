@@ -148,6 +148,14 @@ const Gallery = () => {
             </div>
           </div>
         </div>
+        <div className="to_project">
+          <a href="https://jaeyeong97-3d-gallery-44701.web.app" target="_blank" rel="noreferrer">
+            <span className="text">프로젝트 보기</span>
+            <span className="material-symbols-outlined arrow_forward arrow--right">
+              arrow_forward
+            </span>
+          </a>
+        </div>
       </section>
       <PjFooter />
     </div>
