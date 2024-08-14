@@ -92,10 +92,10 @@ const Windows = () => {
                 <div className="function_txt">
                     <div className="explain">
                         <div>• <span className="em">시작 메뉴</span> 클릭 시 내 컴퓨터, 메모장, 인터넷, 시스템 종료 등 항목에 접근 가능</div>
-                        <div>• <span className="em">창</span>을 움직일 수 있고, 전체 화면 기능 구현</div>
-                        <div>• <span className="em">메모장</span> 저장 기능 및 아이콘 추가 기능 구현</div>
+                        <div>• <span className="em">창</span> 을 움직일 수 있고, 전체 화면 기능 구현</div>
+                        <div>• <span className="em">메모장</span> 저장 기능 구현</div>
                         <div>• 작업표시줄 <span className="em">현재 시간</span> 구현</div>
-                        <div>• 창을 여러개 띄울경우 z-index를 조정하여 <span className="em">선택한 창</span> 이 최상단에 보이도록 구현</div>
+                        <div>• 창을 여러개 띄울경우 z-index를 조정하여 <span className="em">선택한 창</span>이 최상단에 보이도록 구현</div>
                         <div>• <span className="em">컴퓨터 종료</span> 모달창을 제작하여 웹페이지를 닫을 수 있도록 구현</div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ const Windows = () => {
                 <div className="quiz_txt">
                     <div className="explain">
                         <div>• 퀴즈 게임 <span className="em">로그인/회원가입</span> 기능 구현 </div>
-                        <div>• 회원가입 데이터를 <span className="em">로컬스토리지</span> 에 저장하여 페이지를 껐다켜도 로그인 할 수 있도록 구현</div>
+                        <div>• 회원가입 데이터를 <span className="em">로컬스토리지</span> 에 저장하여 페이지를 껐다켜도 로그인 정보가 저장되도록 구현</div>
                         <div>• <span className="em">회원가입</span> 시 중복 아이디 체크 및 최소, 최대 입력 글자수 구현</div>
                         <div>• 퀴즈 게임 <span className="em">타이머</span> , <span className="em">결과창</span> , <span className="em">맞힌 개수</span> 등 퀴즈 게임에 필요한 다양한 로직 구현</div>
                     </div>
