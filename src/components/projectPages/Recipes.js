@@ -44,7 +44,7 @@ const Recipes = () => {
             <div className="main_txt">
               <h2 className="title">레시피 파인더</h2>
               <span className="t1">음성인식 기능이 탑재된 레시피 웹사이트</span>
-              <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
+              <span className="t2">사용 기술: JSX, Styled-Components, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/Recipes" target="_blank" rel="noreferrer">github.com/jaeyeong97/Recipes</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
@@ -76,7 +76,7 @@ const Recipes = () => {
         </div>
       </main>
       <section className="section_summary" id="section_start">
-        <h3 className="ex_title">개요</h3>
+        <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
             <div>• 사용자들에게 다양한 요리 <span className="em">레시피</span> 를 제공하는 웹사이트입니다.</div>
@@ -85,7 +85,7 @@ const Recipes = () => {
         </div>
       </section>
       <section className="section_function">
-        <h3 className="ex_title">구현기능</h3>
+        <h3 className="ex_title">💻구현기능</h3>
         <div className="function_txt">
           <div className="explain">
             <div>• react-speech-recognition 라이브러리를 통해 <span className="em">음성인식</span> 기능을 구현하였습니다.</div>
@@ -97,10 +97,10 @@ const Recipes = () => {
         </div>
       </section>
       <section className="section_bar">
-        <h3 className="ex_title">언어 사용 비율</h3>
+        <h3 className="ex_title">📊언어 사용 비율</h3>
         <div className="language_wrap">
           <div className="language">
-            <div className="txt_wrap ml">
+            <div className="txt_wrap">
               <div className="html_icon"></div>
               <div className="html txt">HTML</div>
             </div>

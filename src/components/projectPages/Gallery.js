@@ -42,7 +42,7 @@ const Gallery = () => {
             <div className="main_txt">
               <h2 className="title">전시회</h2>
               <span className="t1">입체적인 공간으로 구현한 전시회 웹사이트</span>
-              <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
+              <span className="t2">사용 기술: JSX, CSS, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/3d-gallery" target="_blank" rel="noreferrer">github.com/jaeyeong97/3d-gallery</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
@@ -74,7 +74,7 @@ const Gallery = () => {
         </div>
       </main>
       <section className="section_summary" id="section_start">
-        <h3 className="ex_title">개요</h3>
+        <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
             <div>• CSS 속성인 transform-style을 사용하여 <span className="em">입체적인 공간</span> 을 구현하였습니다.</div>
@@ -82,7 +82,7 @@ const Gallery = () => {
         </div>
       </section>
       <section className="section_out">
-        <h3 className="ex_title">구현 기능</h3>
+        <h3 className="ex_title">💻구현 기능</h3>
         <div className="out_txt">
           <div className="explain">
             <div>• <span className="em">문</span> 을 클릭하여 전시회 안팎을 드나들 수 있게 하였습니다.</div>
@@ -94,10 +94,10 @@ const Gallery = () => {
         </div>
       </section>
       <section className="section_bar">
-        <h3 className="ex_title">언어 사용 비율</h3>
+        <h3 className="ex_title">📊언어 사용 비율</h3>
         <div className="language_wrap">
           <div className="language">
-            <div className="txt_wrap ml">
+            <div className="txt_wrap">
               <div className="html_icon"></div>
               <div className="html txt">HTML</div>
             </div>

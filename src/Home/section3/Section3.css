@@ -32,9 +32,50 @@
   background-color: var(--text-color);
 }
 #section3 .projects_wrap {
-  display: flex;
-  flex-direction: column;
   width: 100%;
+}
+#section3 .projects_wrap .pj {
+  display: flex;
+  flex-wrap: wrap;
+}
+#section3 .projects_wrap .buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#section3 .projects_wrap .buttons button {
+  position: relative;
+  width: 100px;
+  height: 35px;
+  margin: 0 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  overflow: hidden;
+  color: var(--text-color);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#section3 .projects_wrap .buttons .clicked {
+  background-color: var(--accent-color);
+}
+#section3 .projects_wrap .buttons button .btn_wrap_first {
+  transition: 0.3s;
+}
+#section3 .projects_wrap .buttons button .btn_wrap_second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translateY(30px) translate(-50%, -50%);
+  transition: 0.3s;
+}
+#section3 .projects_wrap .buttons button:hover .btn_wrap_first {
+  transform: translateY(-30px);
+}
+#section3 .projects_wrap .buttons button:hover .btn_wrap_second {
+  transform: translateY(0) translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.4);
 }
 #section3 .projects_wrap .project {
   position: relative;
@@ -108,7 +149,7 @@
 }
 /* 600px 시작 */
 @media screen and (min-width: 600px) {
-  #section3 .projects_wrap {
+  #section3 .projects_wrap .pj {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -140,10 +181,13 @@
   #section3 .projects_wrap .project .page_img::after {
     font-size: 18px;
   }
+  #section3 .projects_wrap .buttons button {
+    font-size: 16px;
+  }
 }
 /* 1440px 시작 */
 @media screen and (min-width: 1440px) {
-  #section3 .projects_wrap {
+  #section3 .projects_wrap .pj {
     max-width: 1300px;
     margin: 0 auto;
   }

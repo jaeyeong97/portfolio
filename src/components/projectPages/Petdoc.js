@@ -69,7 +69,7 @@ const Petdoc = () => {
             <div className="main_txt">
               <h2 className="title">petdoc</h2>
               <span className="t1">반려 동물 병원 예약 웹사이트</span>
-              <span className="t2">사용 기술: HTML, CSS, JavaScript, React</span>
+              <span className="t2">사용 기술: JSX, CSS, JavaScript, React</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/petdoc" target="_blank" rel="noreferrer">github.com/jaeyeong97/petdoc</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
@@ -101,7 +101,7 @@ const Petdoc = () => {
         </div>
       </main>
       <section className="section_summary" id="section_start">
-        <h3 className="ex_title">개요</h3>
+        <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="loading_txt">
           <div className="explain">
             <div>• <span className="em">팀 프로젝트</span> &lt;프론트엔드 4명&gt;</div>
@@ -110,7 +110,7 @@ const Petdoc = () => {
         </div>
       </section>
       <section className="section_petdoc_explain1">
-        <h3 className="ex_title">내가 기여한 부분</h3>
+        <h3 className="ex_title">✨내가 기여한 부분</h3>
         <div className="img_wrap">
           <div className="w">
             <img src="/assets/petdoc_consult.gif" alt="펫닥 상담 페이지" />
@@ -235,10 +235,10 @@ const Petdoc = () => {
         </div>
       </section>
       <section className="section_bar">
-        <h3 className="ex_title">언어 사용 비율</h3>
+        <h3 className="ex_title">📊언어 사용 비율</h3>
         <div className="language_wrap">
           <div className="language">
-            <div className="txt_wrap ml">
+            <div className="txt_wrap">
               <div className="html_icon"></div>
               <div className="html txt">HTML</div>
             </div>

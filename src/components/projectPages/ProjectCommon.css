@@ -109,6 +109,127 @@
     width: 22.4%;
   }
 }
+@keyframes bbq_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 64.3%;
+  }
+}
+@keyframes bbq_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 31.6%;
+  }
+}
+@keyframes bbq_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 4.1%;
+  }
+}
+@keyframes movie_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0.8%;
+  }
+}
+@keyframes movie_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 12.4%;
+  }
+}
+@keyframes movie_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 86.8%;
+  }
+}
+@keyframes ulsan_tour_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55.8%;
+  }
+}
+@keyframes ulsan_tour_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40.2%;
+  }
+}
+@keyframes ulsan_tour_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 4%;
+  }
+}
+@keyframes volvo_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 72.1%;
+  }
+}
+@keyframes volvo_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 27.2%;
+  }
+}
+@keyframes volvo_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0.7%;
+  }
+}
+@keyframes bookstore_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 66.9%;
+  }
+}
+@keyframes bookstore_css_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25.8%;
+  }
+}
+@keyframes bookstore_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 7.3%;
+  }
+}
+
 .components_wrap {
   width: 100%;
   background-color: #00000d;
@@ -118,45 +239,41 @@
   position: relative;
   width: 100%;
 }
-.petdoc .main .main_img {
+.components_wrap .main .main_img {
   position: relative;
   width: 100%;
   height: 100vh;
   text-indent: -9999px;
-  background-image: url(../../../public/assets/petdoc-frame.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.petdoc .main .main_img {
+  background-image: url(../../../public/assets/petdoc-frame.png);
 }
 .recipes .main .main_img {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  text-indent: -9999px;
   background-image: url(../../../public/assets/recipe-frame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .gallery .main .main_img {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  text-indent: -9999px;
   background-image: url(../../../public/assets/gallery-frame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .windows .main .main_img {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  text-indent: -9999px;
   background-image: url(../../../public/assets/window-frame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+}
+.bbq .main .main_img {
+  background-image: url(../../../public/assets/bbq-frame.png);
+}
+.movie .main .main_img {
+  background-image: url(../../../public/assets/movie-frame.png);
+}
+.ulsan_tour .main .main_img {
+  background-image: url(../../../public/assets/ulsan-frame.png);
+}
+.volvo .main .main_img {
+  background-image: url(../../../public/assets/volvo-frame.png);
+}
+.bookstore .main .main_img {
+  background-image: url(../../../public/assets/bookstore-frame.png);
 }
 .components_wrap .main .main_img::after {
   position: absolute;
@@ -404,18 +521,11 @@
   padding: 5px 0;
 }
 .components_wrap .txt_wrap {
+  width: 40px;
   margin-right: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.components_wrap .txt_wrap.ml {
-  margin-left: -3.5px;
-  margin-right: 6px;
-}
-.components_wrap .txt_wrap.ml2 {
-  margin-left: -3px;
-  margin-right: 7.5px;
 }
 .components_wrap .html_icon {
   width: 30px;

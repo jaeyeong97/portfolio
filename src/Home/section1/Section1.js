@@ -14,7 +14,7 @@ const Section1 = () => {
           </div>
           <div className="line"></div>
           <div className="profile_txt">
-            <span>😃 이름: 장재영</span>
+            <span>😄 이름: 장재영</span>
             <span>📩 이메일: rkaakdbdb1822@naver.com</span>
             <span>📞 연락처: 010-9630-1822</span>
           </div>
