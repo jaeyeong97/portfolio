@@ -81,10 +81,9 @@ const Movie = () => {
             <section id="section_start">
                 <h3 className="ex_title">🏅프로젝트 개요</h3>
                 <div className="explain">
+                    <div>• 개인 프로젝트</div>
                     <div>• 2021년 ~ 2024년 흥행 한 영화의 정보를 확인 할 수 있는 웹사이트입니다.
                     </div>
-                    <div>• <span className="em">React</span> 개발</div>
-                    <div>• 개인 프로젝트</div>
                 </div>
             </section>
             <section>
