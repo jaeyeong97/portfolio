@@ -79,6 +79,7 @@ const Recipes = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
+            <div>• <span className="em">React</span> 개인 프로젝트</div>
             <div>• 사용자들에게 다양한 요리 <span className="em">레시피</span> 를 제공하는 웹사이트입니다.</div>
             <div>• 사용자가 원하는 레시피를 검색하고 확인할 수 있으며, <span className="em">음성인식</span> 기능을 통해 원하는 레시피를 찾을 수도 있습니다.</div>
           </div>

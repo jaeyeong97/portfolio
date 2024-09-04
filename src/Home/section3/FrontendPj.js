@@ -26,7 +26,7 @@ const FrontendPj = ({ handleChangePage }) => {
                 <div className="page_img">
                     <img src="/assets/movie.jpg" alt="영화 웹사이트 이미지" />
                     <span className="txt">go n play</span>
-                    <div className="explain">2021년 ~ 2024년도 영화의 정보를 확인 할 수 있는 웹사이트입니다.
+                    <div className="explain">최신 영화, 시리즈 정보를 확인 할 수 있는 OTT 웹사이트입니다.
                     </div>
                 </div>
             </div>

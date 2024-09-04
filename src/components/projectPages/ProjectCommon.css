@@ -138,7 +138,7 @@
     width: 0%;
   }
   100% {
-    width: 0.8%;
+    width: 1.2%;
   }
 }
 @keyframes movie_css_percent {
@@ -146,7 +146,7 @@
     width: 0%;
   }
   100% {
-    width: 12.4%;
+    width: 19.9%;
   }
 }
 @keyframes movie_js_percent {
@@ -154,7 +154,7 @@
     width: 0%;
   }
   100% {
-    width: 86.8%;
+    width: 77.7%;
   }
 }
 @keyframes ulsan_tour_html_percent {
