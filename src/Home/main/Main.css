@@ -67,7 +67,6 @@
 }
 #main .main_wrap .main_txt .t2 {
   display: inline-block;
-  margin-top: 10px;
 }
 #main .main_wrap .main_txt .t4 {
   margin-top: 50px;
@@ -101,9 +100,6 @@
   }
   #main .main_wrap .main_txt {
     padding: 0 var(--outline-padding-pc);
-  }
-  #main .main_wrap .main_txt .t2 {
-    margin-top: 15px;
   }
   #main .main_wrap .main_txt span {
     font-size: 40px;

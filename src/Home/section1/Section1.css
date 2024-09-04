@@ -79,11 +79,11 @@
 #section1 .s1_middle_wrap .s1_text_zone .text {
   display: flex;
   flex-direction: column;
+  color: var(--text-color);
 }
 #section1 .s1_middle_wrap .s1_text_zone .text span {
   line-height: 2em;
   font-size: 14px;
-  color: var(--text-color);
 }
 #section1 .s1_middle_wrap .s1_text_zone .text .accent {
   color: var(--accent-color);

@@ -22,12 +22,9 @@ const Section1 = () => {
         <div className="s1_text_zone">
           <div className="text">
             <span>안녕하세요!</span>
-            <div>
-              <span className="accent">프론트엔드 개발자 장재영</span>
-              <span>입니다.</span>
-            </div>
             <span>저는 프론트엔드 개발자 트렌드에 맞게 꾸준히 학습하고 성장하고 있습니다.</span>
-            <span>저의 열정과 역량을 통해 회사의 발전에 기여하는 프론트엔드 개발자가 되겠습니다!</span>
+            <span>제가 가진 지식과 역량을 바탕으로 다양한 프로젝트들을 만들어 보았습니다.</span>
+            <span>관심있게 봐주시면 감사하겠습니다!</span>
           </div>
         </div>
       </div>
