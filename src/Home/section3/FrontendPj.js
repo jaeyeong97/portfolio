@@ -15,19 +15,19 @@ const FrontendPj = ({ handleChangePage }) => {
                     <div className="explain">음성인식 기능을 활용하여 요리의 레시피를 확인 할 수 있는 웹사이트입니다.</div>
                 </div>
             </div>
-            <div className="project" onClick={() => { handleChangePage('petdoc') }}>
-                <div className="page_img">
-                    <img src="/assets/petdoc.jpg" alt="펫닥 웹사이트 이미지" />
-                    <span className="txt">petdoc</span>
-                    <div className="explain">반려동물을 추가하여 사용자의 반려동물 정보를 기반으로 동물병원에 손쉽게 예약할 수 있는  웹사이트입니다.</div>
-                </div>
-            </div>
             <div className="project" onClick={() => { handleChangePage('movie') }}>
                 <div className="page_img">
                     <img src="/assets/movie.jpg" alt="영화 웹사이트 이미지" />
                     <span className="txt">go n play</span>
                     <div className="explain">최신 영화, 시리즈 정보를 확인 할 수 있는 OTT 웹사이트입니다.
                     </div>
+                </div>
+            </div>
+            <div className="project" onClick={() => { handleChangePage('petdoc') }}>
+                <div className="page_img">
+                    <img src="/assets/petdoc.jpg" alt="펫닥 웹사이트 이미지" />
+                    <span className="txt">petdoc</span>
+                    <div className="explain">반려동물을 추가하여 사용자의 반려동물 정보를 기반으로 동물병원에 손쉽게 예약할 수 있는  웹사이트입니다.</div>
                 </div>
             </div>
         </div>
