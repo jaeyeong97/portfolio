@@ -10,9 +10,6 @@ const Windows = () => {
     const [toggle1, setToggle1] = useState(false);
     const [toggle2, setToggle2] = useState(false);
     const [toggle3, setToggle3] = useState(false);
-    const [toggle4, setToggle4] = useState(false);
-    const [toggle5, setToggle5] = useState(false);
-    const [toggle6, setToggle6] = useState(false);
 
     const handleToggle = (toggleSet) => {
         toggleSet((prev) => !prev);
@@ -91,7 +88,7 @@ const Windows = () => {
             <section id="section_start">
                 <h3 className="ex_title">🏅프로젝트 개요</h3>
                 <div className="explain">
-                    <div>• 더이상 찾아보기 힘든 <span className="em">윈도우 XP</span> 를 다시 경험할 수 있게 구현한 웹사이트입니다.</div>
+                    <div>• <span className="em">윈도우 XP</span> 를 다시 경험할 수 있게 구현한 웹사이트입니다.</div>
                     <div>• <span className="em">SCSS</span> 를 사용하여 스타일링 하였습니다.</div>
                 </div>
             </section>

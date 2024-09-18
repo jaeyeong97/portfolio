@@ -434,7 +434,7 @@
 .components_wrap section .img_wrap {
   display: flex;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   flex-direction: column;
   align-items: center;
@@ -486,10 +486,13 @@
 .components_wrap .img_wrap .ani_wrap .mb {
   margin-bottom: 40px;
 }
+.components_wrap .img_wrap .ani_wrap .window_img {
+  margin-bottom: 20px;
+}
 .components_wrap .img_wrap span {
   font-size: 12px;
   line-height: 2em;
-  color: #ffffffab;
+  color: #cecece;
 }
 .components_wrap .img_wrap img {
   width: 100%;
