@@ -431,11 +431,11 @@
   border-radius: 3px;
   padding: 2px 5px;
 }
-.components_wrap .img_wrap {
+.components_wrap section .img_wrap {
   display: flex;
   width: 100%;
-  max-width: 800px;
-  margin: 20px auto;
+  max-width: 600px;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
@@ -446,6 +446,7 @@
   border: 1px solid var(--text-color);
   transition: 0.3s;
 }
+
 /* 추가 설명 토글 부분 */
 .components_wrap .explain .span_wrap {
   display: flex;
@@ -467,26 +468,32 @@
 }
 .components_wrap .img_wrap .ani_wrap {
   max-width: 800px;
-  margin-left: 30px;
-  transition: 0.3s;
 }
 .components_wrap .img_wrap.hide .ani_wrap {
-  height: 0;
-  transform: translateY(-100%);
+  display: none;
 }
 .components_wrap .img_wrap.show .ani_wrap {
-  height: auto;
-  transform: translateY(0);
+  display: block;
 }
 .components_wrap .img_wrap .ani_wrap span {
   display: block;
   font-size: 14px;
-  margin-bottom: 20px;
+  line-height: 1.6em;
+  text-indent: -10px;
+  padding-left: 10px;
+  white-space: normal;
+}
+.components_wrap .img_wrap .ani_wrap .mb {
+  margin-bottom: 40px;
 }
 .components_wrap .img_wrap span {
   font-size: 12px;
   line-height: 2em;
   color: #ffffffab;
+}
+.components_wrap .img_wrap img {
+  width: 100%;
+  height: auto;
 }
 /* 추가 설명 토글 부분 끝*/
 /* petdoc */
@@ -660,8 +667,12 @@
     margin: 20px 0;
   }
   /* 공통 끝*/
+  .components_wrap .img_wrap .ani_wrap .mb {
+    margin-bottom: 60px;
+  }
   .components_wrap .img_wrap .ani_wrap span {
     font-size: 16px;
+    line-height: 1.4em;
   }
   .components_wrap .img_wrap .ani_wrap h3 {
     font-size: 18px;

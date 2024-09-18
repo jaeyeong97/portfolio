@@ -13,24 +13,9 @@ const Petdoc = () => {
   const [toggle5, setToggle5] = useState(false); // 즐겨찾기 페이지 토글
   const [toggle6, setToggle6] = useState(false); // 지도 페이지 토글
 
-  const handleClick1 = () => {
-    setToggle1(!toggle1);
-  }
-  const handleClick2 = () => {
-    setToggle2(!toggle2);
-  }
-  const handleClick3 = () => {
-    setToggle3(!toggle3);
-  }
-  const handleClick4 = () => {
-    setToggle4(!toggle4);
-  }
-  const handleClick5 = () => {
-    setToggle5(!toggle5);
-  }
-  const handleClick6 = () => {
-    setToggle6(!toggle6);
-  }
+  const handleToggle = (toggleSet) => {
+    toggleSet((prev) => !prev);
+  };
 
   useEffect(() => {
     // 페이지 이동 후 스크롤을 최상단으로
@@ -127,7 +112,7 @@ const Petdoc = () => {
         </div>
         <div className="explain1_txt">
           <div className="explain">
-            <div className="span_wrap" onClick={handleClick1}>
+            <div className="span_wrap" onClick={() => handleToggle(setToggle1)}>
               <span className={`material-symbols-outlined arrow ${toggle1 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
@@ -146,7 +131,7 @@ const Petdoc = () => {
                   하다는 점을 깨달았습니다.</span>
               </div>
             </div>
-            <div className="span_wrap" onClick={handleClick2}>
+            <div className="span_wrap" onClick={() => handleToggle(setToggle2)}>
               <span className={`material-symbols-outlined arrow ${toggle2 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
@@ -154,11 +139,11 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle2 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <span>- setTimeout 함수를 사용해 2초동안 로딩페이지가 출력되게 하였습니다.</span>
                 <img src="/assets/loading_code.png" alt="로딩 코드" />
+                <span>- setTimeout 함수를 사용해 2초동안 로딩페이지가 출력되게 하였습니다.</span>
               </div>
             </div>
-            <div className="span_wrap" onClick={handleClick3}>
+            <div className="span_wrap" onClick={() => handleToggle(setToggle3)}>
               <span className={`material-symbols-outlined arrow ${toggle3 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
@@ -190,7 +175,7 @@ const Petdoc = () => {
         </div>
         <div className="explain1_txt">
           <div className="explain">
-            <div className="span_wrap" onClick={handleClick4}>
+            <div className="span_wrap" onClick={() => handleToggle(setToggle4)}>
               <span className={`material-symbols-outlined arrow ${toggle4 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
@@ -203,7 +188,7 @@ const Petdoc = () => {
                 <span>- 사용자는 반려동물의 종, 이름, 성별, 생일, 몸무게, 질병 정보 등을 입력하고 이미지를 업로드할 수 있습니다.</span>
               </div>
             </div>
-            <div className="span_wrap" onClick={handleClick5}>
+            <div className="span_wrap" onClick={() => handleToggle(setToggle5)}>
               <span className={`material-symbols-outlined arrow ${toggle5 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
@@ -211,14 +196,14 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle5 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
+                <img src="/assets/bookmark_code.png" alt="북마크 코드" />
                 <span>- 병원을 즐겨찾기 할 수 있는 기능을 구현하였습니다.</span>
                 <span>- 사용자는 병원 목록에서 원하는 병원을 즐겨찾기하여 저장할 수 있습니다.</span>
                 <span>- 이미 즐겨찾기 된 병원을 다시 클릭하면 즐겨찾기가 해제됩니다.</span>
                 <span>- 즐겨찾기 상태를 로컬 스토리지에 저장하여 페이지가 새로고침 되어도 유지되게 하였습니다.</span>
-                <img src="/assets/bookmark_code.png" alt="북마크 코드" />
               </div>
             </div>
-            <div className="span_wrap" onClick={handleClick6}>
+            <div className="span_wrap" onClick={() => handleToggle(setToggle6)}>
               <span className={`material-symbols-outlined arrow ${toggle6 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
@@ -230,7 +215,6 @@ const Petdoc = () => {
                 <span>- 사용자는 지도 상에서 병원을 확인하고 선택하면 해당 병원의 상세 정보를 보여주는 기능을 제공합니다.</span>
               </div>
             </div>
-            <span></span>
           </div>
         </div>
       </section>

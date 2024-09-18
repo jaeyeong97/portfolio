@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import PjHeader from "../projectHeader/PjHeader";
 import PjFooter from "../projectFooter/PjFooter";
 import '../projectPages/ProjectCommon.css'
@@ -7,6 +7,16 @@ import sr from "../../util/ScrollReveal";
 import AnimatedCountUp from "../../util/AnimatedCountUp";
 
 const Windows = () => {
+    const [toggle1, setToggle1] = useState(false);
+    const [toggle2, setToggle2] = useState(false);
+    const [toggle3, setToggle3] = useState(false);
+    const [toggle4, setToggle4] = useState(false);
+    const [toggle5, setToggle5] = useState(false);
+    const [toggle6, setToggle6] = useState(false);
+
+    const handleToggle = (toggleSet) => {
+        toggleSet((prev) => !prev);
+    };
 
     useEffect(() => {
         // 페이지 이동 후 스크롤을 최상단으로
@@ -88,30 +98,76 @@ const Windows = () => {
             <section>
                 <h3 className="ex_title">💻구현 기능</h3>
                 <div className="explain">
-                    <div>• 시작 메뉴 클릭 시 내 컴퓨터, 메모장, 인터넷, 시스템 종료 등 항목에 접근 가능</div>
-                    <div>• <span className="em">창</span> 을 움직일 수 있고, 전체 화면 기능 구현</div>
-                    <div>• <span className="em">메모장</span> 저장 기능 구현</div>
-                    <div>• 작업표시줄 현재 시간 구현</div>
-                    <div>• 창을 여러개 띄울경우 z-index를 조정하여 <span className="em">선택한 창</span>이 최상단에 보이도록 구현</div>
-                    <div>• <span className="em">컴퓨터 종료</span> 모달창을 제작하여 웹페이지를 닫을 수 있도록 구현</div>
+                    <div className="span_wrap" onClick={() => handleToggle(setToggle1)}>
+                        <span className={`material-symbols-outlined arrow ${toggle1 ? 'rotate' : ''}`}>
+                            arrow_right
+                        </span>
+                        <span>윈도우</span>
+                    </div>
+                    <div className={`img_wrap ${toggle1 ? 'show' : 'hide'}`}>
+                        <div className="ani_wrap">
+                            <div className="mb">
+                                <img className="window_img" src="../assets/full-screen.gif" alt="full-screen" />
+                                <span>- mousedown, mousemove, mouseup 이벤트 핸들러를 사용해 창을 이동시킬 수 있게 하였습니다.</span>
+                                <span>- 창의 전체 화면 기능을 구현하였습니다.</span>
+                            </div>
+                            <div className="mb">
+                                <img className="window_img" src="../assets/memo-logic.gif" alt="full-screen" />
+                                <span>- DOM 조작 메서드 createElement, textContent, appendChild 등을 사용해 메모장 저장 기능을 구현하였습니다.</span>
+                                <span>- 메모장 저장시 바탕화면에 새로운 아이콘이 생성되게 하였습니다.</span>
+                            </div>
+                            <div className="mb">
+                                <img className="window_img" src="../assets/z-index.gif" alt="full-screen" />
+                                <span>- 창을 여러개 띄울경우 각 창의 z-index를 조정하여 선택한 창이 최상단에 보이도록 구현하였습니다.</span>
+                            </div>
+                            <span>- 시작 메뉴 클릭 시 내 컴퓨터, 메모장, 인터넷, 시스템 종료 등 항목에 접근 가능</span>
+                            <span>- 작업표시줄 현재 시간 구현</span>
+                            <span>- 컴퓨터 종료 모달창을 제작하여 웹페이지를 닫을 수 있도록 구현</span>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section>
-                <h3 className="ex_title">🫲가위바위보 게임 구현 기능</h3>
                 <div className="explain">
-                    <div>• 0.1초마다 가위바위보 이미지가 랜덤 상하좌우 ±15px 위치로 이동되게 구현</div>
-                    <div>• 서로 다른 가위바위보 이미지 위치 겹칠시 승리한 이미지로 변경</div>
-                    <div>• 하나의 가위바위보 이미지만 남은 경우 게임 종료</div>
-                    <div>• 게임 결과 창에서 <span className="em">승리</span> , <span className="em">패배</span> 확인 기능</div>
+                    <div className="span_wrap" onClick={() => handleToggle(setToggle2)}>
+                        <span className={`material-symbols-outlined arrow ${toggle2 ? 'rotate' : ''}`}>
+                            arrow_right
+                        </span>
+                        <span>가위바위보 게임</span>
+                    </div>
+                    <div className={`img_wrap ${toggle2 ? 'show' : 'hide'}`}>
+                        <div className="ani_wrap">
+                            <div className="mb">
+                                <img className="window_img" src="../assets/rsp-game-logic.gif" alt="full-screen" />
+                                <span>- 가위, 바위, 보중에 하나를 선택하여 끝까지 생존해야 승리하는 게임입니다.</span>
+                                <span>- 가위바위보 이미지의 위치가 겹칠시 승패를 판단해 이미지가 변경되게 하였습니다.</span>
+                            </div>
+                            <img className="window_img" src="../assets/rsp-game-result-logic.png" alt="full-screen" />
+                            <span>- 내가 선택한 팀의 승패 유무를 확인 할 수 있습니다.</span>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section>
-                <h3 className="ex_title">🏆퀴즈 게임 구현 기능</h3>
                 <div className="explain">
-                    <div>• 퀴즈 게임 <span className="em">로그인/회원가입</span> 기능 구현 </div>
-                    <div>• 회원가입 데이터를 <span className="em">로컬스토리지</span> 에 저장하여 페이지를 껐다켜도 로그인 정보가 저장되도록 구현</div>
-                    <div>• <span className="em">회원가입</span> 시 중복 아이디 체크 및 최소, 최대 입력 글자수 구현</div>
-                    <div>• 퀴즈 게임 <span className="em">타이머</span> , <span className="em">결과창</span> , <span className="em">맞힌 개수</span> 등 퀴즈 게임에 필요한 다양한 로직 구현</div>
+                    <div className="span_wrap" onClick={() => handleToggle(setToggle3)}>
+                        <span className={`material-symbols-outlined arrow ${toggle3 ? 'rotate' : ''}`}>
+                            arrow_right
+                        </span>
+                        <span>퀴즈 게임</span>
+                    </div>
+                    <div className={`img_wrap ${toggle3 ? 'show' : 'hide'}`}>
+                        <div className="ani_wrap">
+                            <div className="mb">
+                                <img className="window_img" src="../assets/quiz-login-logic1.gif" alt="full-screen" />
+                                <span>- 로그인/회원가입 기능을 구현하였습니다.</span>
+                                <span>- 회원가입시 중복 아이디 체크 및 최소, 최대 입력 글자수 구현</span>
+                                <span>- 회원가입 데이터를 로컬스토리지에 저장하여 페이지를 껐다켜도 로그인 정보가 저장되도록 구현하였습니다.</span>
+                            </div>
+                            <div className="mb">
+                                <img className="window_img" src="../assets/quiz-answer-logic.gif" alt="full-screen" />
+                                <span>- 퀴즈 게임 타이머, 결과창, 맞힌 개수 등 퀴즈 게임에 필요한 다양한 기능을 구현하였습니다.</span>
+                            </div>
+                            <img className="window_img" src="../assets/quiz-result-logic.png" alt="full-screen" />
+                            <span>- 게임 결과를 확인할 수 있습니다.</span>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section className="section_bar">
