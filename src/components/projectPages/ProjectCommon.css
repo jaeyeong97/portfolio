@@ -427,9 +427,10 @@
   margin: 10px 0;
 }
 .components_wrap .explain .em {
-  background-color: #148370;
+  font-size: 14px;
+  padding: 1px 5px;
   border-radius: 3px;
-  padding: 2px 5px;
+  background-color: #148370;
 }
 .components_wrap section .img_wrap {
   display: flex;
@@ -630,6 +631,9 @@
   .components_wrap .img_wrap span {
     font-size: 14px;
     margin-top: 5px;
+  }
+  .components_wrap .explain .em {
+    font-size: 16px;
   }
 }
 /* 1024px 시작 */

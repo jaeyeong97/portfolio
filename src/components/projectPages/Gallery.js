@@ -77,7 +77,7 @@ const Gallery = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• CSS 속성인 transform-style을 사용하여 <span className="em">입체적인 공간</span> 을 구현하였습니다.</div>
+            <div>• CSS 속성인 <span className="em">transform-style</span>, <span className="em">perspective</span> 를 사용하여 입체적인 공간을 구현하였습니다.</div>
           </div>
         </div>
       </section>

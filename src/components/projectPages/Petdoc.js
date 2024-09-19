@@ -90,7 +90,7 @@ const Petdoc = () => {
         <div className="loading_txt">
           <div className="explain">
             <div>• <span className="em">React</span> 팀 프로젝트 &lt;프론트엔드 4명&gt;</div>
-            <div>• <span className="em">반려동물 병원 예약</span> 웹사이트로써, 반려동물 소유자들이 편리하게 병원 진료 예약 및 반려동물의 건강 기록을 관리할 수 있는 플랫폼입니다.</div>
+            <div>• 반려동물 진료 예약 및 건강 상태를 기록할 수 있는 웹사이트입니다.</div>
           </div>
         </div>
       </section>
