@@ -90,7 +90,7 @@ const Petdoc = () => {
         <div className="loading_txt">
           <div className="explain">
             <div>• <span className="em">React</span> 팀 프로젝트 &lt;프론트엔드 4명&gt;</div>
-            <div>• 반려동물 진료 예약 및 건강 상태를 기록할 수 있는 웹사이트입니다.</div>
+            <div>• 반려동물 진료 예약 및 건강 상태를 기록할 수 있는 웹사이트</div>
           </div>
         </div>
       </section>
@@ -120,15 +120,15 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle1 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <span className="ani_title">- 각 버튼 클릭시 주제에 맞는 답변이 나오게 구현하였습니다.</span>
+                <div className="s_text">- 각 버튼 클릭시 주제에 맞는 답변이 나오게 구현</div>
                 <h3>🚨문제점</h3>
-                <span>- 상담 채팅 기록을 관리하는 함수에서 무한루프가 되는 오류 발생</span>
+                <div className="s_text">- 상담 채팅 기록을 관리하는 함수에서 무한루프가 되는 오류 발생</div>
                 <h3>🎯해결 방법</h3>
-                <span>- useEffect 훅을 사용하여, 의존성 배열에 상담버튼을 관리하는 상태변수를 넣어서 버튼
-                  의 상태가 변경될 때마다 채팅 기록이 업데이트되게 하였습니다.</span>
+                <div className="s_text">- <span className="cem">useEffect</span> 훅을 사용하여, 의존성 배열에 상담버튼을 관리하는 상태변수를 넣어서 버튼
+                  의 상태가 변경될 때마다 채팅 기록이 업데이트되게 변경</div>
                 <h3>✨결과 및 알게된 점</h3>
-                <span>- useEffect의 의존성 배열을 올바르게 설정하는 것이 무한루프 오류를 방지하는데 중요
-                  하다는 점을 깨달았습니다.</span>
+                <div className="s_text">- <span className="cem">useEffect</span>의 의존성 배열을 올바르게 설정하는 것이 무한루프 오류를 방지하는데 중요
+                  하다는 점을 깨달았습니다.</div>
               </div>
             </div>
             <div className="span_wrap" onClick={() => handleToggle(setToggle2)}>
@@ -140,7 +140,7 @@ const Petdoc = () => {
             <div className={`img_wrap ${toggle2 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
                 <img src="/assets/loading_code.png" alt="로딩 코드" />
-                <span>- setTimeout 함수를 사용해 2초동안 로딩페이지가 출력되게 하였습니다.</span>
+                <div className="s_text">- <span className="cem">setTimeout</span> 함수를 사용해 2초동안 로딩페이지가 출력되게 구현</div>
               </div>
             </div>
             <div className="span_wrap" onClick={() => handleToggle(setToggle3)}>
@@ -151,8 +151,7 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle3 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <span>- 병원 목록에서 검색 기능을 구현하였습니다.</span>
-                <span>- filter 메서드를 활용하여 사용자가 입력한 검색어에 따라 병원 목록을 필터링하도록 구현하였습니다.</span>
+                <div className="s_text">- <span className="cem">filter</span> 메서드를 활용해 사용자가 입력한 검색어에 따라 병원 목록을 필터링</div>
               </div>
             </div>
           </div>
@@ -183,9 +182,8 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle4 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <span>- 반려동물을 추가하고 수정할 수 있는 페이지를 개발하였습니다.</span>
-                <span>- 또한 등록된 반려동물 정보를 수정할 수도 있습니다.</span>
-                <span>- 사용자는 반려동물의 종, 이름, 성별, 생일, 몸무게, 질병 정보 등을 입력하고 이미지를 업로드할 수 있습니다.</span>
+                <div className="s_text">- 반려동물 정보를 추가하고 수정할 수 있는 기능 구현</div>
+                <div className="s_text">- 이미지 업로드 기능 구현</div>
               </div>
             </div>
             <div className="span_wrap" onClick={() => handleToggle(setToggle5)}>
@@ -197,10 +195,9 @@ const Petdoc = () => {
             <div className={`img_wrap ${toggle5 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
                 <img src="/assets/bookmark_code.png" alt="북마크 코드" />
-                <span>- 병원을 즐겨찾기 할 수 있는 기능을 구현하였습니다.</span>
-                <span>- 사용자는 병원 목록에서 원하는 병원을 즐겨찾기하여 저장할 수 있습니다.</span>
-                <span>- 이미 즐겨찾기 된 병원을 다시 클릭하면 즐겨찾기가 해제됩니다.</span>
-                <span>- 즐겨찾기 상태를 로컬 스토리지에 저장하여 페이지가 새로고침 되어도 유지되게 하였습니다.</span>
+                <div className="s_text">- 병원을 즐겨찾기 할 수 있는 기능을 구현</div>
+                <div className="s_text">- 즐겨찾기한 병원 배열을 즐겨찾기 페이지로 전달</div>
+                <div className="s_text">- 즐겨찾기 배열을 로컬 스토리지에 저장</div>
               </div>
             </div>
             <div className="span_wrap" onClick={() => handleToggle(setToggle6)}>
@@ -211,8 +208,8 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle6 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <span>- Naver 지도 API를 활용하여 반려동물 병원의 위치를 지도에 마커로 표시하는 기능을 구현했습니다.</span>
-                <span>- 사용자는 지도 상에서 병원을 확인하고 선택하면 해당 병원의 상세 정보를 보여주는 기능을 제공합니다.</span>
+                <div className="s_text">- Naver Map API를 활용해 지도상에 병원 위치를 마커로 표시</div>
+                <div className="s_text">- 마커 클릭 시 해당 병원의 상세정보를 모달창을 통해 확인 가능</div>
               </div>
             </div>
           </div>

@@ -12,14 +12,14 @@ const PublishingPj = ({ handleChangePage }) => {
                 <div className="page_img">
                     <img src="/assets/ulsan-tour.jpg" alt="울산관광 웹사이트 이미지" />
                     <span className="txt">울산관광</span>
-                    <div className="explain">기존의 울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형 웹페이지입니다.
+                    <div className="explain">기존의 울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형 웹사이트입니다.
                     </div>
                 </div>
             </div>
             <div className="project" onClick={() => { handleChangePage('volvo') }}>
                 <div className="page_img">
                     <img src="/assets/volvo.jpg" alt="volvo 웹사이트 이미지" />
-                    <span className="txt">volvo</span>
+                    <span className="txt">VOLVO</span>
                     <div className="explain">기존의 볼보자동차 웹사이트를 새롭게 디자인한 1440px 고정형 웹사이트입니다.
                     </div>
                 </div>

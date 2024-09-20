@@ -81,7 +81,7 @@ const Bbq = () => {
             <section id="section_start">
                 <h3 className="ex_title">🏅프로젝트 개요</h3>
                 <div className="explain">
-                    <div>• 기존의 BBQ 웹사이트를 새롭게 디자인한 반응형 웹사이트입니다.</div>
+                    <div>• 기존의 BBQ 웹사이트를 새롭게 디자인한 <span className="em">반응형</span> 웹사이트</div>
                     <div>• 메인페이지, 메뉴페이지 제작</div>
                     <div>• 개인 프로젝트</div>
                 </div>

@@ -428,7 +428,7 @@
 }
 .components_wrap .explain .em {
   font-size: 14px;
-  padding: 1px 5px;
+  padding: 2px 5px;
   border-radius: 3px;
   background-color: #148370;
 }
@@ -476,24 +476,25 @@
 .components_wrap .img_wrap.show .ani_wrap {
   display: block;
 }
-.components_wrap .img_wrap .ani_wrap span {
-  display: block;
+.components_wrap .img_wrap .ani_wrap .s_text {
   font-size: 14px;
   line-height: 1.6em;
   text-indent: -10px;
   padding-left: 10px;
   white-space: normal;
+  /* color: #cecece; */
+}
+.components_wrap .img_wrap .ani_wrap .s_text .cem {
+  font-size: 14px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background-color: #424242;
 }
 .components_wrap .img_wrap .ani_wrap .mb {
   margin-bottom: 40px;
 }
 .components_wrap .img_wrap .ani_wrap .window_img {
   margin-bottom: 20px;
-}
-.components_wrap .img_wrap span {
-  font-size: 12px;
-  line-height: 2em;
-  color: #cecece;
 }
 .components_wrap .img_wrap img {
   width: 100%;
@@ -507,6 +508,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.components_wrap .img_wrap .ani_wrap h3 {
+  line-height: 1em;
+  margin-top: 35px;
+}
 .petdoc .section_petdoc_explain1 .img_wrap .w,
 .petdoc .section_petdoc_explain2 .img_wrap .w {
   width: calc(33.33% - 15px);
@@ -518,6 +523,10 @@
 .petdoc .section_petdoc_explain1 .img_wrap img,
 .petdoc .section_petdoc_explain2 .img_wrap img {
   border: none;
+}
+.petdoc .section_petdoc_explain1 .img_wrap .w span,
+.petdoc .section_petdoc_explain2 .img_wrap .w span {
+  margin-top: 5px;
 }
 /* petdoc 끝 */
 
@@ -677,12 +686,9 @@
   .components_wrap .img_wrap .ani_wrap .mb {
     margin-bottom: 60px;
   }
-  .components_wrap .img_wrap .ani_wrap span {
+  .components_wrap .img_wrap .ani_wrap .s_text {
     font-size: 16px;
     line-height: 1.4em;
-  }
-  .components_wrap .img_wrap .ani_wrap h3 {
-    font-size: 18px;
   }
   /* petdoc */
   .petdoc .section_petdoc_explain1 .img_wrap,

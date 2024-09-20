@@ -88,8 +88,8 @@ const Windows = () => {
             <section id="section_start">
                 <h3 className="ex_title">🏅프로젝트 개요</h3>
                 <div className="explain">
-                    <div>• <span className="em">윈도우 XP</span> 를 다시 경험할 수 있게 구현한 웹사이트입니다.</div>
-                    <div>• <span className="em">SCSS</span> 를 사용하여 스타일링 하였습니다.</div>
+                    <div>• <span className="em">윈도우 XP</span> 를 재구현한 웹사이트</div>
+                    <div>• <span className="em">SCSS</span> 사용</div>
                 </div>
             </section>
             <section>
@@ -105,21 +105,18 @@ const Windows = () => {
                         <div className="ani_wrap">
                             <div className="mb">
                                 <img className="window_img" src="../assets/full-screen.gif" alt="full-screen" />
-                                <span>- mousedown, mousemove, mouseup 이벤트 핸들러를 사용해 창을 이동시킬 수 있게 하였습니다.</span>
-                                <span>- 창의 전체 화면 기능을 구현하였습니다.</span>
+                                <div className="s_text">- <span className="cem">mousedown</span>, <span className="cem">mousemove</span>, <span className="cem">mouseup</span> 이벤트 핸들러를 활용해 창을 이동시킬 수 있게 구현</div>
+                                <div className="s_text">- 창 전체 화면 기능 구현</div>
                             </div>
                             <div className="mb">
                                 <img className="window_img" src="../assets/memo-logic.gif" alt="full-screen" />
-                                <span>- DOM 조작 메서드 createElement, textContent, appendChild 등을 사용해 메모장 저장 기능을 구현하였습니다.</span>
-                                <span>- 메모장 저장시 바탕화면에 새로운 아이콘이 생성되게 하였습니다.</span>
+                                <div className="s_text">- DOM 조작 메서드 <span className="cem">createElement</span>, <span className="cem">textContent</span>, <span className="cem">appendChild</span>를 활용해 메모장 저장 기능 구현</div>
+                                <div className="s_text">- 메모장 저장시 새로운 아이콘 생성</div>
                             </div>
                             <div className="mb">
                                 <img className="window_img" src="../assets/z-index.gif" alt="full-screen" />
-                                <span>- 창을 여러개 띄울경우 각 창의 z-index를 조정하여 선택한 창이 최상단에 보이도록 구현하였습니다.</span>
+                                <div className="s_text">- 창의 <span className="cem">z-index</span>를 조정하여 클릭한 창이 최상단에 보이도록 구현</div>
                             </div>
-                            <span>- 시작 메뉴 클릭 시 내 컴퓨터, 메모장, 인터넷, 시스템 종료 등 항목에 접근 가능</span>
-                            <span>- 작업표시줄 현재 시간 구현</span>
-                            <span>- 컴퓨터 종료 모달창을 제작하여 웹페이지를 닫을 수 있도록 구현</span>
                         </div>
                     </div>
                 </div>
@@ -134,11 +131,12 @@ const Windows = () => {
                         <div className="ani_wrap">
                             <div className="mb">
                                 <img className="window_img" src="../assets/rsp-game-logic.gif" alt="full-screen" />
-                                <span>- 가위, 바위, 보중에 하나를 선택하여 끝까지 생존해야 승리하는 게임입니다.</span>
-                                <span>- 가위바위보 이미지의 위치가 겹칠시 승패를 판단해 이미지가 변경되게 하였습니다.</span>
+                                <div className="s_text">- 가위, 바위, 보중에 하나를 선택하여 마지막에 남는 팀이 이기는 게임</div>
+                                <div className="s_text">- 이미지 위치는 100ms 마다 랜덤값으로 변경</div>
+                                <div className="s_text">- 가위바위보 이미지 offset 값을 활용해 겹칠시 이미지 변경</div>
                             </div>
                             <img className="window_img" src="../assets/rsp-game-result-logic.png" alt="full-screen" />
-                            <span>- 내가 선택한 팀의 승패 유무를 확인 할 수 있습니다.</span>
+                            <div className="s_text">- 게임 결과 확인창</div>
                         </div>
                     </div>
                 </div>
@@ -153,16 +151,16 @@ const Windows = () => {
                         <div className="ani_wrap">
                             <div className="mb">
                                 <img className="window_img" src="../assets/quiz-login-logic1.gif" alt="full-screen" />
-                                <span>- 로그인/회원가입 기능을 구현하였습니다.</span>
-                                <span>- 회원가입시 중복 아이디 체크 및 최소, 최대 입력 글자수 구현</span>
-                                <span>- 회원가입 데이터를 로컬스토리지에 저장하여 페이지를 껐다켜도 로그인 정보가 저장되도록 구현하였습니다.</span>
+                                <div className="s_text">- 로그인/회원가입 기능 구현</div>
+                                <div className="s_text">- 회원가입시 중복 아이디 체크 및 최소, 최대 입력 글자수 구현</div>
+                                <div className="s_text">- 회원가입 데이터를 로컬 스토리지에 저장</div>
                             </div>
                             <div className="mb">
                                 <img className="window_img" src="../assets/quiz-answer-logic.gif" alt="full-screen" />
-                                <span>- 퀴즈 게임 타이머, 결과창, 맞힌 개수 등 퀴즈 게임에 필요한 다양한 기능을 구현하였습니다.</span>
+                                <div className="s_text">- 퀴즈 게임 타이머, 결과창, 맞힌 개수 등 퀴즈 게임에 필요한 기능 구현</div>
                             </div>
                             <img className="window_img" src="../assets/quiz-result-logic.png" alt="full-screen" />
-                            <span>- 게임 결과를 확인할 수 있습니다.</span>
+                            <div className="s_text">- 게임 결과 확인창</div>
                         </div>
                     </div>
                 </div>

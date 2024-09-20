@@ -77,7 +77,7 @@ const Gallery = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• CSS 속성인 <span className="em">transform-style</span>, <span className="em">perspective</span> 를 사용하여 입체적인 공간을 구현하였습니다.</div>
+            <div>• CSS 속성 <span className="em">transform-style</span>, <span className="em">perspective</span> 를 활용해 입체적인 공간 구현</div>
           </div>
         </div>
       </section>
@@ -85,11 +85,9 @@ const Gallery = () => {
         <h3 className="ex_title">💻구현 기능</h3>
         <div className="out_txt">
           <div className="explain">
-            <div>• <span className="em">문</span> 을 클릭하여 전시회 안팎을 드나들 수 있게 하였습니다.</div>
-            <div>• <span className="em">keyframes</span> 를 사용하여 비가 오는 애니메이션을 주었습니다.</div>
-            <div>• <span className="em">스위치</span> 클릭 시, background-color값을 어둡게줘서 전등을 끈 듯한 느낌을 주었습니다.</div>
-            <div>• 기둥에 있는 <span className="em">버튼</span> 클릭 시, 사진이 변경되게 하였습니다.</div>
-            <div>• keyframes를 사용하여 번개와 비가 오는 <span className="em">애니메이션</span> 을 구현하였습니다.</div>
+            <div>• <span className="em">keyframes</span> 를 활용해 번개, 비 애니메이션 구현</div>
+            <div>• <span className="em">스위치</span> 클릭 시, 전등 ON/OFF 구현</div>
+            <div>• 기둥에 <span className="em">버튼</span> 클릭 시, 사진이 변경되게 구현</div>
           </div>
         </div>
       </section>

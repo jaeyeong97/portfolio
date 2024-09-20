@@ -82,20 +82,19 @@ const Movie = () => {
                 <h3 className="ex_title">🏅프로젝트 개요</h3>
                 <div className="explain">
                     <div>• <span className="em">React</span> 개인 프로젝트</div>
-                    <div>• 영화, 시리즈 정보를 확인 할 수 있는 OTT 웹사이트입니다.</div>
-                    <div>• <span className="em">Recoil</span> 을 통해 영화 데이터 상태관리를 하였습니다.</div>
-                    <div>• <span className="em">SCSS</span> 를 이용해 스타일링 하였습니다.</div>
-
+                    <div>• 영화, 시리즈 정보를 확인 할 수 있는 OTT 웹사이트</div>
                 </div>
             </section>
             <section>
                 <h3 className="ex_title">💻구현기능</h3>
                 <div className="explain">
-                    <div>• <span className="em">Routes</span> 와 <span className="em">Route</span> 를 이용해 각 경로에 맞는 컴포넌트가 렌더링되게 하였습니다. 공통적으로 Header 컴포넌트를 적용해, 모든 페이지에서 일관된 <span className="em">UI</span> 가 되도록 하였습니다.
+                    <div>• <span className="em">Routes</span>, <span className="em">Route</span> 를 이용해 각 경로에 맞는 컴포넌트가 렌더링되게 구현
                     </div>
-                    <div>• <span className="em">Recoil</span> 상태관리를 하였고 <span className="em">atom</span> 을 통해 영화 데이터를 저장했습니다. 데이터가 필요한 컴포넌트에서 <span className="em">useRecoilValue</span> 로 가져와서 활용하였습니다.</div>
-                    <div>• 사용자 리뷰를 <span className="em">로컬 스토리지</span> 에 저장하여 페이지가 새로고침 되어도 리뷰가 유지되게 하였습니다.</div>
-                    <div>• 메인 슬라이더 영상이 재생될 시 <span className="em">음소거</span> 버튼을 통해, 사용자가 소리를 켜고 끌 수 있도록 하였습니다.</div>
+                    <div>• 헤더는 공통 컴포넌트를 적용해 일관된 UI 가 되도록 구현</div>
+                    <div>• <span className="em">Recoil</span> 을 활용해 상태관리 및 <span className="em">atom</span> 을 통해 데이터 저장, <span className="em">useRecoilValue</span> 로 데이터를 가져와 활용</div>
+                    <div>• 리뷰를 <span className="em">로컬 스토리지</span> 에 저장해 새로고침 되어도 리뷰가 유지되게 구현</div>
+                    <div>• 메인 슬라이더에 음소거 버튼을 통해 동영상 소리를 끄고 킬 수 있도록 구현</div>
+                    <div>• <span className="em">SCSS</span> 사용</div>
                 </div>
             </section>
             <section className="section_bar">

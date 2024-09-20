@@ -80,8 +80,7 @@ const Recipes = () => {
         <div className="summary_txt">
           <div className="explain">
             <div>• <span className="em">React</span> 개인 프로젝트</div>
-            <div>• 사용자들에게 다양한 요리 <span className="em">레시피</span> 를 제공하는 웹사이트입니다.</div>
-            <div>• 사용자가 원하는 레시피를 검색하고 확인할 수 있으며, <span className="em">음성인식</span> 기능을 통해 원하는 레시피를 찾을 수도 있습니다.</div>
+            <div>• <span className="em">음성인식</span> 이 가능한 레시피 웹사이트</div>
           </div>
         </div>
       </section>
@@ -89,11 +88,11 @@ const Recipes = () => {
         <h3 className="ex_title">💻구현기능</h3>
         <div className="function_txt">
           <div className="explain">
-            <div>• Web Speech API를 사용해 <span className="em">음성인식</span> 기능을 구현하였습니다.</div>
-            <div>• 레시피 종류별로 <span className="em">카테고리</span> 를 만들어 사용자가 원하는 레시피를 볼 수 있게 하였습니다.</div>
-            <div>• <span className="em">즐겨찾기</span> 기능을 추가하여 사용자가 즐겨찾기 한 레시피 목록을 따로 볼 수 있게 하였습니다.</div>
-            <div>• <span className="em">페이지네이션</span> 기능으로 레시피가 한 페이지당 12개씩 출력되게 하였습니다.</div>
-            <div>• <span className="em">Styled-Components</span> 를 사용하여 컴포넌트별로 스타일을 관리하였습니다.</div>
+            <div>• Web Speech API를 사용해 <span className="em">음성인식</span> 으로 레시피 검색 기능 구현</div>
+            <div>• 레시피 <span className="em">카테고리</span> 를 만들어 종류별로 확인 가능</div>
+            <div>• <span className="em">즐겨찾기</span> 기능 구현</div>
+            <div>• <span className="em">페이지네이션</span> 기능 구현</div>
+            <div>• <span className="em">Styled-Components</span> 를 사용해 컴포넌트별로 스타일 관리</div>
           </div>
         </div>
       </section>
