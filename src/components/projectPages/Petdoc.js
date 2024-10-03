@@ -54,7 +54,7 @@ const Petdoc = () => {
             <div className="main_txt">
               <h2 className="title">petdoc</h2>
               <span className="t1">반려 동물 병원 예약 웹사이트</span>
-              <span className="t2">사용 기술: JSX, CSS, JavaScript, React</span>
+              <span className="t2">사용 기술: React, React Router, NaverMap API</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/petdoc" target="_blank" rel="noreferrer">github.com/jaeyeong97/petdoc</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
@@ -216,7 +216,7 @@ const Petdoc = () => {
         </div>
       </section>
       <section className="section_bar">
-        <h3 className="ex_title">📊언어 사용 비율</h3>
+        <h3 className="ex_title">📊언어 사용 비율 <span>(깃허브 기준)</span></h3>
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">

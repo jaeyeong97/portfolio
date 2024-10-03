@@ -42,7 +42,7 @@ const Gallery = () => {
             <div className="main_txt">
               <h2 className="title">전시회</h2>
               <span className="t1">입체적인 공간으로 구현한 전시회 웹사이트</span>
-              <span className="t2">사용 기술: JSX, CSS, JavaScript, React</span>
+              <span className="t2">사용 기술: React, CSS</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/3d-gallery" target="_blank" rel="noreferrer">github.com/jaeyeong97/3d-gallery</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
@@ -77,22 +77,13 @@ const Gallery = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
+            <div>• 개인 프로젝트</div>
             <div>• CSS 속성 <span className="em">transform-style</span>, <span className="em">perspective</span> 를 활용해 입체적인 공간 구현</div>
           </div>
         </div>
       </section>
-      <section className="section_out">
-        <h3 className="ex_title">💻구현 기능</h3>
-        <div className="out_txt">
-          <div className="explain">
-            <div>• <span className="em">keyframes</span> 를 활용해 번개, 비 애니메이션 구현</div>
-            <div>• <span className="em">스위치</span> 클릭 시, 전등 ON/OFF 구현</div>
-            <div>• 기둥에 <span className="em">버튼</span> 클릭 시, 사진이 변경되게 구현</div>
-          </div>
-        </div>
-      </section>
       <section className="section_bar">
-        <h3 className="ex_title">📊언어 사용 비율</h3>
+        <h3 className="ex_title">📊언어 사용 비율 <span>(깃허브 기준)</span></h3>
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">

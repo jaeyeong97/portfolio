@@ -44,7 +44,7 @@ const Recipes = () => {
             <div className="main_txt">
               <h2 className="title">레시피 파인더</h2>
               <span className="t1">음성인식 기능이 탑재된 레시피 웹사이트</span>
-              <span className="t2">사용 기술: JSX, Styled-Components, JavaScript, React</span>
+              <span className="t2">사용 기술: React, Styled-Components</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/Recipes" target="_blank" rel="noreferrer">github.com/jaeyeong97/Recipes</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
@@ -84,20 +84,8 @@ const Recipes = () => {
           </div>
         </div>
       </section>
-      <section className="section_function">
-        <h3 className="ex_title">💻구현기능</h3>
-        <div className="function_txt">
-          <div className="explain">
-            <div>• Web Speech API를 사용해 <span className="em">음성인식</span> 으로 레시피 검색 기능 구현</div>
-            <div>• 레시피 <span className="em">카테고리</span> 를 만들어 종류별로 확인 가능</div>
-            <div>• <span className="em">즐겨찾기</span> 기능 구현</div>
-            <div>• <span className="em">페이지네이션</span> 기능 구현</div>
-            <div>• <span className="em">Styled-Components</span> 를 사용해 컴포넌트별로 스타일 관리</div>
-          </div>
-        </div>
-      </section>
       <section className="section_bar">
-        <h3 className="ex_title">📊언어 사용 비율</h3>
+        <h3 className="ex_title">📊언어 사용 비율 <span>(깃허브 기준)</span></h3>
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">

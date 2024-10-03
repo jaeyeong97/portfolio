@@ -9,12 +9,14 @@ import Bookstore from './components/projectPages/Bookstore';
 import Movie from './components/projectPages/Movie';
 import UlsanTour from './components/projectPages/UlsanTour';
 import Volvo from './components/projectPages/Volvo';
+import Shop from './components/projectPages/Shop';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
+          <Route path="/shop" element={<Shop />} />
           <Route path="/windows-xp" element={<Windows />} />
           <Route path="/petdoc" element={<Petdoc />} />
           <Route path="/recipes" element={<Recipes />} />

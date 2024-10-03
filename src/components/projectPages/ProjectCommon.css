@@ -229,6 +229,30 @@
     width: 7.3%;
   }
 }
+@keyframes shop_html_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0.6%;
+  }
+}
+@keyframes shop_scss_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 26.5%;
+  }
+}
+@keyframes shop_js_percent {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 72.9%;
+  }
+}
 
 .components_wrap {
   width: 100%;
@@ -274,6 +298,9 @@
 }
 .bookstore .main .main_img {
   background-image: url(../../../public/assets/bookstore-frame.png);
+}
+.shop .main .main_img {
+  background-image: url(../../../public/assets/shop-frame.png);
 }
 .components_wrap .main .main_img::after {
   position: absolute;
@@ -408,7 +435,7 @@
   font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 24;
 }
 .components_wrap section {
-  padding: 50px var(--outline-padding);
+  padding: 30px var(--outline-padding);
 }
 .components_wrap .explain {
   display: flex;
@@ -419,6 +446,9 @@
   font-size: 25px;
   font-weight: 400;
   line-height: 2em;
+}
+.components_wrap .ex_title span {
+  font-size: 12px;
 }
 .components_wrap .explain span,
 .components_wrap .explain div {
@@ -482,7 +512,6 @@
   text-indent: -10px;
   padding-left: 10px;
   white-space: normal;
-  /* color: #cecece; */
 }
 .components_wrap .img_wrap .ani_wrap .s_text .cem {
   font-size: 14px;
@@ -629,7 +658,7 @@
     font-size: 40px;
   }
   .components_wrap section {
-    padding: 80px 60px;
+    padding: 40px 60px;
   }
   .components_wrap .ex_title {
     font-size: 28px;
@@ -674,13 +703,11 @@
     line-height: 1.8em;
   }
   .components_wrap section {
-    padding: 120px 0;
-    max-width: 1000px;
+    max-width: 1120px;
     margin: 0 auto;
   }
   .components_wrap .ex_title {
     font-size: 32px;
-    margin: 20px 0;
   }
   /* 공통 끝*/
   .components_wrap .img_wrap .ani_wrap .mb {
