@@ -18,7 +18,7 @@ const PjHeader = () => {
     return (
         <header id="PjHeader" style={{ background: scroll > 50 ? 'rgba(255,255,255,0.2)' : 'transparent', border: scroll > 50 ? '1px solid rgba(255, 255, 255, 0.2)' : 'transparent', backdropFilter: scroll > 50 ? 'blur(2px)' : 'initial' }}>
             <div className='PjHeader_wrap' id='nav_home'>
-                <div className='go_back' onClick={() => { navigate('/') }}>
+                <div className='go_back' onClick={() => { navigate(-1) }}>
                     <span className="material-symbols-outlined arrow_back">
                         arrow_back
                     </span>

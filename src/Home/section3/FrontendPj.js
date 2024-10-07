@@ -10,13 +10,6 @@ const FrontendPj = ({ handleChangePage }) => {
                     <div className="explain">쇼핑몰에 필요한 기능을 구현한 웹사이트입니다.</div>
                 </div>
             </div>
-            <div className="project" onClick={() => { handleChangePage('windows-xp') }}>
-                <div className="page_img">
-                    <img src="/assets/window.jpg" alt="윈도우 xp 웹사이트 이미지" />
-                    <span className="txt">윈도우 XP</span>
-                    <div className="explain">윈도우 XP를 재구현한 웹사이트입니다.</div>
-                </div>
-            </div>
             <div className="project" onClick={() => { handleChangePage('recipes') }}>
                 <div className="page_img">
                     <img src="/assets/recipes.jpg" alt="레시피 웹사이트 이미지" />

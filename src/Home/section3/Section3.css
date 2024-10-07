@@ -108,6 +108,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #fc65db;
 }
 #section3 .projects_wrap .project .page_img .shop_wrap .shop {
   width: 200px;
@@ -199,6 +200,9 @@
   #section3 .projects_wrap .buttons button {
     font-size: 16px;
   }
+  #section3 .projects_wrap .project .page_img .shop_wrap {
+    height: 100%;
+  }
 }
 /* 1440px 시작 */
 @media screen and (min-width: 1440px) {
@@ -206,6 +210,12 @@
     max-width: 1300px;
     margin: 0 auto;
     justify-content: space-between;
+  }
+  #section3 .projects_wrap .pj.toy_pj {
+    justify-content: flex-start;
+  }
+  #section3 .projects_wrap .pj.toy_pj .project {
+    margin-right: 50px;
   }
   #section3 .projects_wrap .project {
     width: calc(25% - 40px);
