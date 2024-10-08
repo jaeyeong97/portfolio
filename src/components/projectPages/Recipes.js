@@ -44,7 +44,7 @@ const Recipes = () => {
             <div className="main_txt">
               <h2 className="title">레시피 파인더</h2>
               <span className="t1">음성인식 기능이 탑재된 레시피 웹사이트</span>
-              <span className="t2">사용 기술: React, Styled-Components</span>
+              <span className="t2">사용 기술: React, Styled-Components, Axios, react-speech-recognition</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/Recipes" target="_blank" rel="noreferrer">github.com/jaeyeong97/Recipes</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
