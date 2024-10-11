@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import PjHeader from "../projectHeader/PjHeader";
 import PjFooter from "../projectFooter/PjFooter";
-import '../projectPages/ProjectCommon.css'
 import { Link } from 'react-scroll';
 import sr from "../../util/ScrollReveal";
 import AnimatedCountUp from "../../util/AnimatedCountUp";

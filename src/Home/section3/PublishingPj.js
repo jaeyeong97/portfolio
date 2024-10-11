@@ -1,4 +1,19 @@
+import { useEffect } from "react";
+import sr from "../../util/ScrollReveal";
+
 const PublishingPj = ({ handleChangePage }) => {
+
+    useEffect(() => {
+        sr.reveal(".pj", {
+            origin: "bottom",
+            distance: "30px",
+            duration: 800,
+            opacity: 0,
+            easing: "ease-in-out",
+            reset: false,
+        });
+    }, []);
+
     return (
         <div className="publishing_pj pj">
             <div className="project" onClick={() => { handleChangePage('bbq') }}>
@@ -32,7 +47,6 @@ const PublishingPj = ({ handleChangePage }) => {
                     </div>
                 </div>
             </div>
-            <div className="project"></div>
         </div>
     );
 };

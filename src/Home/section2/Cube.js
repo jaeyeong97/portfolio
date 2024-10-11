@@ -1,4 +1,3 @@
-import './Cube.css';
 
 const Cube = ({ iconImg }) => {
   return (

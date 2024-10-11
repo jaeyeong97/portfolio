@@ -1,13 +1,9 @@
 @charset "utf-8";
-:root {
-  --text-color: #edebe0;
-  --background-color: #17413f;
-  --accent-color: #148370;
-  --outline-padding-mo: 20px;
-  --outline-padding-pc: 40px;
-  --header-height: 75px;
-  --section-title-padding: 50px;
+.skills-wrap {
+  perspective: 1200px;
+  transform-style: preserve-3d;
 }
+
 .skill_card {
   width: 100%;
   display: flex;
@@ -16,20 +12,33 @@
   margin: 20px 0;
   border-radius: 5px;
   padding: var(--outline-padding-mo);
-  background-color: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--text-color);
+  transition: 0.3s;
   cursor: pointer;
+  user-select: none;
 }
-.skill_card:hover .cube_in {
-  animation: rotationCube 5s infinite linear alternate;
+.skill_card.left {
+  background: radial-gradient(
+    circle at top right,
+    #252525,
+    transparent,
+    transparent
+  );
+}
+.skill_card.center {
+  background: linear-gradient(to bottom, #252525, transparent, transparent);
+}
+.skill_card.right {
+  background: radial-gradient(
+    circle at top left,
+    #252525,
+    transparent,
+    transparent
+  );
 }
 .skill_card .icon {
   position: relative;
   width: 40%;
-}
-.skill_card:hover .cube_face {
-  box-shadow: 0px 0px 10px #148370;
 }
 .skill_card .txt {
   position: relative;
@@ -51,19 +60,25 @@
   background-color: #edebe036;
 }
 .skill_card .txt .card_title {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "JalnanGothic";
-  line-height: 1em;
   margin-bottom: 10px;
   color: var(--text-color);
 }
 .skill_card .txt .card_explain {
   font-size: 14px;
-  line-height: 1.6em;
-  letter-spacing: 0.8px;
-  color: var(--text-color);
+  line-height: 1.4em;
+  color: var(--hover-color);
 }
-
+.skill_card .cube_in {
+  animation: defaultRotation 30s infinite linear;
+}
+.skill_card:hover .cube_in {
+  animation: rotationCube 6s infinite linear;
+}
+.skill_card .cube_face {
+  box-shadow: 0px 0px 3px var(--text-color);
+}
 @media screen and (min-width: 600px) {
   .skill_card {
     width: calc(50% - 20px);

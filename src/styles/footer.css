@@ -1,17 +1,18 @@
 @charset "utf-8";
-:root {
-  --text-color: #edebe0;
-  --background-color: #17413f;
-  --accent-color: #148370;
-  --outline-padding: 20px;
-  --header-height: 75px;
-  --hover-color: #93948e;
-}
-
 #footer {
+  position: relative;
   width: 100%;
-  border-top: 1px solid rgba(237, 235, 224, 0.5);
-  background-color: var(--background-color);
+  background-color: #00000d;
+}
+#footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100vw - 8px);
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 #footer .footer_in {
   width: 100%;

@@ -1,19 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import PjHeader from "../projectHeader/PjHeader";
 import PjFooter from "../projectFooter/PjFooter";
-import '../projectPages/ProjectCommon.css'
 import { Link } from 'react-scroll';
 import sr from "../../util/ScrollReveal";
 import AnimatedCountUp from "../../util/AnimatedCountUp";
 
 const Windows = () => {
-  const [toggle1, setToggle1] = useState(false);
-  const [toggle2, setToggle2] = useState(false);
-  const [toggle3, setToggle3] = useState(false);
-
-  const handleToggle = (toggleSet) => {
-    toggleSet((prev) => !prev);
-  };
 
   useEffect(() => {
     // 페이지 이동 후 스크롤을 최상단으로

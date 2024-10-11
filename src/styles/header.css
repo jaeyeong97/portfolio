@@ -1,12 +1,4 @@
 @charset "utf-8";
-@keyframes bar {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
 @keyframes rotationHeader {
   0% {
     transform: rotateY(0deg);
@@ -21,38 +13,32 @@
     transform: rotateY(1080deg);
   }
 }
-:root {
-  --text-color: #edebe0;
-  --background-color: #17413f;
-  --accent-color: #148370;
-  --outline-padding: 20px;
-  --header-height: 75px;
-  --hover-color: #93948e;
-}
+
 #header {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
+  max-width: 1200px;
   font-family: "JalnanGothic";
   min-height: var(--header-height);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--outline-padding) 5px;
-  background-color: var(--background-color);
+  padding: var(--outline-padding-mo) 5px;
   user-select: none;
   z-index: 10;
 }
-#header .bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background-color: var(--accent-color);
-  animation-name: bar;
-  animation-timeline: scroll();
+#header::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 1px;
+  background-color: var(--text-color);
 }
 #header .logo {
   margin-top: 5px;
@@ -142,7 +128,7 @@
 /* 768px 시작 */
 @media screen and (min-width: 768px) {
   #header {
-    padding: var(--outline-padding) 25px;
+    padding: var(--outline-padding-mo) 25px;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import '../header/Header.css';
+
 const Header = () => {
 
     const [toggle, setToggle] = useState(false); // 헤더 메뉴 토글 상태 관리
@@ -26,9 +26,12 @@ const Header = () => {
     };
 
     return (
-        <header id="header" style={{ background: scroll > 50 ? '#17413f' : 'transparent' }}>
-            <div className='bar' />
-            <Link to='nav_home' smooth={true} onClick={handleLogoClick}>
+        <header id="header"
+            style={{
+                background: scroll > 50 ? 'rgba(0,0,0,0.2)' : 'transparent',
+                backdropFilter: scroll > 50 ? 'blur(5px)' : 'initial',
+            }}>
+            <Link to='nav_home' smooth={true} offset={-150} onClick={handleLogoClick}>
                 <div className="logo" >
                     <div className={`flip_inner ${rotateLogo ? 'rotate' : ''}`}>
                         <div className='front'>Portfolio</div>
@@ -38,7 +41,7 @@ const Header = () => {
             </Link>
             <nav id="gnb" style={{ display: toggle ? 'block' : 'none' }}>
                 <ul>
-                    <Link to="nav_home" smooth={true}>
+                    <Link to="nav_home" offset={-150} smooth={true}>
                         <li className="home" onClick={() => { setToggle(false) }}>
                             <div className='li_wrap_first'>
                                 <span className="material-symbols-outlined home_icon">home</span>
@@ -54,11 +57,11 @@ const Header = () => {
                         <li className="about" onClick={() => { setToggle(false) }}>
                             <div className='li_wrap_first'>
                                 <span className="material-symbols-outlined user_icon">person</span>
-                                <span className='txt'>About</span>
+                                <span className='txt'>Skills</span>
                             </div>
                             <div className='li_wrap_second'>
                                 <span className="material-symbols-outlined user_icon">person</span>
-                                <span className='txt'>About</span>
+                                <span className='txt'>Skills</span>
                             </div>
                         </li>
                     </Link>

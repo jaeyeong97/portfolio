@@ -1,4 +1,19 @@
+import { useEffect } from "react";
+import sr from "../../util/ScrollReveal";
+
 const FrontendPj = ({ handleChangePage }) => {
+
+    useEffect(() => {
+        sr.reveal(".pj", {
+            origin: "bottom",
+            distance: "30px",
+            duration: 800,
+            opacity: 0,
+            easing: "ease-in-out",
+            reset: false,
+        });
+    }, []);
+
     return (
         <div className="frontend_pj pj">
             <div className="project" onClick={() => { handleChangePage('shop') }}>
@@ -7,7 +22,7 @@ const FrontendPj = ({ handleChangePage }) => {
                         <img className="shop" src="/assets/shop.png" alt="SHOP 웹사이트 이미지" />
                     </div>
                     <span className="txt">SHOP</span>
-                    <div className="explain">쇼핑몰에 필요한 기능을 구현한 웹사이트입니다.</div>
+                    <div className="explain">필요한 기능들을 갖춘 쇼핑몰 웹사이트입니다.</div>
                 </div>
             </div>
             <div className="project" onClick={() => { handleChangePage('recipes') }}>

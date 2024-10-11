@@ -1,7 +1,5 @@
 @charset "utf-8";
-:root {
-  --text-color: #edebe0;
-}
+
 #PjFooter {
   width: 100%;
   border-top: 1px solid rgba(237, 235, 224, 0.5);

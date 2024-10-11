@@ -1,0 +1,11 @@
+:root {
+  --text-color: #edebe0;
+  --background-color: #17413f;
+  --accent-color: #148370;
+  --hover-color: #93948e;
+  --outline-padding-mo: 20px;
+  --outline-padding-pc: 40px;
+  --header-height: 75px;
+  --section-title-padding: 50px;
+  --section-padding-top: 50px;
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+@keyframes rotationCube {
+  0% {
+    transform: translateZ(0) rotate3d(0, 0, 0);
+  }
+  100% {
+    transform: translateZ(0) rotate3d(1, 0, 1, 360deg);
+  }
+}
+@keyframes defaultRotation {
+  0% {
+    transform: translateZ(0) rotate3d(0, 0, 0);
+  }
+  50% {
+    transform: translateZ(0) rotate3d(1, 1, -1, 180deg);
+  }
+  100% {
+    transform: translateZ(0) rotate3d(1, 1, 1, 360deg);
+  }
+}
+.cube {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  perspective: 1000px;
+}
+.cube_in {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+.cube_face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+}
+.react-router .cube_face {
+  background-color: var(--text-color);
+}
+.cube_face_front {
+  transform: rotateY(0deg) translateZ(28px);
+}
+.cube_face_right {
+  transform: rotateY(90deg) translateZ(28px);
+}
+.cube_face_back {
+  transform: rotateY(180deg) translateZ(28px);
+}
+.cube_face_left {
+  transform: rotateY(-90deg) translateZ(28px);
+}
+.cube_face_top {
+  transform: rotateX(90deg) translateZ(28px);
+}
+.cube_face_bottom {
+  transform: rotateX(-90deg) translateZ(28px);
+}

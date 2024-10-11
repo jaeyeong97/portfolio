@@ -13,13 +13,7 @@
     transform: rotateY(1080deg);
   }
 }
-:root {
-  --text-color: #edebe0;
-  --background-color: #17413f;
-  --accent-color: #148370;
-  --outline-padding: 20px;
-  --hover-color: #93948e;
-}
+
 #PjHeader {
   position: fixed;
   top: 20px;
@@ -29,7 +23,7 @@
   border-radius: 30px;
   transition: 0.3s;
   font-family: "JalnanGothic";
-  padding: var(--outline-padding) 5px;
+  padding: var(--outline-padding-mo) 5px;
   user-select: none;
   z-index: 10;
 }
@@ -89,7 +83,7 @@
   #PjHeader {
     left: 60px;
     width: calc(100% - 120px);
-    padding: var(--outline-padding) 25px;
+    padding: var(--outline-padding-mo) 25px;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;

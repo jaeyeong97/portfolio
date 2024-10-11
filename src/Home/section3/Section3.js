@@ -1,4 +1,3 @@
-import "../section3/Section3.css";
 import { useNavigate } from "react-router-dom";
 import FrontendPj from "./FrontendPj";
 import ToyPj from "./ToyPj";

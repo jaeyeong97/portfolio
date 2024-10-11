@@ -1,10 +1,4 @@
 @charset "utf-8";
-:root {
-  --text-color: #edebe0;
-  --background-color: #17413f;
-  --accent-color: #148370;
-  --outline-padding: 20px;
-}
 @keyframes arrow_down {
   0% {
     transform: translateY(0);
@@ -262,10 +256,13 @@
 .components_wrap .main {
   position: relative;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .components_wrap .main .main_img {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   text-indent: -9999px;
   background-repeat: no-repeat;
@@ -273,34 +270,34 @@
   background-position: center;
 }
 .petdoc .main .main_img {
-  background-image: url(../../../public/assets/petdoc-frame.png);
+  background-image: url(../../public/assets/petdoc-frame.png);
 }
 .recipes .main .main_img {
-  background-image: url(../../../public/assets/recipe-frame.png);
+  background-image: url(../../public/assets/recipe-frame.png);
 }
 .gallery .main .main_img {
-  background-image: url(../../../public/assets/gallery-frame.png);
+  background-image: url(../../public/assets/gallery-frame.png);
 }
 .windows .main .main_img {
-  background-image: url(../../../public/assets/window-frame.png);
+  background-image: url(../../public/assets/window-frame.png);
 }
 .bbq .main .main_img {
-  background-image: url(../../../public/assets/bbq-frame.png);
+  background-image: url(../../public/assets/bbq-frame.png);
 }
 .movie .main .main_img {
-  background-image: url(../../../public/assets/movie-frame.png);
+  background-image: url(../../public/assets/movie-frame.png);
 }
 .ulsan_tour .main .main_img {
-  background-image: url(../../../public/assets/ulsan-frame.png);
+  background-image: url(../../public/assets/ulsan-frame.png);
 }
 .volvo .main .main_img {
-  background-image: url(../../../public/assets/volvo-frame.png);
+  background-image: url(../../public/assets/volvo-frame.png);
 }
 .bookstore .main .main_img {
-  background-image: url(../../../public/assets/bookstore-frame.png);
+  background-image: url(../../public/assets/bookstore-frame.png);
 }
 .shop .main .main_img {
-  background-image: url(../../../public/assets/shop-frame.png);
+  background-image: url(../../public/assets/shop-frame.png);
 }
 .components_wrap .main .main_img::after {
   position: absolute;
@@ -435,7 +432,7 @@
   font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 24;
 }
 .components_wrap section {
-  padding: 30px var(--outline-padding);
+  padding: 30px var(--outline-padding-mo);
 }
 .components_wrap .explain {
   display: flex;
@@ -460,7 +457,7 @@
   font-size: 14px;
   padding: 2px 5px;
   border-radius: 3px;
-  background-color: #148370;
+  background-color: var(--accent-color);
 }
 .components_wrap section .img_wrap {
   display: flex;
@@ -579,7 +576,7 @@
 .components_wrap .html_icon {
   width: 30px;
   height: 30px;
-  background-image: url(../../../public/assets/Html5.png);
+  background-image: url(../../public/assets/Html5.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-bottom: 2px;
@@ -587,7 +584,7 @@
 .components_wrap .css_icon {
   width: 30px;
   height: 30px;
-  background-image: url(../../../public/assets/Css3.png);
+  background-image: url(../../public/assets/Css3.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-bottom: 2px;
@@ -595,7 +592,7 @@
 .components_wrap .scss_icon {
   width: 30px;
   height: 30px;
-  background-image: url(../../../public/assets/Scss.png);
+  background-image: url(../../public/assets/Scss.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-bottom: 2px;
@@ -603,7 +600,7 @@
 .components_wrap .css_icon {
   width: 30px;
   height: 30px;
-  background-image: url(../../../public/assets/Css3.png);
+  background-image: url(../../public/assets/Css3.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-bottom: 2px;
@@ -611,7 +608,7 @@
 .components_wrap .js_icon {
   width: 30px;
   height: 30px;
-  background-image: url(../../../public/assets/JavaScript.png);
+  background-image: url(../../public/assets/JavaScript.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-bottom: 2px;

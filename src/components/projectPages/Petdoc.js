@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import PjHeader from "../projectHeader/PjHeader";
 import PjFooter from "../projectFooter/PjFooter";
-import '../projectPages/ProjectCommon.css'
 import sr from "../../util/ScrollReveal";
 import AnimatedCountUp from "../../util/AnimatedCountUp";
 const Petdoc = () => {

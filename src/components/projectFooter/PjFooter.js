@@ -1,5 +1,4 @@
 import { Link } from 'react-scroll';
-import '../projectFooter/PjFooter.css';
 
 const PjFooter = () => {
     return (
