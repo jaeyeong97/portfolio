@@ -4,9 +4,14 @@ const Footer = () => {
     return (
         <footer id="footer">
             <div className='footer_in'>
-                <a href='https://github.com/jaeyeong97' target='_blank' rel="noreferrer">
-                    <img src='/assets/GitHub.png' alt='깃허브 이미지' />
-                </a>
+                <div className='icons-wrap'>
+                    <a className='github' href='https://github.com/jaeyeong97' target='_blank' rel="noreferrer">
+                        <div className='icon'></div>
+                    </a>
+                    <a className='email' href='mailto:rkaakdbdb1822@naver.com' target='_blank' rel="noreferrer">
+                        <div className='icon'></div>
+                    </a>
+                </div>
                 <span>© 2024 JaeYeongJang All rights reserved.</span>
                 <Link to="nav_home" offset={-150} smooth={true}>
                     <div className='go_top'>
