@@ -81,7 +81,7 @@ const Bookstore = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="explain">
           <div>• 개인 프로젝트</div>
-          <div>• 기존의 교보문고 도서리스트 페이지를 <span className="em">반응형</span> 으로 제작한 웹페이지</div>
+          <div>• 기존의 교보문고 도서리스트 페이지를 <span className="em">반응형</span> 으로 제작한 웹페이지입니다.</div>
         </div>
       </section>
       <section className="section_bar">

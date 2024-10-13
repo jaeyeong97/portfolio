@@ -81,7 +81,7 @@ const UlsanTour = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="explain">
           <div>• 개인 프로젝트</div>
-          <div>• 기존의 울산 관광 웹사이트를 새롭게 디자인한 <span className="em">1680px 고정형</span> 웹사이트</div>
+          <div>• 기존의 울산 관광 웹사이트를 새롭게 디자인한 <span className="em">1680px 고정형</span> 웹사이트입니다.</div>
         </div>
       </section>
       <section className="section_bar">

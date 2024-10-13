@@ -77,6 +77,7 @@ const Main = () => {
             <div className="profile">
               <img src="/assets/profile.png" alt="profile" />
             </div>
+            <div className="name">장재영</div>
             <div className='icons-wrap'>
               <a className='github' href='https://github.com/jaeyeong97' target='_blank' rel="noreferrer">
                 <div className='icon'></div>

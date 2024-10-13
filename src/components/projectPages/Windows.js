@@ -81,7 +81,15 @@ const Windows = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="explain">
           <div>• 개인 프로젝트</div>
-          <div>• 윈도우 XP를 재구현한 웹사이트</div>
+          <div>• 윈도우 XP를 재구현한 웹사이트입니다.</div>
+        </div>
+      </section>
+      <section>
+        <h3 className="ex_title">📚사용 기술</h3>
+        <div className="summary_txt">
+          <div className="explain">
+            <div>• <span className="cem">JavaScript</span> - 별도의 라이브러리나 프레임워크 없이 순수 JavaScript만을 이용하여 필요한 기능들을 구현하였습니다.</div>
+          </div>
         </div>
       </section>
       <section className="section_bar">

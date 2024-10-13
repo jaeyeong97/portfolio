@@ -78,8 +78,20 @@ const Shop = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="em">React</span> 개인 프로젝트</div>
-            <div>• 쇼핑몰에 필요한 기능을 구현한 쇼핑몰 웹사이트</div>
+            <div>• 개인 프로젝트</div>
+            <div>• 쇼핑몰에 필요한 기능을 구현한 쇼핑몰 웹사이트입니다.</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 className="ex_title">📚사용 기술</h3>
+        <div className="summary_txt">
+          <div className="explain">
+            <div>• <span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
+            <div>• <span className="cem">Recoil</span> - 상품 리스트, 장바구니, 찜목록 상태 등을 atom으로 정의하고 페이지 간 상태를 공유하였습니다.</div>
+            <div>• <span className="cem">React Router</span> - 쇼핑몰의 각 페이지를 구성할때 사용하였습니다.</div>
+            <div>• <span className="cem">SCSS</span> - 공통되는 색상은 변수로 지정하여 여러 파일에서 재사용할 수 있도록 하였고, index.scss 파일에 여러 파일을 import하여 유지보수 하기 쉽게 하였습니다.</div>
+            <div>• <span className="cem">OAuth</span> - 네이버, 카카오, 구글 로그인 기능을 OAuth 인증을 통해 구현하였습니다.</div>
           </div>
         </div>
       </section>

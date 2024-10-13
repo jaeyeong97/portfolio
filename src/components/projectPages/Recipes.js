@@ -78,8 +78,19 @@ const Recipes = () => {
         <h3 className="ex_title">🏅프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="em">React</span> 개인 프로젝트</div>
-            <div>• <span className="em">음성인식</span> 이 가능한 레시피 웹사이트</div>
+            <div>• 개인 프로젝트</div>
+            <div>• <span className="em">음성인식</span> 이 가능한 레시피 웹사이트입니다.</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 className="ex_title">📚사용 기술</h3>
+        <div className="summary_txt">
+          <div className="explain">
+            <div>• <span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
+            <div>• <span className="cem">Styled-Components</span> - 각 컴포넌트별로 독립적인 스타일을 적용하여 유지보수를 하기 쉽게 하였습니다.</div>
+            <div>• <span className="cem">Axios</span> - 레시피 API 데이터를 비동기적으로 가져와 웹사이트에 표시하였습니다.</div>
+            <div>• <span className="cem">react-speech-recognition</span> - 음성인식 기능을 통해 사용자 음성을 인식하여 레시피를 검색할 수 있도록 구현하였습니다.</div>
           </div>
         </div>
       </section>

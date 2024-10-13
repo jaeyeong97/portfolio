@@ -452,12 +452,21 @@
   font-size: 16px;
   line-height: 1.8em;
   margin: 10px 0;
+  color: var(--hover-color);
 }
 .components_wrap .explain .em {
-  font-size: 14px;
+  font-size: 16px;
   padding: 2px 5px;
   border-radius: 3px;
+  color: var(--text-color);
   background-color: var(--accent-color);
+}
+.components_wrap .explain .cem {
+  font-size: 16px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: var(--text-color);
+  background-color: #424242;
 }
 .components_wrap section .img_wrap {
   display: flex;

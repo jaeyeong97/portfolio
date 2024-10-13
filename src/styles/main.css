@@ -79,7 +79,7 @@
   line-height: 1.8em;
   color: var(--hover-color);
   margin: 0 20px;
-  padding: 20px;
+  padding: 20px 20px 15px 20px;
   margin-bottom: 20px;
   border: 1px solid var(--text-color);
   border-radius: 5px;
@@ -97,13 +97,21 @@
 #main .main_wrap .sub_wrap .t3 .profile {
   width: 130px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid var(--text-color);
+}
+#main .main_wrap .sub_wrap .t3 .name {
+  font-size: 22px;
+  text-align: center;
+  color: var(--text-color);
+  padding-bottom: 10px;
 }
 #main .main_wrap .sub_wrap .icons-wrap {
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
   margin-bottom: 10px;
+  border-bottom: 1px solid var(--text-color);
 }
 #main .main_wrap .sub_wrap .icons-wrap a {
   margin: 0 5px;
