@@ -20,14 +20,15 @@
   align-items: center;
   justify-content: center;
 }
-#main .main_wrap .profile {
-  width: 200px;
+#main .main_wrap .profile-main,
+.profile {
+  width: 220px;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid var(--text-color);
   margin-bottom: 40px;
 }
-#main .main_wrap .profile img {
+#main .main_wrap .profile-main img,
+.profile img {
   width: 100%;
   height: auto;
 }
@@ -98,7 +99,6 @@
   width: 130px;
   margin: 0 auto;
   margin-bottom: 10px;
-  border: 1px solid var(--text-color);
 }
 #main .main_wrap .sub_wrap .t3 .name {
   font-size: 22px;
@@ -262,6 +262,9 @@
 }
 /* 1024px 시작 */
 @media screen and (min-width: 1024px) {
+  #main {
+    padding-top: 200px;
+  }
   #main .main_wrap .main_txt {
     font-size: 40px;
   }

@@ -5,11 +5,6 @@ import Typed from "typed.js";
 const Main = () => {
   const typing = useRef(null);
   const [showHand, setShowHand] = useState(false);
-  const [loading, setLoading] = useState(true); // 이미지 로딩 상태 관리
-
-  const handleImageLoad = () => {
-    setLoading(false);
-  };
 
   useEffect(() => {
     sr.reveal(".t1", {
@@ -60,7 +55,7 @@ const Main = () => {
   return (
     <main id="main">
       <div className="main_wrap" id="nav_home">
-        <div className="profile">
+        <div className="profile-main">
           <img src="/assets/profile.png" alt="profile" />
         </div>
         <div className="main_txt">
@@ -80,12 +75,7 @@ const Main = () => {
         <div className="sub_wrap">
           <div className="t3">
             <div className="profile">
-              <img
-                src="/assets/profile.png"
-                alt="profile"
-                onLoad={handleImageLoad}
-                style={{ display: loading ? 'none' : 'block' }}
-              />
+              <img src="/assets/profile.png" alt="profile" />
             </div>
             <div className="name">장재영</div>
             <div className='icons-wrap'>
