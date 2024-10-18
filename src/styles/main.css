@@ -80,7 +80,7 @@
   line-height: 1.8em;
   color: var(--hover-color);
   margin: 0 20px;
-  padding: 20px 20px 15px 20px;
+  padding: 20px;
   margin-bottom: 20px;
   border: 1px solid var(--text-color);
   border-radius: 5px;
@@ -136,6 +136,9 @@
 }
 #main .main_wrap .sub_wrap .t3 .text-wrap span {
   margin-bottom: 8px;
+  text-indent: -11.5px;
+  padding-left: 10px;
+  white-space: normal;
 }
 #main .main_wrap .sub_wrap .flex-wrap {
   margin: 0 20px;
@@ -143,7 +146,7 @@
 }
 #main .main_wrap .sub_wrap .flex-wrap .box {
   border: 1px solid var(--text-color);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 #main .main_wrap .sub_wrap .flex-wrap .career-wrap {
@@ -212,16 +215,17 @@
 }
 #main .main_wrap .sub_wrap .flex-wrap .line-box {
   display: flex;
+  padding-right: 20px;
 }
 #main .main_wrap .sub_wrap .flex-wrap .line {
   width: 5px;
-  height: 150px;
+  height: 170px;
   margin: 0 20px 15px 30px;
   background-color: var(--accent-color);
 }
 #main .main_wrap .sub_wrap .flex-wrap .line2 {
   width: 5px;
-  height: 210px;
+  height: 230px;
   margin: 0 20px 15px 30px;
   background-color: var(--accent-color);
 }
@@ -275,20 +279,28 @@
     font-size: 50px;
   }
   #main .main_wrap .sub_wrap .t3 {
-    width: 100%;
-    margin-bottom: 40px;
+    width: 50%;
+    margin: 0 40px 40px 0;
   }
   #main .main_wrap .sub_wrap .t3 .profile {
     width: 150px;
   }
   #main .main_wrap .sub_wrap .t3 .text-wrap {
-    padding: 0 25px;
+    padding: 30px 25px 0 25px;
+  }
+  #main .main_wrap .sub_wrap .t3 .text-wrap span {
+    line-height: 2.5em;
   }
   #main .main_wrap .sub_wrap {
     width: 100%;
+    padding: 0 38px;
     flex-direction: row;
   }
   #main .main_wrap .sub_wrap .flex-wrap {
-    width: 100%;
+    width: 50%;
+    margin: 0;
+  }
+  #main .main_wrap .sub_wrap .flex-wrap .box {
+    margin-bottom: 40px;
   }
 }
