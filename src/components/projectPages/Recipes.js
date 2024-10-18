@@ -42,8 +42,8 @@ const Recipes = () => {
           <div className="main_txt_wrap">
             <div className="main_txt">
               <h2 className="title">레시피 파인더</h2>
-              <span className="t1">음성인식 기능이 탑재된 레시피 웹사이트</span>
-              <span className="t2">사용 기술: React, Styled-Components, Axios, react-speech-recognition</span>
+              <span className="t1">음성인식 검색 기능이 있는 레시피 웹사이트</span>
+              <span className="t2">사용 기술: React, styled-components, Axios, React Query, react-speech-recognition</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/Recipes" target="_blank" rel="noreferrer">github.com/jaeyeong97/Recipes</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
@@ -79,7 +79,7 @@ const Recipes = () => {
         <div className="summary_txt">
           <div className="explain">
             <div>• 개인 프로젝트</div>
-            <div>• <span className="em">음성인식</span> 이 가능한 레시피 웹사이트입니다.</div>
+            <div>• <span className="em">음성인식</span> 검색이 가능한 레시피 웹사이트입니다.</div>
           </div>
         </div>
       </section>
@@ -90,7 +90,8 @@ const Recipes = () => {
             <div>• <span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
             <div>• <span className="cem">Styled-Components</span> - 각 컴포넌트별로 독립적인 스타일을 적용하여 유지보수를 하기 쉽게 하였습니다.</div>
             <div>• <span className="cem">Axios</span> - 레시피 API 데이터를 비동기적으로 가져와 웹사이트에 표시하였습니다.</div>
-            <div>• <span className="cem">react-speech-recognition</span> - 음성인식 기능을 통해 사용자 음성을 인식하여 레시피를 검색할 수 있도록 구현하였습니다.</div>
+            <div>• <span className="cem">React Query</span> - useQuery 훅을 통해 레시피 데이터를 가져오고, staleTime, cacheTime 등을 활용해 효율적인 데이터 및 캐시 관리를 하였습니다.</div>
+            <div>• <span className="cem">react-speech-recognition</span> - 음성인식 라이브러리를 통해 사용자 음성을 인식하여 레시피를 검색할 수 있도록 구현하였습니다.</div>
           </div>
         </div>
       </section>

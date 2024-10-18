@@ -82,6 +82,7 @@ const Windows = () => {
         <div className="explain">
           <div>• 개인 프로젝트</div>
           <div>• 윈도우 XP를 재구현한 웹사이트입니다.</div>
+          <div>• 퀴즈 게임과 가위 바위 보 게임을 만들어 보았습니다.</div>
         </div>
       </section>
       <section>

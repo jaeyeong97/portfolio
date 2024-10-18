@@ -22,7 +22,7 @@ const FrontendPj = ({ handleChangePage }) => {
                         <img className="shop" src="/assets/shop.png" alt="SHOP 웹사이트 이미지" />
                     </div>
                     <span className="txt">SHOP</span>
-                    <div className="explain">필요한 기능들을 갖춘 쇼핑몰 웹사이트입니다.</div>
+                    <div className="explain">쇼핑몰에 필요한 여러 기능들을 갖춘 SHOP 웹사이트입니다.</div>
                 </div>
             </div>
             <div className="project" onClick={() => { handleChangePage('recipes') }}>
@@ -44,7 +44,7 @@ const FrontendPj = ({ handleChangePage }) => {
                 <div className="page_img">
                     <img src="/assets/petdoc.jpg" alt="펫닥 웹사이트 이미지" />
                     <span className="txt">petdoc</span>
-                    <div className="explain">동물병원 예약 웹사이트입니다.</div>
+                    <div className="explain">팀프로젝트로 개발한 동물병원 예약 웹사이트입니다.</div>
                 </div>
             </div>
         </div>

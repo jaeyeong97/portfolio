@@ -23,6 +23,7 @@ const Section2 = () => {
     recoilIcon: "/assets/recoil.svg",
     reactRouterIcon: "/assets/react-router.svg",
     styledComponentsIcon: "/assets/styledcomponents.png",
+    reactQueryIcon: "/assets/reactQuery.svg",
   };
   const skillsExplain = {
     htmlEx:
@@ -42,7 +43,8 @@ const Section2 = () => {
     axiosEx: "Axios를 사용하여 REST API와 비동기적으로 데이터를 주고받으며, HTTP 요청을 보다 쉽게 관리할 수 있습니다.",
     recoilEx: "Recoil을 사용하여 React 애플리케이션의 전역 상태를 효율적으로 관리하고, 컴포넌트 간 상태 공유를 쉽게 구현할 수 있습니다.",
     reactRouterEx: "React Router를 사용하여 SPA의 라우팅을 구현하며, 동적 URL 매칭을 통한 페이지 전환을 관리합니다.",
-    styledComponentsEx: "Styled-components를 활용하여 CSS를 관리하고, 컴포넌트 단위로 스타일을 쉽게 적용할 수 있습니다."
+    styledComponentsEx: "Styled-components를 활용하여 CSS를 관리하고, 컴포넌트 단위로 스타일을 쉽게 적용할 수 있습니다.",
+    reactQueryEx: "useQuery 훅을 사용하여 데이터를 비동기적으로 가져오고 staleTime, cacheTime 등을 활용한 API 관리 경험이 있습니다."
   };
   const skillsTitle = {
     htmlTitle: "HTML",
@@ -58,6 +60,7 @@ const Section2 = () => {
     recoilTitle: "Recoil",
     reactRouterTitle: "React-Router",
     styledComponentsTitle: "styled-components",
+    reactQueryTitle: "React Query",
   };
 
   return (

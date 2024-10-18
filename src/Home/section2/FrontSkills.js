@@ -65,6 +65,13 @@ const FrontSkills = ({ iconImgs, skillsExplain, skillsTitle }) => {
                 skillsTitle={skillsTitle.styledComponentsTitle}
                 className='left'
             />
+            <SkillCard
+                iconImgs={iconImgs.reactQueryIcon}
+                skillsExplain={skillsExplain.reactQueryEx}
+                skillsTitle={skillsTitle.reactQueryTitle}
+                className='center'
+            />
+            <div className="empty"></div>
         </div>
     );
 };
