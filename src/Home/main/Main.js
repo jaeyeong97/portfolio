@@ -81,20 +81,22 @@ const Main = () => {
             <div className='icons-wrap'>
               <a className='github' href='https://github.com/jaeyeong97' target='_blank' rel="noreferrer">
                 <div className='icon'></div>
+                <div className="txt">깃허브</div>
               </a>
               <a className='email' href='mailto:rkaakdbdb1822@naver.com' target='_blank' rel="noreferrer">
                 <div className='icon'></div>
+                <div className="txt">이메일</div>
               </a>
             </div>
             <div className="text-wrap">
               <span>
-                • 방송통신대학교 컴퓨터과학과 3학년에 재학 중이며, 원격 교육 시스템으로써 학업과 회사 업무를 병행할 수 있습니다.
+                • 방송통신대학교 컴퓨터과학과 3학년에 재학 중이며, 원격 교육 시스템으로써 주말을 활용해 전공지식을 학습하고 있습니다.
               </span>
               <span>
                 • 그린컴퓨터 아카데미에서 프론트엔드 개발 양성과정을 수료해, 웹 개발에 필요한 기본적인 역량을 갖추었고 실무에 적용할 수 있는 기술들을 익혔습니다.
               </span>
               <span>
-                • 부족한 부분은 개인 시간을 활용해 보완해 나가면서 지속적으로 발전하는 개발자가 되겠습니다!
+                • 부족한 부분은 개인 시간을 통해 보완하며, 회사의 일원으로서 함께 성장하고 발전하는 개발자가 되겠습니다!
               </span>
             </div>
           </div>

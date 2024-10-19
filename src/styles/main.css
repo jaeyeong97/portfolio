@@ -104,22 +104,33 @@
   font-size: 22px;
   text-align: center;
   color: var(--text-color);
-  padding-bottom: 10px;
 }
 #main .main_wrap .sub_wrap .icons-wrap {
   display: flex;
-  justify-content: center;
-  padding-bottom: 10px;
+  justify-content: flex-end;
   margin-bottom: 10px;
+  margin-top: -25px;
   border-bottom: 1px solid var(--text-color);
 }
 #main .main_wrap .sub_wrap .icons-wrap a {
   margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main .main_wrap .sub_wrap .icons-wrap a:hover .txt {
+  color: var(--accent-color);
+}
+#main .main_wrap .sub_wrap .icons-wrap a .txt {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 400;
+  transition: 0.1s;
 }
 #main .main_wrap .sub_wrap .icons-wrap .icon {
-  width: 32px;
-  height: 32px;
-  transition: 0.2s;
+  width: 26px;
+  height: 26px;
+  transition: 0.1s;
   background-size: 100% auto;
 }
 #main .main_wrap .sub_wrap .icons-wrap .github .icon {
