@@ -70,15 +70,20 @@
   line-height: 1.4em;
   color: var(--hover-color);
 }
-.skill_card .cube_in {
-  animation: defaultRotation 30s infinite linear;
-}
 .skill_card:hover .cube_in {
   animation: rotationCube 6s infinite linear;
 }
-.skill_card .cube_face {
-  box-shadow: 0px 0px 3px var(--text-color);
+.skill_card:hover .cube::after {
+  width: 70px;
+  height: 10px;
+  opacity: 1;
 }
+.skill_card:hover .cube::before {
+  width: 70px;
+  height: 100px;
+  opacity: 1;
+}
+
 @media screen and (min-width: 600px) {
   .skill_card {
     width: calc(50% - 20px);
