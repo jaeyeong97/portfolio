@@ -5,7 +5,7 @@ const PjFooter = () => {
         <footer id="PjFooter">
             <div className='footer_in'>
                 <a href='https://github.com/jaeyeong97' target='_blank' rel="noreferrer">
-                    <img src='./assets/GitHub.png' alt='깃허브 이미지' />
+                    <img src='/assets/github.png' alt='깃허브 이미지' />
                 </a>
                 <span>© 2024 JaeYeongJang All rights reserved.</span>
                 <Link to="pj_top" smooth={true}>
