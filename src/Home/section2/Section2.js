@@ -16,7 +16,7 @@ const Section2 = () => {
     reactIcon: "/assets/React.png",
     jqueryIcon: "/assets/JQuery.png",
     figmaIcon: "/assets/Figma.png",
-    githubIcon: "/assets/GitHub.png",
+    githubIcon: "/assets/github.png",
     vscIcon: "/assets/VisualStudio.png",
     scssIcon: "/assets/Scss.png",
     axiosIcon: "/assets/axios.webp",
