@@ -1,12 +1,5 @@
 @charset "utf-8";
-@keyframes rotationCube {
-  0% {
-    transform: translateZ(0) rotate3d(0, 0, 0);
-  }
-  100% {
-    transform: translateZ(0) rotate3d(1, 0, 1, 360deg);
-  }
-}
+
 @keyframes defaultRotation {
   0% {
     transform: translateZ(0) rotate3d(0, 0, 0);
@@ -69,6 +62,7 @@
   background-repeat: no-repeat;
   backface-visibility: hidden;
   border: 1px solid #828282;
+  transition: 0.5s;
 }
 .react-router .cube_face {
   background-color: var(--text-color);

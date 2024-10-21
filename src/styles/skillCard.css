@@ -70,9 +70,6 @@
   line-height: 1.4em;
   color: var(--hover-color);
 }
-.skill_card:hover .cube_in {
-  animation: rotationCube 6s infinite linear;
-}
 .skill_card:hover .cube::after {
   width: 70px;
   height: 10px;
@@ -82,6 +79,24 @@
   width: 70px;
   height: 100px;
   opacity: 1;
+}
+.skill_card:hover .cube_face_front {
+  transform: rotateY(0deg) translateZ(30px);
+}
+.skill_card:hover .cube_face_right {
+  transform: rotateY(90deg) translateZ(30px);
+}
+.skill_card:hover .cube_face_back {
+  transform: rotateY(180deg) translateZ(30px);
+}
+.skill_card:hover .cube_face_left {
+  transform: rotateY(-90deg) translateZ(30px);
+}
+.skill_card:hover .cube_face_top {
+  transform: rotateX(90deg) translateZ(30px);
+}
+.skill_card:hover .cube_face_bottom {
+  transform: rotateX(-90deg) translateZ(30px);
 }
 
 @media screen and (min-width: 600px) {
