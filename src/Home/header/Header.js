@@ -28,8 +28,7 @@ const Header = () => {
     return (
         <header id="header"
             style={{
-                background: scroll > 50 ? 'rgba(0,0,0,0.2)' : 'transparent',
-                backdropFilter: scroll > 50 ? 'blur(5px)' : 'initial',
+                backdropFilter: scroll > 50 ? 'blur(8px)' : 'initial',
             }}>
             <Link to='nav_home' smooth={true} offset={-150} onClick={handleLogoClick}>
                 <div className="logo" >

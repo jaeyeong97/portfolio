@@ -16,25 +16,8 @@
   transition: 0.3s;
   cursor: pointer;
   user-select: none;
-}
-.skill_card.left {
-  background: radial-gradient(
-    circle at top right,
-    #252525,
-    transparent,
-    transparent
-  );
-}
-.skill_card.center {
-  background: linear-gradient(to bottom, #252525, transparent, transparent);
-}
-.skill_card.right {
-  background: radial-gradient(
-    circle at top left,
-    #252525,
-    transparent,
-    transparent
-  );
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
 }
 .skill_card .icon {
   position: relative;

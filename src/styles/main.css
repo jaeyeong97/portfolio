@@ -84,12 +84,8 @@
   margin-bottom: 20px;
   border: 1px solid var(--text-color);
   border-radius: 5px;
-  background: radial-gradient(
-    circle at top right,
-    #252525,
-    transparent,
-    transparent
-  );
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
 }
 #main .main_wrap .sub_wrap .t3 .text-wrap {
   display: flex;
@@ -159,22 +155,8 @@
   border: 1px solid var(--text-color);
   margin-bottom: 20px;
   border-radius: 5px;
-}
-#main .main_wrap .sub_wrap .flex-wrap .career-wrap {
-  background: radial-gradient(
-    circle at top right,
-    #252525,
-    transparent,
-    transparent
-  );
-}
-#main .main_wrap .sub_wrap .flex-wrap .education-wrap {
-  background: radial-gradient(
-    circle at top left,
-    #252525,
-    transparent,
-    transparent
-  );
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
 }
 #main .main_wrap .sub_wrap .flex-wrap .title-wrap {
   display: flex;

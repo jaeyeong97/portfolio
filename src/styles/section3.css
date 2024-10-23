@@ -2,7 +2,6 @@
 
 #section3 {
   padding: var(--outline-padding-mo);
-  background-color: #00000d;
 }
 #section3 > .title {
   text-align: center;

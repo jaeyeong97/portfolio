@@ -1,3 +1,4 @@
+import Space from '../util/Space';
 import Header from '../Home/header/Header'
 import Main from '../Home/main/Main';
 import Section2 from '../Home/section2/Section2';
@@ -14,6 +15,7 @@ const Home = () => {
 
     return (
         <div className="Home" onClick={() => sessionStorage.setItem("y", window.pageYOffset)}>
+            <Space />
             <Header />
             <Main />
             <Section2 />

@@ -1,0 +1,48 @@
+.falling--star {
+  position: absolute;
+  background: linear-gradient(to left, rgb(226, 226, 75), #000);
+  width: 100px;
+  height: 1px;
+  transform: rotate(45deg);
+  box-shadow: 0 0 3px yellow;
+}
+.falling--star.star1 {
+  top: -30px;
+  left: -30px;
+  animation: fallingStar 12s linear infinite;
+}
+.falling--star.star2 {
+  top: -50px;
+  left: 15%;
+  animation: fallingStar 12s linear infinite 5s;
+}
+.falling--star.star3 {
+  top: -50px;
+  left: 60%;
+  animation: fallingStar 12s linear infinite 3s;
+}
+.falling--star.star4 {
+  top: 50%;
+  left: -100px;
+  animation: fallingStar 12s linear infinite 8s;
+}
+.falling--star.star5 {
+  top: -100px;
+  left: 50%;
+  animation: fallingStar 12s linear infinite 1s;
+}
+
+@keyframes fallingStar {
+  0% {
+    opacity: 1;
+    transform: rotate(45deg) translate(0, 0);
+  }
+  50% {
+    opacity: 0;
+    transform: rotate(45deg) translateX(200vw);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translateX(200vw);
+  }
+}
