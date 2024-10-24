@@ -216,12 +216,6 @@
   margin: 0 20px 15px 30px;
   background-color: var(--accent-color);
 }
-#main .main_wrap .sub_wrap .flex-wrap .line2 {
-  width: 5px;
-  height: 230px;
-  margin: 0 20px 15px 30px;
-  background-color: var(--accent-color);
-}
 #main .main_wrap .sub_wrap .flex-wrap .ml {
   margin-left: 15px;
 }

@@ -90,13 +90,13 @@ const Main = () => {
             </div>
             <div className="text-wrap">
               <span>
-                • 방송통신대학교 컴퓨터과학과 3학년에 재학 중이며, 원격 교육 시스템으로써 주말을 활용해 전공지식을 학습하고 있습니다.
+                • 그린컴퓨터 아카데미에서 프론트엔드 개발 양성과정을 수료해, 웹 개발에 필요한 역량을 갖추었고 실무에 적용할 수 있는 기술들을 배웠습니다.
               </span>
               <span>
-                • 그린컴퓨터 아카데미에서 프론트엔드 개발 양성과정을 수료해, 웹 개발에 필요한 기본적인 역량을 갖추었고 실무에 적용할 수 있는 기술들을 익혔습니다.
+                • 학원 수료후에도 꾸준히 프로젝트를 만들면서 학습하고 있습니다!
               </span>
               <span>
-                • 부족한 부분은 개인 시간을 통해 보완하며, 회사의 일원으로서 함께 성장하고 발전하는 개발자가 되겠습니다!
+                • 부족한 부분은 개인 시간을 통해 보완하고, 회사의 일원으로서 성장하고 발전하는 개발자가 되겠습니다!
               </span>
             </div>
           </div>
@@ -132,7 +132,7 @@ const Main = () => {
                 <span className="title">교육</span>
               </div>
               <div className="line-box">
-                <div className="line2"></div>
+                <div className="line"></div>
                 <div className="s-box-wrap">
                   <div className="s-box">
                     <div className="flex">
@@ -144,16 +144,6 @@ const Main = () => {
                         <span>• F/E 기술(JS, REACT 등) 학습</span>
                         <span>• 프로토타입 제작부터 배포까지의 전 과정 경험 및 학습 </span>
                         <span>• 팀 프로젝트를 통한 협업 및 문제 해결 경험</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="s-box">
-                    <div className="flex">
-                      <img src="/assets/universe.png" alt="" />
-                      <div className="s-flex">
-                        <div className="s-title">한국방송통신대학교</div>
-                        <div className="duration">2024/09 ~</div>
-                        <span>• 컴퓨터과학과 3학년으로 편입해 병행하여 학습중입니다.</span>
                       </div>
                     </div>
                   </div>
