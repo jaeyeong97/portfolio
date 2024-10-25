@@ -99,6 +99,26 @@ const Main = () => {
                 • 부족한 부분은 개인 시간을 통해 보완하고, 회사의 일원으로서 성장하고 발전하는 개발자가 되겠습니다!
               </span>
             </div>
+            <div className="space-wrap">
+              <div className="mars">
+                <div className="crater crater1"></div>
+                <div className="crater crater2"></div>
+                <div className="crater crater3"></div>
+              </div>
+              <div className="earth">
+                <img src="assets/earth.svg" alt="earth" />
+              </div>
+              <div className="moon">
+                <img src="assets/moon.svg" alt="moon" />
+              </div>
+              <div className="starship">
+                <div className="hat"></div>
+                <div className="bottom"></div>
+                <div className="light light1"></div>
+                <div className="light light2"></div>
+                <div className="light light3"></div>
+              </div>
+            </div>
           </div>
           <div className="flex-wrap">
             <div className="career-wrap box">
@@ -132,7 +152,7 @@ const Main = () => {
                 <span className="title">교육</span>
               </div>
               <div className="line-box">
-                <div className="line"></div>
+                <div className="line2"></div>
                 <div className="s-box-wrap">
                   <div className="s-box">
                     <div className="flex">
@@ -144,6 +164,32 @@ const Main = () => {
                         <span>• F/E 기술(JS, REACT 등) 학습</span>
                         <span>• 프로토타입 제작부터 배포까지의 전 과정 경험 및 학습 </span>
                         <span>• 팀 프로젝트를 통한 협업 및 문제 해결 경험</span>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <img src="/assets/uc.png" alt="" />
+                      <div className="s-flex">
+                        <div className="s-title">울산과학대학교</div>
+                        <div className="duration">2016/03 ~ 2022/02</div>
+                        <span>• 울산과학대학교 전기과 졸업</span>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <img src="/assets/ec.png" alt="" />
+                      <div className="s-flex">
+                        <div className="s-title">EC academy</div>
+                        <div className="duration">2019/06 ~ 2019/10</div>
+                        <span>• 캐나다 어학연수</span>
+                        <span>• Semi Intensive English course 수료</span>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <img src="/assets/cia.png" alt="" />
+                      <div className="s-flex">
+                        <div className="s-title">CIA academy</div>
+                        <div className="duration">2019/03 ~ 2019/06</div>
+                        <span>• 필리핀 어학연수</span>
+                        <span>• Regular ESL course course 수료</span>
                       </div>
                     </div>
                   </div>
