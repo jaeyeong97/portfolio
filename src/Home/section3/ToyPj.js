@@ -1,18 +1,4 @@
-import { useEffect } from "react";
-import sr from "../../util/ScrollReveal";
-
 const ToyPj = ({ handleChangePage }) => {
-
-    useEffect(() => {
-        sr.reveal(".pj", {
-            origin: "bottom",
-            distance: "30px",
-            duration: 800,
-            opacity: 0,
-            easing: "ease-in-out",
-            reset: false,
-        });
-    }, []);
 
     return (
         <div className="toy_pj pj">

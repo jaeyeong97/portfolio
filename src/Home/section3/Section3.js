@@ -2,7 +2,8 @@ import { useNavigate } from "react-router-dom";
 import FrontendPj from "./FrontendPj";
 import ToyPj from "./ToyPj";
 import PublishingPj from "./PublishingPj";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import sr from "../../util/ScrollReveal";
 
 const Section3 = () => {
   const navigate = useNavigate();
@@ -50,6 +51,18 @@ const Section3 = () => {
         break;
     }
   };
+
+  useEffect(() => {
+    sr.reveal(".projects_wrap", {
+      origin: "bottom",
+      distance: "30px",
+      duration: 800,
+      opacity: 0,
+      easing: "ease-in-out",
+      reset: false,
+    });
+  }, []);
+
   return (
     <section id="section3">
       <h2 className="title" id="nav_projects">

@@ -65,7 +65,7 @@ const Section2 = () => {
   };
 
   useEffect(() => {
-    sr.reveal(".skills-wrap", {
+    sr.reveal(".skills_wrap", {
       origin: "bottom",
       distance: "50px",
       duration: 800,
