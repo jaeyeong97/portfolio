@@ -31,7 +31,6 @@ const Main = () => {
       opacity: 0,
       easing: "ease-in-out",
       reset: false,
-      // delay: 1500,
     });
   }, []);
 
