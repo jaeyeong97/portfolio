@@ -15,12 +15,8 @@
 #section3 .title .underbar {
   width: 150px;
   height: 3px;
-  transition: 0.2s;
   margin: 15px auto 0 auto;
   background-color: var(--text-color);
-}
-#section3 .title:hover .underbar {
-  width: 300px;
 }
 #section3 .projects_wrap {
   width: 100%;

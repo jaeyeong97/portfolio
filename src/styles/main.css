@@ -62,12 +62,8 @@
 #main .main_wrap .about-title .underbar {
   width: 150px;
   height: 3px;
-  transition: 0.2s;
   margin: 15px auto 0 auto;
   background-color: var(--text-color);
-}
-#main .main_wrap .about-title:hover .underbar {
-  width: 300px;
 }
 #main .main_wrap .sub_wrap {
   display: flex;

@@ -1,19 +1,8 @@
 import Cube from "./Cube";
-import sr from "../../util/ScrollReveal";
-import { useEffect } from "react";
 
 const SkillCard = ({ iconImgs, skillsExplain, skillsTitle, className }) => {
 
-  useEffect(() => {
-    sr.reveal(".skill_card", {
-      origin: "bottom",
-      distance: "50px",
-      duration: 800,
-      opacity: 0,
-      easing: "ease-in-out",
-      reset: false,
-    });
-  }, []);
+
 
   return (
     <div className={`skill_card ${className}`}>

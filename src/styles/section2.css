@@ -15,12 +15,8 @@
 #section2 .title .underbar {
   width: 150px;
   height: 3px;
-  transition: 0.2s;
   margin: 15px auto 0 auto;
   background-color: var(--text-color);
-}
-#section2 .title:hover .underbar {
-  width: 300px;
 }
 #section2 .skills_wrap .buttons {
   display: flex;

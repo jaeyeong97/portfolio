@@ -1,6 +1,7 @@
 import FrontSkills from "./FrontSkills";
 import AdditionalSkills from "./AdditionalSkills";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import sr from "../../util/ScrollReveal";
 
 const Section2 = () => {
   const [selectedSkills, setSelectedSkills] = useState(1); // 스킬 선택 버튼
@@ -62,6 +63,17 @@ const Section2 = () => {
     styledComponentsTitle: "styled-components",
     reactQueryTitle: "React Query",
   };
+
+  useEffect(() => {
+    sr.reveal(".skills-wrap", {
+      origin: "bottom",
+      distance: "50px",
+      duration: 800,
+      opacity: 0,
+      easing: "ease-in-out",
+      reset: false,
+    });
+  }, []);
 
   return (
     <section id="section2">
