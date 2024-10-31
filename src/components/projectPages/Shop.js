@@ -92,6 +92,7 @@ const Shop = () => {
             <div>• <span className="cem">React Router</span> - 쇼핑몰의 홈, 상품 상세 페이지, 장바구니 등 여러 페이지 간 원활한 이동을 구현하였습니다.</div>
             <div>• <span className="cem">SCSS</span> - 공통 스타일을 변수로 관리해 코드의 재사용성을 높였고, 유지보수하기 쉽도록 했습니다.</div>
             <div>• <span className="cem">OAuth</span> - 네이버, 카카오, 구글 로그인 기능을 OAuth 인증을 통해 구현하였습니다.</div>
+            <div>• <span className="cem">react-daum-postcode</span> - 배송지를 추가할때 Daum 우편번호 검색 서비스를 이용했습니다.</div>
           </div>
         </div>
       </section>
