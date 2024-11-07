@@ -95,24 +95,7 @@ const Gallery = () => {
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">
-              <div className="html_icon"></div>
-              <div className="html txt">HTML</div>
-            </div>
-            <div className="html_percent_wrap">
-              <div className="gallery_html_percent_bar bar"></div>
-              <div className="gallery_html_percent_txt">
-                <AnimatedCountUp
-                  start={0}
-                  end={0.9}
-                  duration={2.5}
-                  decimal={1}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="language">
-            <div className="txt_wrap">
-              <div className="css_icon"></div>
+              <div className="css_icon icon"></div>
               <div className="css txt">CSS</div>
             </div>
             <div className="css_percent_wrap">
@@ -129,7 +112,7 @@ const Gallery = () => {
           </div>
           <div className="language">
             <div className="txt_wrap">
-              <div className="js_icon"></div>
+              <div className="js_icon icon"></div>
               <div className="js_txt">JS</div>
             </div>
             <div className="js_percent_wrap">
@@ -138,6 +121,23 @@ const Gallery = () => {
                 <AnimatedCountUp
                   start={0}
                   end={25.7}
+                  duration={2.5}
+                  decimal={1}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="language">
+            <div className="txt_wrap">
+              <div className="html_icon icon"></div>
+              <div className="html txt">HTML</div>
+            </div>
+            <div className="html_percent_wrap">
+              <div className="gallery_html_percent_bar bar"></div>
+              <div className="gallery_html_percent_txt">
+                <AnimatedCountUp
+                  start={0}
+                  end={0.9}
                   duration={2.5}
                   decimal={1}
                 />

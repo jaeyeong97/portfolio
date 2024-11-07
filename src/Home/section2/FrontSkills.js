@@ -9,69 +9,64 @@ const FrontSkills = ({ iconImgs, skillsExplain, skillsTitle }) => {
                 iconImgs={iconImgs.htmlIcon}
                 skillsExplain={skillsExplain.htmlEx}
                 skillsTitle={skillsTitle.htmlTitle}
-                className='left'
             />
             <SkillCard
                 iconImgs={iconImgs.cssIcon}
                 skillsExplain={skillsExplain.cssEx}
                 skillsTitle={skillsTitle.cssTitle}
-                className='center'
             />
             <SkillCard
                 iconImgs={iconImgs.jsIcon}
                 skillsExplain={skillsExplain.jsEx}
                 skillsTitle={skillsTitle.jsTitle}
-                className='right'
+            />
+            <SkillCard
+                iconImgs={iconImgs.tsIcon}
+                skillsExplain={skillsExplain.tsEx}
+                skillsTitle={skillsTitle.tsTitle}
             />
             <SkillCard
                 iconImgs={iconImgs.reactIcon}
                 skillsExplain={skillsExplain.reactEx}
                 skillsTitle={skillsTitle.reactTitle}
-                className='left'
             />
             <SkillCard
                 iconImgs={iconImgs.jqueryIcon}
                 skillsExplain={skillsExplain.jqueryEx}
                 skillsTitle={skillsTitle.jqueryTitle}
-                className='center'
             />
             <SkillCard
                 iconImgs={iconImgs.scssIcon}
                 skillsExplain={skillsExplain.scssEx}
                 skillsTitle={skillsTitle.scssTitle}
-                className='right'
             />
             <SkillCard
                 iconImgs={iconImgs.axiosIcon}
                 skillsExplain={skillsExplain.axiosEx}
                 skillsTitle={skillsTitle.axiosTitle}
-                className='left'
             />
             <SkillCard
                 iconImgs={iconImgs.recoilIcon}
                 skillsExplain={skillsExplain.recoilEx}
                 skillsTitle={skillsTitle.recoilTitle}
-                className='center'
             />
             <SkillCard
                 iconImgs={iconImgs.reactRouterIcon}
                 skillsExplain={skillsExplain.reactRouterEx}
                 skillsTitle={skillsTitle.reactRouterTitle}
-                className='right react-router'
+                className='react-router'
             />
             <SkillCard
                 iconImgs={iconImgs.styledComponentsIcon}
                 skillsExplain={skillsExplain.styledComponentsEx}
                 skillsTitle={skillsTitle.styledComponentsTitle}
-                className='left'
             />
             <SkillCard
                 iconImgs={iconImgs.reactQueryIcon}
                 skillsExplain={skillsExplain.reactQueryEx}
                 skillsTitle={skillsTitle.reactQueryTitle}
-                className='center'
             />
-            <div className="empty"></div>
+            {/* <div className="empty"></div> */}
         </div>
     );
 };

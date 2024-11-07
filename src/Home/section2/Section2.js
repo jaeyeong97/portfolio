@@ -14,6 +14,7 @@ const Section2 = () => {
     htmlIcon: "/assets/Html5.png",
     cssIcon: "/assets/Css3.png",
     jsIcon: "/assets/JavaScript.png",
+    tsIcon: "/assets/TypeScript.png",
     reactIcon: "/assets/React.png",
     jqueryIcon: "/assets/JQuery.png",
     figmaIcon: "/assets/Figma.png",
@@ -32,6 +33,7 @@ const Section2 = () => {
     cssEx:
       "Flexbox로 다양한 레이아웃 구현, CSS만을 사용하여 여러 애니메이션 작업을 할 수 있습니다.",
     jsEx: "동적인 콘텐츠와 사용자 상호작용을 구현하여, 웹 페이지를 보다 인터랙티브하게 만들 수 있습니다.",
+    tsEx: "변수, 함수, 객체 등의 타입을 지정하고, 코드 안정성을 높일 수 있습니다. 이를 통해 코드의 가독성과 유지보수성을 개선할 수 있습니다.",
     reactEx:
       "Recoil을 활용하여 상태 관리를 할 수 있습니다. Styled-component를 사용하여 컴포넌트별로 스타일을 관리합니다.",
     jqueryEx:
@@ -51,6 +53,7 @@ const Section2 = () => {
     htmlTitle: "HTML",
     cssTitle: "CSS",
     jsTitle: "JavaScript",
+    tsTitle: "TypeScript",
     reactTitle: "React",
     jqueryTitle: "JQuery",
     figmaTitle: "Figma",

@@ -2,8 +2,6 @@ import Cube from "./Cube";
 
 const SkillCard = ({ iconImgs, skillsExplain, skillsTitle, className }) => {
 
-
-
   return (
     <div className={`skill_card ${className}`}>
       <div className="icon">

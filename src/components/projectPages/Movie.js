@@ -100,41 +100,7 @@ const Movie = () => {
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">
-              <div className="html_icon"></div>
-              <div className="html txt">HTML</div>
-            </div>
-            <div className="html_percent_wrap">
-              <div className="movie_html_percent_bar bar"></div>
-              <div className="movie_html_percent_txt">
-                <AnimatedCountUp
-                  start={0}
-                  end={1.2}
-                  duration={2.5}
-                  decimal={1}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="language">
-            <div className="txt_wrap">
-              <div className="scss_icon"></div>
-              <div className="scss txt">SCSS</div>
-            </div>
-            <div className="css_percent_wrap">
-              <div className="movie_css_percent_bar bar"></div>
-              <div className="movie_css_percent_txt">
-                <AnimatedCountUp
-                  start={0}
-                  end={19.9}
-                  duration={2.5}
-                  decimal={1}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="language">
-            <div className="txt_wrap">
-              <div className="js_icon"></div>
+              <div className="js_icon icon"></div>
               <div className="js_txt">JS</div>
             </div>
             <div className="js_percent_wrap">
@@ -142,7 +108,41 @@ const Movie = () => {
               <div className="movie_js_percent_bar">
                 <AnimatedCountUp
                   start={0}
-                  end={77.7}
+                  end={85.2}
+                  duration={2.5}
+                  decimal={1}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="language">
+            <div className="txt_wrap">
+              <div className="scss_icon icon"></div>
+              <div className="scss txt">SCSS</div>
+            </div>
+            <div className="css_percent_wrap">
+              <div className="movie_css_percent_bar bar"></div>
+              <div className="movie_css_percent_txt">
+                <AnimatedCountUp
+                  start={0}
+                  end={13.2}
+                  duration={2.5}
+                  decimal={1}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="language">
+            <div className="txt_wrap">
+              <div className="html_icon icon"></div>
+              <div className="html txt">HTML</div>
+            </div>
+            <div className="html_percent_wrap">
+              <div className="movie_html_percent_bar bar"></div>
+              <div className="movie_html_percent_txt">
+                <AnimatedCountUp
+                  start={0}
+                  end={1.6}
                   duration={2.5}
                   decimal={1}
                 />

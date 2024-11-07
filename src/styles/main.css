@@ -138,9 +138,6 @@
 #main .main_wrap .sub_wrap .icons-wrap .email:hover .icon {
   background-image: url("../../public/assets/email-hover.png");
 }
-#main .main_wrap .sub_wrap .t3 .space-wrap {
-  display: none;
-}
 #main .main_wrap .sub_wrap .t3 .text-wrap span {
   margin-bottom: 8px;
   text-indent: -11.5px;
@@ -276,162 +273,9 @@
   }
   #main .main_wrap .sub_wrap .t3 .text-wrap {
     padding: 10px 25px;
-    border-bottom: 1px solid var(--text-color);
   }
   #main .main_wrap .sub_wrap .t3 .text-wrap span {
     line-height: 2.5em;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 265px;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    background: radial-gradient(
-      circle at left top,
-      #fff757,
-      #696408,
-      #444105,
-      transparent 70%
-    );
-  }
-  #main .main_wrap .sub_wrap .t3 .mars {
-    position: absolute;
-    bottom: 0;
-    right: 20px;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    overflow: hidden;
-    background: radial-gradient(
-      circle at left top,
-      #d24b30,
-      #d24b30,
-      #d24b30,
-      transparent 85%
-    );
-  }
-  #main .main_wrap .sub_wrap .t3 .mars::after {
-    content: "";
-    position: absolute;
-    top: -55px;
-    left: -65px;
-    width: 230px;
-    height: 230px;
-    border-radius: 50%;
-    border: 25px solid rgba(0, 0, 0, 0.2);
-  }
-  #main .main_wrap .sub_wrap .t3 .mars .crater {
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: inset 5px 5px 0 rgba(0, 0, 0, 0.25);
-  }
-  #main .main_wrap .sub_wrap .t3 .mars .crater1 {
-    top: 40px;
-    left: 40px;
-    width: 30px;
-    height: 30px;
-  }
-  #main .main_wrap .sub_wrap .t3 .mars .crater2 {
-    top: 100px;
-    left: 75px;
-    width: 20px;
-    height: 20px;
-  }
-  #main .main_wrap .sub_wrap .t3 .mars .crater3 {
-    top: 40px;
-    left: 110px;
-    width: 15px;
-    height: 15px;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .earth {
-    position: absolute;
-    top: 100px;
-    left: 190px;
-    width: 50px;
-    height: 50px;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .moon {
-    position: absolute;
-    top: 85px;
-    left: 230px;
-    width: 35px;
-    height: 35px;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .earth img {
-    width: 100%;
-    height: auto;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .moon img {
-    width: 100%;
-    height: auto;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .starship {
-    position: absolute;
-    top: 90px;
-    left: -70px;
-    z-index: 3;
-    animation: starshipmove 10s linear infinite;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .starship::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 100px;
-    border-radius: 50% 50% 0 0;
-    animation: bim 10s linear infinite;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .starship .hat {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 25px;
-    border-radius: 50% 50% 3px 3px;
-    background-color: #848484;
-    z-index: 2;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .starship .bottom {
-    position: absolute;
-    top: 15px;
-    left: -9.5px;
-    width: 60px;
-    height: 20px;
-    border-radius: 50%;
-    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.2);
-    background-color: #00c020;
-    z-index: 1;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .starship .light {
-    position: absolute;
-    top: 25px;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    animation: starshiplight 1s ease-in-out infinite alternate;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .starship .light1 {
-    left: -2px;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .starship .light2 {
-    top: 27px;
-    left: 13.5px;
-  }
-  #main .main_wrap .sub_wrap .t3 .space-wrap .starship .light3 {
-    left: 30px;
   }
   #main .main_wrap .sub_wrap {
     width: 100%;
@@ -444,46 +288,5 @@
   }
   #main .main_wrap .sub_wrap .flex-wrap .box {
     margin-bottom: 40px;
-  }
-}
-@keyframes starshiplight {
-  from {
-    box-shadow: 0;
-    background-color: rgba(255, 255, 0, 0.766);
-  }
-  to {
-    box-shadow: 0 0 8px yellow;
-    background-color: yellow;
-  }
-}
-@keyframes starshipmove {
-  0% {
-    transform: translate(0) scale(2) rotate(-15deg);
-  }
-  30% {
-    transform: translateX(280px) scale(0.3);
-  }
-  70% {
-    transform: translateX(280px) scale(0.3);
-  }
-  80% {
-    transform: translateX(600px) scale(2) rotate(15deg);
-  }
-  100% {
-    transform: translateX(600px) scale(2);
-  }
-}
-@keyframes bim {
-  0% {
-    background: initial;
-  }
-  65% {
-    background: linear-gradient(to bottom, yellow, rgba(255, 255, 0, 0.399));
-  }
-  75% {
-    background: initial;
-  }
-  100% {
-    background: initial;
   }
 }

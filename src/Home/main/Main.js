@@ -98,26 +98,6 @@ const Main = () => {
                 • 부족한 부분은 개인 시간을 통해 보완하고, 회사의 일원으로서 성장하고 발전하는 개발자가 되겠습니다!
               </span>
             </div>
-            <div className="space-wrap">
-              <div className="mars">
-                <div className="crater crater1"></div>
-                <div className="crater crater2"></div>
-                <div className="crater crater3"></div>
-              </div>
-              <div className="earth">
-                <img src="assets/earth.svg" alt="earth" />
-              </div>
-              <div className="moon">
-                <img src="assets/moon.svg" alt="moon" />
-              </div>
-              <div className="starship">
-                <div className="hat"></div>
-                <div className="bottom"></div>
-                <div className="light light1"></div>
-                <div className="light light2"></div>
-                <div className="light light3"></div>
-              </div>
-            </div>
           </div>
           <div className="flex-wrap">
             <div className="career-wrap box">

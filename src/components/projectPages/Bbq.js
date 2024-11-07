@@ -89,7 +89,7 @@ const Bbq = () => {
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">
-              <div className="html_icon"></div>
+              <div className="html_icon icon"></div>
               <div className="html txt">HTML</div>
             </div>
             <div className="html_percent_wrap">
@@ -106,7 +106,7 @@ const Bbq = () => {
           </div>
           <div className="language">
             <div className="txt_wrap">
-              <div className="css_icon"></div>
+              <div className="css_icon icon"></div>
               <div className="css txt">CSS</div>
             </div>
             <div className="css_percent_wrap">
@@ -123,7 +123,7 @@ const Bbq = () => {
           </div>
           <div className="language">
             <div className="txt_wrap">
-              <div className="js_icon"></div>
+              <div className="js_icon icon"></div>
               <div className="js_txt">JS</div>
             </div>
             <div className="js_percent_wrap">
