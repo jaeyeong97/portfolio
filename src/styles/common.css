@@ -30,7 +30,7 @@ body {
   font-size: 14px;
   line-height: 1em;
   color: #121212;
-  background-color: #00000d;
+  background-color: var(--background-color);
 }
 ul,
 ol {

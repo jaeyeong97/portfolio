@@ -72,9 +72,8 @@
 #main .main_wrap .sub_wrap .t3 {
   font-family: "Pretendard-Regular", "Noto Sans KR", sans-serif;
   font-size: 15px;
-  font-weight: 600;
   line-height: 1.8em;
-  color: var(--hover-color);
+  color: var(--text-color);
   margin: 0 20px;
   padding: 20px;
   margin-bottom: 20px;

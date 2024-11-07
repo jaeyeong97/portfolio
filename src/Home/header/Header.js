@@ -43,11 +43,9 @@ const Header = () => {
                     <Link to="nav_home" offset={-150} smooth={true}>
                         <li className="home" onClick={() => { setToggle(false) }}>
                             <div className='li_wrap_first'>
-                                <span className="material-symbols-outlined home_icon">home</span>
                                 <span className='txt'>Home</span>
                             </div>
                             <div className='li_wrap_second'>
-                                <span className="material-symbols-outlined home_icon">home</span>
                                 <span className='txt'>Home</span>
                             </div>
                         </li>
@@ -55,11 +53,9 @@ const Header = () => {
                     <Link to="nav_about" smooth={true} offset={-90}>
                         <li className="about" onClick={() => { setToggle(false) }}>
                             <div className='li_wrap_first'>
-                                <span className="material-symbols-outlined user_icon">person</span>
                                 <span className='txt'>Skills</span>
                             </div>
                             <div className='li_wrap_second'>
-                                <span className="material-symbols-outlined user_icon">person</span>
                                 <span className='txt'>Skills</span>
                             </div>
                         </li>
@@ -67,11 +63,9 @@ const Header = () => {
                     <Link to="nav_projects" smooth={true} offset={-90}>
                         <li className="projects" onClick={() => { setToggle(false) }}>
                             <div className='li_wrap_first'>
-                                <span className="material-symbols-outlined project_icon">sync_saved_locally</span>
                                 <span className='txt'>Projects</span>
                             </div>
                             <div className='li_wrap_second'>
-                                <span className="material-symbols-outlined project_icon">sync_saved_locally</span>
                                 <span className='txt'>Projects</span>
                             </div>
                         </li>

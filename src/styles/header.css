@@ -82,8 +82,8 @@
 #header #gnb ul li {
   position: relative;
   text-align: center;
-  padding: 10px 0;
-  margin: 10px 0;
+  margin: 25px 0;
+  line-height: 1.4em;
   cursor: pointer;
   overflow: hidden;
 }
@@ -94,17 +94,14 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(40px) translate(-50%, -50%);
+  transform: translateY(25px) translate(-50%, -50%);
   transition: 0.3s;
 }
 #header #gnb ul li:hover .li_wrap_first {
-  transform: translateY(-40px);
+  transform: translateY(-25px);
 }
 #header #gnb ul li:hover .li_wrap_second {
   transform: translateY(0) translate(-50%, -50%);
-}
-#header #gnb ul li .material-symbols-outlined {
-  display: none;
 }
 #header #gnb ul li .txt {
   color: var(--text-color);
@@ -139,11 +136,8 @@
   #header #gnb ul {
     display: flex;
   }
-  #header #gnb ul .about {
-    padding-left: 3px;
-  }
   #header #gnb ul li {
-    padding: 5px 0;
+    padding: 0;
     margin: 0;
   }
   #header #gnb ul li div {
@@ -152,32 +146,17 @@
     padding: 0 5px;
     margin: 0 10px;
   }
+  #header #gnb ul li:hover .li_wrap_first {
+    transform: translateY(-25px);
+  }
   #header #gnb ul li .li_wrap_second {
-    transform: translateY(40px) translate(-60%, -50%);
+    transform: translateY(25px) translate(-50%, -50%) translateX(-9.5px);
   }
   #header #gnb ul li:hover .li_wrap_second {
-    transform: translateY(-5px) translate(-60%, -50%);
-  }
-  #header #gnb ul li .home_icon {
-    transform: translateY(-3px);
-  }
-  #header #gnb ul li .user_icon {
-    font-size: 27px;
-    transform: translateX(2px) translateY(-2px);
-  }
-  #header #gnb ul li .project_icon {
-    transform: translateX(-1px) translateY(-1px);
+    transform: translateY(0) translate(-50%, -50%) translateX(-9.5px);
   }
   #header #gnb ul li .txt {
     margin-left: 5px;
-  }
-  #header #gnb ul li .material-symbols-outlined {
-    display: block;
-    font-size: 25px;
-    color: var(--text-color);
-  }
-  #header #gnb ul li .li_wrap_second .material-symbols-outlined {
-    color: var(--hover-color);
   }
   #header .toggle_menu {
     display: none;

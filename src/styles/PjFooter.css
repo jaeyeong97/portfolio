@@ -3,7 +3,7 @@
 #PjFooter {
   width: 100%;
   border-top: 1px solid rgba(237, 235, 224, 0.5);
-  background-color: #00000d;
+  background-color: var(--background-color);
 }
 #PjFooter .footer_in {
   width: 100%;
