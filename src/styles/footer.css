@@ -33,16 +33,16 @@
   margin: 0 5px;
 }
 #footer .footer_in .icons-wrap .github .icon {
-  background-image: url("../../public/assets/github.png");
+  background-image: url("../../public/assets/github.webp");
 }
 #footer .footer_in .icons-wrap .github .icon:hover {
-  background-image: url("../../public/assets/github-hover.png");
+  background-image: url("../../public/assets/github-hover.webp");
 }
 #footer .footer_in .icons-wrap .email .icon {
-  background-image: url("../../public/assets/email.png");
+  background-image: url("../../public/assets/email.webp");
 }
 #footer .footer_in .icons-wrap .email .icon:hover {
-  background-image: url("../../public/assets/email-hover.png");
+  background-image: url("../../public/assets/email-hover.webp");
 }
 #footer .footer_in span {
   width: 100%;

@@ -97,15 +97,15 @@ const Petdoc = () => {
         <h3 className="ex_title">✨내가 기여한 부분</h3>
         <div className="img_wrap">
           <div className="w">
-            <img src="/assets/petdoc_consult.gif" alt="펫닥 상담 페이지" />
+            <img src="/assets/petdoc_consult.webp" alt="펫닥 상담 페이지" />
             <span>&lt;상담 페이지&gt;</span>
           </div>
           <div className="w">
-            <img src="/assets/petdoc_loading.png" alt="펫닥 로딩 페이지" />
+            <img src="/assets/petdoc_loading.webp" alt="펫닥 로딩 페이지" />
             <span>&lt;로딩 페이지&gt;</span>
           </div>
           <div className="w">
-            <img src="/assets/petdoc_search.gif" alt="펫닥 검색 페이지" />
+            <img src="/assets/petdoc_search.webp" alt="펫닥 검색 페이지" />
             <span>&lt;검색 페이지&gt;</span>
           </div>
         </div>
@@ -138,7 +138,7 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle2 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <img src="/assets/loading_code.png" alt="로딩 코드" />
+                <img src="/assets/loading_code.webp" alt="로딩 코드" />
                 <div className="s_text">- <span className="cem">setTimeout</span> 함수를 사용해 2초동안 로딩페이지가 출력되게 구현</div>
               </div>
             </div>
@@ -159,15 +159,15 @@ const Petdoc = () => {
       <section className="section_petdoc_explain2">
         <div className="img_wrap">
           <div className="w">
-            <img src="/assets/petdoc_edit.gif" alt="펫닥 반려동물 수정 페이지" />
+            <img src="/assets/petdoc_edit.webp" alt="펫닥 반려동물 수정 페이지" />
             <span>&lt;반려동물 수정 페이지&gt;</span>
           </div>
           <div className="w">
-            <img src="/assets/petdoc_bookmark.png" alt="펫닥 즐겨찾기 페이지" />
+            <img src="/assets/petdoc_bookmark.webp" alt="펫닥 즐겨찾기 페이지" />
             <span>&lt;즐겨찾기 페이지&gt;</span>
           </div>
           <div className="w">
-            <img src="/assets/petdoc_map.gif" alt="펫닥 지도 페이지" />
+            <img src="/assets/petdoc_map.webp" alt="펫닥 지도 페이지" />
             <span>&lt;지도 페이지&gt;</span>
           </div>
         </div>
@@ -193,7 +193,7 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle5 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <img src="/assets/bookmark_code.png" alt="북마크 코드" />
+                <img src="/assets/bookmark_code.webp" alt="북마크 코드" />
                 <div className="s_text">- 병원을 즐겨찾기 할 수 있는 기능을 구현</div>
                 <div className="s_text">- 즐겨찾기한 병원 배열을 즐겨찾기 페이지로 전달</div>
                 <div className="s_text">- 즐겨찾기 배열을 로컬 스토리지에 저장</div>

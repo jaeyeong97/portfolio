@@ -5,7 +5,7 @@ const FrontendPj = ({ handleChangePage }) => {
             <div className="project" onClick={() => { handleChangePage('shop') }}>
                 <div className="page_img">
                     <div className="shop_wrap">
-                        <img className="shop" src="/assets/shop.png" alt="SHOP 웹사이트 이미지" />
+                        <img className="shop" src="/assets/shop.webp" alt="SHOP 웹사이트 이미지" />
                     </div>
                     <span className="txt">SHOP</span>
                     <div className="explain">쇼핑몰에 필요한 여러 기능들을 갖춘 SHOP 웹사이트입니다.</div>

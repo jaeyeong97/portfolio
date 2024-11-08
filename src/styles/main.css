@@ -126,16 +126,16 @@
   background-size: 100% auto;
 }
 #main .main_wrap .sub_wrap .icons-wrap .github .icon {
-  background-image: url("../../public/assets/github.png");
+  background-image: url("../../public/assets/github.webp");
 }
 #main .main_wrap .sub_wrap .icons-wrap .github:hover .icon {
-  background-image: url("../../public/assets/github-hover.png");
+  background-image: url("../../public/assets/github-hover.webp");
 }
 #main .main_wrap .sub_wrap .icons-wrap .email .icon {
-  background-image: url("../../public/assets/email.png");
+  background-image: url("../../public/assets/email.webp");
 }
 #main .main_wrap .sub_wrap .icons-wrap .email:hover .icon {
-  background-image: url("../../public/assets/email-hover.png");
+  background-image: url("../../public/assets/email-hover.webp");
 }
 #main .main_wrap .sub_wrap .t3 .text-wrap span {
   margin-bottom: 8px;

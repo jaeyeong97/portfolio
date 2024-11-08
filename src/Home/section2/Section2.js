@@ -11,20 +11,20 @@ const Section2 = () => {
   };
 
   const iconImgs = {
-    htmlIcon: "/assets/Html5.png",
-    cssIcon: "/assets/Css3.png",
-    jsIcon: "/assets/JavaScript.png",
-    tsIcon: "/assets/TypeScript.png",
-    reactIcon: "/assets/React.png",
-    jqueryIcon: "/assets/JQuery.png",
-    figmaIcon: "/assets/Figma.png",
-    githubIcon: "/assets/github.png",
-    vscIcon: "/assets/VisualStudio.png",
-    scssIcon: "/assets/Scss.png",
+    htmlIcon: "/assets/Html5.webp",
+    cssIcon: "/assets/Css3.webp",
+    jsIcon: "/assets/JavaScript.webp",
+    tsIcon: "/assets/TypeScript.webp",
+    reactIcon: "/assets/React.webp",
+    jqueryIcon: "/assets/JQuery.webp",
+    figmaIcon: "/assets/Figma.webp",
+    githubIcon: "/assets/github.webp",
+    vscIcon: "/assets/VisualStudio.webp",
+    scssIcon: "/assets/Scss.webp",
     axiosIcon: "/assets/axios.webp",
     recoilIcon: "/assets/recoil.svg",
     reactRouterIcon: "/assets/react-router.svg",
-    styledComponentsIcon: "/assets/styledcomponents.png",
+    styledComponentsIcon: "/assets/styledcomponents.webp",
     reactQueryIcon: "/assets/reactQuery.svg",
   };
   const skillsExplain = {

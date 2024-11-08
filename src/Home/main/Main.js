@@ -102,7 +102,7 @@ const Main = () => {
           <div className="flex-wrap">
             <div className="career-wrap box">
               <div className="title-wrap">
-                <img src="/assets/career.png" alt="" />
+                <img src="/assets/career.webp" alt="" />
                 <span className="title">경력 사항</span>
               </div>
               <div className="line-box">
@@ -110,7 +110,7 @@ const Main = () => {
                 <div className="s-box-wrap">
                   <div className="s-box">
                     <div className="flex">
-                      <img src="/assets/lg.png" alt="" />
+                      <img src="/assets/lg.webp" alt="" />
                       <div className="s-flex">
                         <div className="s-title">LG innotek</div>
                         <div className="duration">2021/09 ~ 2023/04</div>
@@ -127,7 +127,7 @@ const Main = () => {
             </div>
             <div className="education-wrap box">
               <div className="title-wrap">
-                <img src="/assets/edu.png" alt="" />
+                <img src="/assets/edu.webp" alt="" />
                 <span className="title">교육</span>
               </div>
               <div className="line-box">
@@ -135,7 +135,7 @@ const Main = () => {
                 <div className="s-box-wrap">
                   <div className="s-box">
                     <div className="flex">
-                      <img src="/assets/greencom.png" alt="" className="green" />
+                      <img src="/assets/greencom.webp" alt="" className="green" />
                       <div className="s-flex">
                         <div className="s-title">그린컴퓨터 아카데미</div>
                         <div className="duration">2023/09 ~ 2024/03</div>
@@ -146,7 +146,7 @@ const Main = () => {
                       </div>
                     </div>
                     <div className="flex">
-                      <img src="/assets/uc.png" alt="" />
+                      <img src="/assets/uc.webp" alt="" />
                       <div className="s-flex">
                         <div className="s-title">울산과학대학교</div>
                         <div className="duration">2016/03 ~ 2022/02</div>
@@ -154,7 +154,7 @@ const Main = () => {
                       </div>
                     </div>
                     <div className="flex">
-                      <img src="/assets/ec.png" alt="" />
+                      <img src="/assets/ec.webp" alt="" />
                       <div className="s-flex">
                         <div className="s-title">EC academy</div>
                         <div className="duration">2019/06 ~ 2019/10</div>
@@ -163,7 +163,7 @@ const Main = () => {
                       </div>
                     </div>
                     <div className="flex">
-                      <img src="/assets/cia.png" alt="" />
+                      <img src="/assets/cia.webp" alt="" />
                       <div className="s-flex">
                         <div className="s-title">CIA academy</div>
                         <div className="duration">2019/03 ~ 2019/06</div>

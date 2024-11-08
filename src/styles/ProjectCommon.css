@@ -602,22 +602,22 @@
   margin-bottom: 2px;
 }
 .components_wrap .html_icon {
-  background-image: url(../../public/assets/Html5.png);
+  background-image: url(../../public/assets/Html5.webp);
 }
 .components_wrap .css_icon {
-  background-image: url(../../public/assets/Css3.png);
+  background-image: url(../../public/assets/Css3.webp);
 }
 .components_wrap .scss_icon {
-  background-image: url(../../public/assets/Scss.png);
+  background-image: url(../../public/assets/Scss.webp);
 }
 .components_wrap .css_icon {
-  background-image: url(../../public/assets/Css3.png);
+  background-image: url(../../public/assets/Css3.webp);
 }
 .components_wrap .js_icon {
-  background-image: url(../../public/assets/JavaScript.png);
+  background-image: url(../../public/assets/JavaScript.webp);
 }
 .components_wrap .ts_icon {
-  background-image: url(../../public/assets/TypeScript.png);
+  background-image: url(../../public/assets/TypeScript.webp);
 }
 .components_wrap .html_percent_wrap,
 .components_wrap .css_percent_wrap,
