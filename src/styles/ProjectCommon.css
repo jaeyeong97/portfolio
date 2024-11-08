@@ -278,34 +278,34 @@
   background-position: center;
 }
 .petdoc .main .main_img {
-  background-image: url(../../public/assets/petdoc-frame.png);
+  background-image: url(../../public/assets/petdoc-frame.webp);
 }
 .recipes .main .main_img {
-  background-image: url(../../public/assets/recipe-frame.png);
+  background-image: url(../../public/assets/recipe-frame.webp);
 }
 .gallery .main .main_img {
-  background-image: url(../../public/assets/gallery-frame.png);
+  background-image: url(../../public/assets/gallery-frame.webp);
 }
 .windows .main .main_img {
-  background-image: url(../../public/assets/window-frame.png);
+  background-image: url(../../public/assets/window-frame.webp);
 }
 .bbq .main .main_img {
-  background-image: url(../../public/assets/bbq-frame.png);
+  background-image: url(../../public/assets/bbq-frame.webp);
 }
 .movie .main .main_img {
-  background-image: url(../../public/assets/movie-frame.png);
+  background-image: url(../../public/assets/movie-frame.webp);
 }
 .ulsan_tour .main .main_img {
-  background-image: url(../../public/assets/ulsan-frame.png);
+  background-image: url(../../public/assets/ulsan-frame.webp);
 }
 .volvo .main .main_img {
-  background-image: url(../../public/assets/volvo-frame.png);
+  background-image: url(../../public/assets/volvo-frame.webp);
 }
 .bookstore .main .main_img {
-  background-image: url(../../public/assets/bookstore-frame.png);
+  background-image: url(../../public/assets/bookstore-frame.webp);
 }
 .shop .main .main_img {
-  background-image: url(../../public/assets/shop-frame.png);
+  background-image: url(../../public/assets/shop-frame.webp);
 }
 .components_wrap .main .main_img::after {
   position: absolute;

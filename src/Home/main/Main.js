@@ -55,7 +55,7 @@ const Main = () => {
     <main id="main">
       <div className="main_wrap" id="nav_home">
         <div className="profile-main">
-          <img src="/assets/profile.png" alt="profile" fetchpriority="high" />
+          <img src="/assets/profile.webp" alt="profile" fetchpriority="high" />
         </div>
         <div className="main_txt">
           <div className="t1">
@@ -74,7 +74,7 @@ const Main = () => {
         <div className="sub_wrap">
           <div className="t3">
             <div className="profile">
-              <img src="/assets/profile.png" alt="profile" />
+              <img src="/assets/profile.webp" alt="profile" />
             </div>
             <div className="name">장재영</div>
             <div className='icons-wrap'>
