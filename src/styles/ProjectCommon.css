@@ -478,7 +478,7 @@
   padding: 2px 5px;
   border-radius: 3px;
   color: var(--text-color);
-  background-color: #424242;
+  background-color: var(--accent-color);
 }
 .components_wrap section .img_wrap {
   display: flex;
