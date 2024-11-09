@@ -73,7 +73,7 @@
   font-family: "Pretendard-Regular", "Noto Sans KR", sans-serif;
   font-size: 15px;
   line-height: 1.8em;
-  color: var(--text-color);
+  color: var(--hover-color);
   margin: 0 20px;
   padding: 20px;
   margin-bottom: 20px;

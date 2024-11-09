@@ -395,9 +395,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  border: 1px solid #00000d;
+  border: 1px solid var(--text-color);
   transition: 0.3s;
-  background-color: var(--text-color);
+  background-color: var(--accent-color);
   transform-origin: 50% 50% -10px;
 }
 .components_wrap .main .main_txt_wrap .eye .eye_in2 {
@@ -418,7 +418,7 @@
 }
 .components_wrap .main .main_txt_wrap .eye .eye_img .eye_icon {
   font-size: 23px;
-  color: #00000d;
+  color: var(--text-color);
 }
 .material-symbols-outlined.eye_icon {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
@@ -426,7 +426,7 @@
 .components_wrap .main .main_txt_wrap .eye span {
   font-size: 14px;
   font-weight: 500;
-  color: #00000d;
+  color: var(--text-color);
 }
 .components_wrap .main .main_txt_wrap .arrow_down {
   position: absolute;
@@ -464,7 +464,7 @@
   font-size: 16px;
   line-height: 1.8em;
   margin: 10px 0;
-  color: var(--text-color);
+  color: var(--hover-color);
 }
 .components_wrap .explain .em {
   font-size: 16px;
