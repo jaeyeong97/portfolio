@@ -1,5 +1,5 @@
 import Home from './Home/Home';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Petdoc from './components/projectPages/Petdoc';
 import Recipes from './components/projectPages/Recipes';
 import Gallery from './components/projectPages/Gallery';
@@ -14,7 +14,7 @@ import Shop from './components/projectPages/Shop';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route path="/shop" element={<Shop />} />
           <Route path="/windows-xp" element={<Windows />} />
@@ -28,7 +28,7 @@ function App() {
           <Route path="/volvo" element={<Volvo />} />
           <Route path="/" element={<Home />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div >
   )
 }
