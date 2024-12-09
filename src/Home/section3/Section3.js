@@ -41,9 +41,6 @@ const Section3 = () => {
       case 'volvo':
         navigate('/volvo');
         break;
-      case 'bookstore':
-        navigate('/bookstore');
-        break;
       case 'shop':
         navigate('/shop');
         break;
