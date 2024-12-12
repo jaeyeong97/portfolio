@@ -84,7 +84,7 @@
     width: 0%;
   }
   100% {
-    width: 32.6%;
+    width: 36.3%;
   }
 }
 @keyframes windows_css_percent {
@@ -92,7 +92,7 @@
     width: 0%;
   }
   100% {
-    width: 45%;
+    width: 33.8%;
   }
 }
 @keyframes windows_js_percent {
@@ -100,7 +100,7 @@
     width: 0%;
   }
   100% {
-    width: 22.4%;
+    width: 29.9%;
   }
 }
 @keyframes bbq_html_percent {

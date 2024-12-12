@@ -82,37 +82,41 @@ const Windows = () => {
         <div className="explain">
           <div>• 개인 프로젝트</div>
           <div>• 윈도우 XP를 재구현한 웹사이트입니다.</div>
-          <div>• 퀴즈 게임과 가위 바위 보 게임을 만들어 보았습니다.</div>
+        </div>
+      </section>
+      <section>
+        <h3 className="ex_title">📂Windows 기능</h3>
+        <div className="summary_txt">
+          <div className="explain">
+            <div>• <span className="cem">창</span> - 창의 최소화, 최대화, 닫기 기능을 구현하고, 여러 창이 열려있을 경우 선택한 창이 제일 앞에 오도록 했습니다.</div>
+            <div>• <span className="cem">작업 표시줄</span> - 최소화된 창을 클릭하여 다시 열 수 있고, 현재 시간을 확인 할 수 있습니다.</div>
+            <div>• <span className="cem">시작 메뉴</span> - 인터넷, 메모장 등 프로그램에 접근 가능하고, '컴퓨터 끄기' 버튼을 통해 웹사이트를 닫을 수도 있습니다.</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 className="ex_title">✨프로그램 기능</h3>
+        <div className="summary_txt">
+          <div className="explain">
+            <div>• <span className="cem">내 컴퓨터</span> - 내 컴퓨터 아이콘을 클릭하여 포트폴리오, 깃허브등 사이트로 이동가능하게 했습니다.</div>
+            <div>• <span className="cem">메모장</span> - 간단한 메모장 기능을 구현했습니다. 메모를 저장할 경우 바탕화면에 새로운 아이콘이 생성됩니다.</div>
+            <div>• <span className="cem">폴더</span> - 폴더 안에는 퍼블리싱한 프로젝트들이 링크되어 있어 확인 가능합니다.</div>
+            <div>• <span className="cem">가위바위보 게임</span> - 팀을 선택하여 가위, 바위, 보 이미지가 애니메이션처럼 움직이다가 하나의 팀만 남았을 경우 승패가 결정되는 게임입니다.</div>
+            <div>• <span className="cem">퀴즈 게임</span> - 간단한 로그인/회원가입 기능이 있고, 퀴즈 게임을 통해 맞힌 문제 수를 확인할 수 있습니다.</div>
+          </div>
         </div>
       </section>
       <section>
         <h3 className="ex_title">📚사용 기술</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="cem">JavaScript</span> - 별도의 라이브러리나 프레임워크 없이 순수 JavaScript만을 이용하여 필요한 기능들을 구현하였습니다.</div>
+            <div>• <span className="cem">JavaScript</span> - 스타일링과 레이아웃 구성을 제외하고 별도의 라이브러리나 프레임워크 없이 순수 JavaScript만을 이용하여 기능을 구현했습니다.</div>
           </div>
         </div>
       </section>
       <section className="section_bar">
         <h3 className="ex_title">📊언어 사용 비율 <span>(깃허브 기준)</span></h3>
         <div className="language_wrap">
-          <div className="language">
-            <div className="txt_wrap">
-              <div className="scss_icon icon"></div>
-              <div className="css txt">SCSS</div>
-            </div>
-            <div className="css_percent_wrap">
-              <div className="windows_css_percent_bar bar"></div>
-              <div className="windows_css_percent_txt">
-                <AnimatedCountUp
-                  start={0}
-                  end={45}
-                  duration={2.5}
-                  decimal={1}
-                />
-              </div>
-            </div>
-          </div>
           <div className="language">
             <div className="txt_wrap">
               <div className="html_icon icon"></div>
@@ -123,7 +127,24 @@ const Windows = () => {
               <div className="windows_html_percent_txt">
                 <AnimatedCountUp
                   start={0}
-                  end={32.6}
+                  end={36.3}
+                  duration={2.5}
+                  decimal={1}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="language">
+            <div className="txt_wrap">
+              <div className="scss_icon icon"></div>
+              <div className="css txt">SCSS</div>
+            </div>
+            <div className="css_percent_wrap">
+              <div className="windows_css_percent_bar bar"></div>
+              <div className="windows_css_percent_txt">
+                <AnimatedCountUp
+                  start={0}
+                  end={33.8}
                   duration={2.5}
                   decimal={1}
                 />
@@ -140,7 +161,7 @@ const Windows = () => {
               <div className="windows_js_percent_bar">
                 <AnimatedCountUp
                   start={0}
-                  end={22.4}
+                  end={29.9}
                   duration={2.5}
                   decimal={1}
                 />
