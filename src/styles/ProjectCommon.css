@@ -461,8 +461,8 @@
 }
 .components_wrap .explain span,
 .components_wrap .explain div {
-  font-size: 16px;
-  line-height: 1.8em;
+  font-size: 17px;
+  line-height: 1.6em;
   margin: 10px 0;
   color: var(--hover-color);
 }
@@ -479,6 +479,10 @@
   border-radius: 3px;
   color: var(--text-color);
   background-color: var(--accent-color);
+}
+.components_wrap .explain .ex_h4 {
+  font-size: 22px;
+  margin: 40px 0 10px 0;
 }
 .components_wrap section .img_wrap {
   display: flex;

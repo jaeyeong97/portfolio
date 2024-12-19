@@ -78,7 +78,7 @@ const Windows = () => {
         </div>
       </main>
       <section id="section_start">
-        <h3 className="ex_title">🏅프로젝트 개요</h3>
+        <h3 className="ex_title">📋프로젝트 개요</h3>
         <div className="explain">
           <div>• 개인 프로젝트</div>
           <div>• 윈도우 XP를 재구현한 웹사이트입니다.</div>
@@ -88,9 +88,9 @@ const Windows = () => {
         <h3 className="ex_title">📂Windows 기능</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="cem">창</span> - 창의 최소화, 최대화, 닫기 기능을 구현하고, 여러 창이 열려있을 경우 선택한 창이 제일 앞에 오도록 했습니다.</div>
-            <div>• <span className="cem">작업 표시줄</span> - 최소화된 창을 클릭하여 다시 열 수 있고, 현재 시간을 확인 할 수 있습니다.</div>
-            <div>• <span className="cem">시작 메뉴</span> - 인터넷, 메모장 등 프로그램에 접근 가능하고, '컴퓨터 끄기' 버튼을 통해 웹사이트를 닫을 수도 있습니다.</div>
+            <div><span className="cem">창</span> - 창의 최소화, 최대화, 닫기 기능을 구현하고, 여러 창이 겹쳐있을 경우 클릭한 창이 제일 앞에 오도록 했습니다.</div>
+            <div><span className="cem">작업 표시줄</span> - 최소화된 창을 클릭하여 다시 열 수 있고, 현재 시간을 확인 할 수 있습니다.</div>
+            <div><span className="cem">시작 메뉴</span> - 인터넷, 메모장 등 프로그램에 접근 가능하고, '컴퓨터 끄기' 버튼을 통해 웹사이트를 닫을 수도 있습니다.</div>
           </div>
         </div>
       </section>
@@ -98,19 +98,19 @@ const Windows = () => {
         <h3 className="ex_title">✨프로그램 기능</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="cem">내 컴퓨터</span> - 내 컴퓨터 아이콘을 클릭하여 포트폴리오, 깃허브등 사이트로 이동가능하게 했습니다.</div>
-            <div>• <span className="cem">메모장</span> - 간단한 메모장 기능을 구현했습니다. 메모를 저장할 경우 바탕화면에 새로운 아이콘이 생성됩니다.</div>
-            <div>• <span className="cem">폴더</span> - 폴더 안에는 퍼블리싱한 프로젝트들이 링크되어 있어 확인 가능합니다.</div>
-            <div>• <span className="cem">가위바위보 게임</span> - 팀을 선택하여 가위, 바위, 보 이미지가 애니메이션처럼 움직이다가 하나의 팀만 남았을 경우 승패가 결정되는 게임입니다.</div>
-            <div>• <span className="cem">퀴즈 게임</span> - 간단한 로그인/회원가입 기능이 있고, 퀴즈 게임을 통해 맞힌 문제 수를 확인할 수 있습니다.</div>
+            <div><span className="cem">내 컴퓨터</span> - 내 컴퓨터 아이콘을 클릭하여 포트폴리오, 깃허브등 사이트로 이동가능하게 했습니다.</div>
+            <div><span className="cem">메모장</span> - 간단한 메모장 기능을 구현했습니다. 메모를 저장할 경우 바탕화면에 새로운 아이콘이 생성됩니다.</div>
+            <div><span className="cem">폴더</span> - 폴더 안에는 퍼블리싱한 프로젝트들이 링크되어 있어 확인 가능합니다.</div>
+            <div><span className="cem">가위바위보 게임</span> - 가위, 바위, 보중에 팀 선택을 하고 게임 시작 후 가위, 바위, 보 이미지가 랜덤 값으로 움직입니다. 이미지가 부딪히면 승리한 이미지로 변경됩니다. 마지막까지 남은 팀이 승리하는 게임입니다.</div>
+            <div><span className="cem">퀴즈 게임</span> - 간단한 로그인/회원가입 기능이 있고, 퀴즈 게임을 통해 맞힌 문제 수를 확인할 수 있습니다.</div>
           </div>
         </div>
       </section>
       <section>
-        <h3 className="ex_title">📚사용 기술</h3>
+        <h3 className="ex_title">⚒️사용 기술</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="cem">JavaScript</span> - 스타일링과 레이아웃 구성을 제외하고 별도의 라이브러리나 프레임워크 없이 순수 JavaScript만을 이용하여 기능을 구현했습니다.</div>
+            <div><span className="cem">JavaScript</span> - 스타일링과 레이아웃 구성을 제외하고 별도의 라이브러리나 프레임워크 없이 순수 JavaScript만을 이용하여 기능을 구현했습니다.</div>
           </div>
         </div>
       </section>

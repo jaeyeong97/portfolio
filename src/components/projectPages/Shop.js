@@ -81,25 +81,49 @@ const Shop = () => {
         </div>
       </main>
       <section className="section_summary" id="section_start">
-        <h3 className="ex_title">🏅프로젝트 개요</h3>
+        <h3 className="ex_title">📋프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
             <div>• 개인 프로젝트</div>
-            <div>• 쇼핑몰에 필요한 기능을 구현한 쇼핑몰 웹사이트입니다.</div>
+            <div>• 쇼핑몰에 필요한 주요 기능들을 구현한 쇼핑몰 웹사이트입니다.</div>
           </div>
         </div>
       </section>
       <section>
-        <h3 className="ex_title">📚사용 기술</h3>
+        <h3 className="ex_title">💡주요 기능</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
-            <div>• <span className="cem">TypeScript</span> - 타입을 지정하여 코드의 안전성을 높히고, 유지보수를 하기 쉽도록 했습니다.</div>
-            <div>• <span className="cem">Recoil</span> - 상품 리스트, 장바구니, 찜목록 상태 등을 atom으로 정의하고 페이지 간 상태를 공유하였습니다.</div>
-            <div>• <span className="cem">React Router</span> - 쇼핑몰의 홈, 상품 상세 페이지, 장바구니 등 여러 페이지 간 원활한 이동을 구현하였습니다.</div>
-            <div>• <span className="cem">SCSS</span> - 공통 스타일을 변수로 관리해 코드의 재사용성을 높였고, 유지보수하기 쉽도록 했습니다.</div>
-            <div>• <span className="cem">OAuth</span> - 네이버, 카카오, 구글 로그인 기능을 OAuth 인증을 통해 구현하였습니다.</div>
-            <div>• <span className="cem">react-daum-postcode</span> - 배송지를 추가할때 Daum 우편번호 검색 서비스를 이용했습니다.</div>
+            <div>• 검색 페이지에서 상품을 검색하여 상세 페이지로 이동할 수 있고, 최근 검색어 또한 확인할 수 있습니다.</div>
+            <div>• '좋아요' 버튼을 클릭하여 상품을 찜할 수 있고, 좋아요 페이지에서 확인할 수 있습니다.</div>
+            <div>• 상품 상세 페이지에서 상품의 옵션 및 수량을 선택하여 장바구니에 담을 수 있습니다.</div>
+            <div>• 상품 구매 페이지에서 '배송지 추가' 버튼을 통해 Daum 우편번호 검색 서비스를 사용해 배송지를 입력할 수 있습니다.</div>
+            <div>• 카카오, 네이버, 구글 로그인을 통해 좋아요 페이지와 마이 페이지에 접근할 수 있도록 하였습니다.</div>
+            <div>• 배너 '룰렛 이벤트'에서 룰렛을 돌릴 수 있습니다.</div>
+            <div>• 상품 썸네일에 마우스를 올려서 상품 상세 이미지를 미리 볼 수 있습니다.</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 className="ex_title">⚒️사용 기술</h3>
+        <div className="summary_txt">
+          <div className="explain">
+            <h4 className="ex_h4">- 주요 기술</h4>
+            <div><span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
+            <div><span className="cem">TypeScript</span> - 타입 정의를 통해 코드의 안정성을 높이고 가독성을 높혔습니다.</div>
+            <div><span className="cem">React Router</span> - 쇼핑몰의 검색 페이지, 상품 상세 페이지, 장바구니 등 페이지간 전환을 원활하게 하였습니다.</div>
+            <div><span className="cem">OAuth</span> - 네이버, 카카오, 구글 로그인 기능을 OAuth 인증을 통해 구현하였습니다.</div>
+            <div><span className="cem">Daum 주소 API</span> - 사용자가 배송지 입력 시 편의성을 더하기 위해 사용하였습니다.</div>
+
+            <h4 className="ex_h4">- 스타일링</h4>
+            <div><span className="cem">SCSS</span> - 공통 스타일을 변수로 관리해 코드의 재사용성을 높이고 유지보수하기 쉽게 작성했습니다.</div>
+
+            <h4 className="ex_h4">- 상태 관리</h4>
+            <div><span className="cem">Recoil</span> - 상품 리스트, 장바구니, 찜목록 상태 등을 atom으로 정의하고 페이지 간 상태를 공유하였습니다.</div>
+
+            <h4 className="ex_h4">- 웹 접근성 및 UI/UX 개선</h4>
+            <div><span className="cem">무한 스크롤</span> - 상품의 목록이 길어질 경우 무한 스크롤을 통해 상품이 적절하게 로드되도록 하였습니다.</div>
+            <div><span className="cem">키보드 네비게이션</span> - 웹 접근성을 높이기 위해 키보드만으로도 주요 기능에 접근할 수 있도록 하였습니다.</div>
+            <div><span className="cem">이미지 로딩 UI 개선</span> - 상품 이미지가 로딩중일 경우 회색 빈 배경을 표시해 UI를 해치지 않고, 사용자에게 로딩 상태를 명확히 전달하였습니다.</div>
           </div>
         </div>
       </section>

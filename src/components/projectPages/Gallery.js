@@ -73,7 +73,7 @@ const Gallery = () => {
         </div>
       </main>
       <section className="section_summary" id="section_start">
-        <h3 className="ex_title">🏅프로젝트 개요</h3>
+        <h3 className="ex_title">📋프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
             <div>• 개인 프로젝트</div>
@@ -82,11 +82,11 @@ const Gallery = () => {
         </div>
       </section>
       <section>
-        <h3 className="ex_title">📚사용 기술</h3>
+        <h3 className="ex_title">⚒️사용 기술</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="cem">CSS</span> - CSS 속성인 <span className="cem">transform-style: preserve-3d</span>, <span className="cem">perspective</span> 를 활용해 입체적인 공간을 구현하였습니다. 또한 <span className="cem">keyframes</span>를 이용해 번개가 치고 비가 오는 효과를 통해 사용자가 시각적으로 더 몰입감 있는 인터페이스를 제작하였습니다.</div>
-            <div>• <span className="cem">fetch</span> - Unsplash 이미지 API를 가져올때 브라우저 내장 기능인 fetch를 통해 불러왔습니다. </div>
+            <div><span className="cem">CSS</span> - CSS 속성인 <span className="cem">transform-style: preserve-3d</span>, <span className="cem">perspective</span> 를 활용해 입체적인 공간을 구현하였습니다. 또한 <span className="cem">keyframes</span>를 이용해 번개가 치고 비가 오는 효과를 통해 사용자가 시각적으로 더 몰입감 있는 인터페이스를 제작하였습니다.</div>
+            <div><span className="cem">fetch</span> - Unsplash 이미지 API를 가져올때 브라우저 내장 기능인 fetch를 통해 불러왔습니다. </div>
           </div>
         </div>
       </section>

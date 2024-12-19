@@ -75,16 +75,18 @@ const Recipes = () => {
         </div>
       </main>
       <section className="section_summary" id="section_start">
-        <h3 className="ex_title">🏅프로젝트 개요</h3>
+        <h3 className="ex_title">📋프로젝트 개요</h3>
         <div className="summary_txt">
           <div className="explain">
             <div>• 개인 프로젝트</div>
-            <div>• <span className="em">음성인식</span> 검색이 가능한 레시피 웹사이트입니다.</div>
+            <div>• <span className="em">음성인식</span> 을 통해 레시피를 검색할 수 있는 웹사이트 입니다.</div>
+            <div>• 카테고리별로 선택하여 레시피를 확인할 수 있습니다.</div>
+            <div>• 레시피의 상세정보 페이지에서 하트 모양 버튼을 통해 즐겨찾기를 할 수 있습니다.</div>
           </div>
         </div>
       </section>
       <section>
-        <h3 className="ex_title">📚사용 기술</h3>
+        <h3 className="ex_title">⚒️사용 기술</h3>
         <div className="summary_txt">
           <div className="explain">
             <div>• <span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
