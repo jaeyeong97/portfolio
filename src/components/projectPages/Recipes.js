@@ -89,11 +89,11 @@ const Recipes = () => {
         <h3 className="ex_title">⚒️사용 기술</h3>
         <div className="summary_txt">
           <div className="explain">
-            <div>• <span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
-            <div>• <span className="cem">Styled-Components</span> - 각 컴포넌트별로 독립적인 스타일을 적용하여 유지보수를 하기 쉽게 하였습니다.</div>
-            <div>• <span className="cem">Axios</span> - 레시피 API 데이터를 비동기적으로 가져와 웹사이트에 표시하였습니다.</div>
-            <div>• <span className="cem">React Query</span> - useQuery 훅을 통해 레시피 데이터를 가져오고, staleTime, cacheTime 등을 활용해 효율적인 데이터 및 캐시 관리를 하였습니다.</div>
-            <div>• <span className="cem">react-speech-recognition</span> - 음성인식 라이브러리를 통해 사용자 음성을 인식하여 레시피를 검색할 수 있도록 구현하였습니다.</div>
+            <div><span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
+            <div><span className="cem">Styled-Components</span> - 각 컴포넌트별로 독립적인 스타일을 적용하여 유지보수를 하기 쉽게 하였습니다.</div>
+            <div><span className="cem">Axios</span> - 레시피 API 데이터를 비동기적으로 가져와 웹사이트에 표시하였습니다.</div>
+            <div><span className="cem">React Query</span> - useQuery 훅을 통해 레시피 데이터를 가져오고, staleTime, cacheTime 등을 활용해 효율적인 데이터 및 캐시 관리를 하였습니다.</div>
+            <div><span className="cem">react-speech-recognition</span> - 음성인식 라이브러리를 통해 사용자 음성을 인식하여 레시피를 검색할 수 있도록 구현하였습니다.</div>
           </div>
         </div>
       </section>
