@@ -6,7 +6,6 @@ import Gallery from './components/projectPages/Gallery';
 import Windows from './components/projectPages/Windows';
 import Bbq from './components/projectPages/Bbq';
 import Movie from './components/projectPages/Movie';
-import UlsanTour from './components/projectPages/UlsanTour';
 import Volvo from './components/projectPages/Volvo';
 import Shop from './components/projectPages/Shop';
 
@@ -22,7 +21,6 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/bbq" element={<Bbq />} />
           <Route path="/movie" element={<Movie />} />
-          <Route path="/ulsan-tour" element={<UlsanTour />} />
           <Route path="/volvo" element={<Volvo />} />
           <Route path="/" element={<Home />} />
         </Routes>

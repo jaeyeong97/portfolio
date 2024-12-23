@@ -35,9 +35,6 @@ const Section3 = () => {
       case 'movie':
         navigate('/movie');
         break;
-      case 'ulsan-tour':
-        navigate('/ulsan-tour');
-        break;
       case 'volvo':
         navigate('/volvo');
         break;
