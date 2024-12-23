@@ -17,14 +17,6 @@ const PublishingPj = ({ handleChangePage }) => {
                     <div className="explain">기존의 BBQ 웹사이트를 새롭게 디자인한 반응형 웹사이트입니다.</div>
                 </div>
             </div>
-            <div className="project" onClick={() => { handleChangePage('ulsan-tour') }}>
-                <div className="page_img">
-                    <img src="/assets/ulsan-tour.webp" alt="울산관광 웹사이트 이미지" />
-                    <span className="txt">울산관광</span>
-                    <div className="explain">기존의 울산 관광 웹사이트를 새롭게 디자인한 1680px 고정형 웹사이트입니다.
-                    </div>
-                </div>
-            </div>
             <div className="project" onClick={() => { handleChangePage('volvo') }}>
                 <div className="page_img">
                     <img src="/assets/volvo.webp" alt="volvo 웹사이트 이미지" />
@@ -33,6 +25,7 @@ const PublishingPj = ({ handleChangePage }) => {
                     </div>
                 </div>
             </div>
+            <div className="project"></div>
         </div>
     );
 };
