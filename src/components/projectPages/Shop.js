@@ -121,7 +121,10 @@ const Shop = () => {
             <div><span className="cem">Recoil</span> - 상품 리스트, 장바구니, 찜목록 상태 등을 atom으로 정의하고 페이지 간 상태를 공유하였습니다.</div>
 
             <h4 className="ex_h4">- 웹 접근성 및 UI/UX 개선</h4>
-            <div><span className="cem">스켈레톤 UI</span> - 상품 이미지가 로딩중일 경우 스켈레톤 로딩 기법을 적용해 회색 빈 배경을 표시하여 레이아웃이 흐트러지지 않게 유지하고, 사용자에게 로딩 상태를 직관적으로 전달하였습니다.</div>
+            <div>
+              <span className="cem">로딩 중 레이아웃 안정화</span> - 상품 이미지가 로딩 중일 경우, 플레이스홀더 공간에 회색 배경을 표시해 이미지가 로드되는 동안 레이아웃 시프트가 발생하지 않도록 처리했습니다.
+            </div>
+
             <div><span className="cem">무한 스크롤</span> - 상품의 목록이 길어질 경우 무한 스크롤을 통해 상품이 적절하게 로드되도록 하였습니다.</div>
             <div><span className="cem">키보드 네비게이션</span> - 웹 접근성을 높이기 위해 키보드만으로도 주요 기능에 접근할 수 있도록 하였습니다.</div>
           </div>
