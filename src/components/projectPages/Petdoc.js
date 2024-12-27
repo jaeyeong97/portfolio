@@ -85,7 +85,7 @@ const Petdoc = () => {
         </div>
       </main>
       <section className="section_summary" id="section_start">
-        <h3 className="ex_title">📋프로젝트 개요</h3>
+        <h3 className="ex_title">프로젝트 개요📋</h3>
         <div className="loading_txt">
           <div className="explain">
             <div>• <span className="em">팀 프로젝트</span> &lt;프론트엔드 4명&gt;</div>
@@ -94,7 +94,7 @@ const Petdoc = () => {
         </div>
       </section>
       <section className="section_petdoc_explain1">
-        <h3 className="ex_title">✨내가 기여한 부분</h3>
+        <h3 className="ex_title">내가 기여한 부분🎯</h3>
         <div className="img_wrap">
           <div className="w">
             <img src="/assets/petdoc_consult.webp" alt="펫닥 상담 페이지" />
@@ -215,7 +215,7 @@ const Petdoc = () => {
         </div>
       </section>
       <section className="section_bar">
-        <h3 className="ex_title">📊언어 사용 비율 <span>(깃허브 기준)</span></h3>
+        <h3 className="ex_title">언어 사용 비율📊<span>(깃허브 기준)</span></h3>
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">

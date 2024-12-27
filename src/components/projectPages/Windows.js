@@ -78,14 +78,14 @@ const Windows = () => {
         </div>
       </main>
       <section id="section_start">
-        <h3 className="ex_title">📋프로젝트 개요</h3>
+        <h3 className="ex_title">프로젝트 개요📋</h3>
         <div className="explain">
           <div>• 개인 프로젝트</div>
           <div>• 윈도우 XP를 재구현한 웹사이트입니다.</div>
         </div>
       </section>
       <section>
-        <h3 className="ex_title">📂Windows 기능</h3>
+        <h3 className="ex_title">Windows 기능📂</h3>
         <div className="summary_txt">
           <div className="explain">
             <div><span className="cem">창</span> - 창의 최소화, 최대화, 닫기 기능을 구현하고, 여러 창이 겹쳐있을 경우 클릭한 창이 제일 앞에 오도록 했습니다.</div>
@@ -95,7 +95,7 @@ const Windows = () => {
         </div>
       </section>
       <section>
-        <h3 className="ex_title">✨프로그램 기능</h3>
+        <h3 className="ex_title">프로그램 기능✨</h3>
         <div className="summary_txt">
           <div className="explain">
             <div><span className="cem">내 컴퓨터</span> - 내 컴퓨터 아이콘을 클릭하여 포트폴리오, 깃허브등 사이트로 이동가능하게 했습니다.</div>
@@ -107,7 +107,7 @@ const Windows = () => {
         </div>
       </section>
       <section>
-        <h3 className="ex_title">⚒️사용 기술</h3>
+        <h3 className="ex_title">사용 기술⚒️</h3>
         <div className="summary_txt">
           <div className="explain">
             <div><span className="cem">JavaScript</span> - 스타일링과 레이아웃 구성을 제외하고 별도의 라이브러리나 프레임워크 없이 순수 JavaScript만을 이용하여 기능을 구현했습니다.</div>
@@ -115,7 +115,7 @@ const Windows = () => {
         </div>
       </section>
       <section className="section_bar">
-        <h3 className="ex_title">📊언어 사용 비율 <span>(깃허브 기준)</span></h3>
+        <h3 className="ex_title">언어 사용 비율📊<span>(깃허브 기준)</span></h3>
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">

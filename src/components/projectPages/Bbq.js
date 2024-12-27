@@ -78,14 +78,14 @@ const Bbq = () => {
         </div>
       </main>
       <section id="section_start">
-        <h3 className="ex_title">📋프로젝트 개요</h3>
+        <h3 className="ex_title">프로젝트 개요📋</h3>
         <div className="explain">
           <div>• 개인 프로젝트</div>
           <div>• 기존의 BBQ 웹사이트를 새롭게 디자인한 <span className="em">반응형</span> 웹사이트입니다.</div>
         </div>
       </section>
       <section className="section_bar">
-        <h3 className="ex_title">📊언어 사용 비율 <span>(깃허브 기준)</span></h3>
+        <h3 className="ex_title">언어 사용 비율📊<span>(깃허브 기준)</span></h3>
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">

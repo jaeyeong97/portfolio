@@ -81,7 +81,7 @@ const Shop = () => {
         </div>
       </main>
       <section className="section_summary" id="section_start">
-        <h3 className="ex_title">📋프로젝트 개요</h3>
+        <h3 className="ex_title">프로젝트 개요📋</h3>
         <div className="summary_txt">
           <div className="explain">
             <div>• 개인 프로젝트</div>
@@ -90,7 +90,7 @@ const Shop = () => {
         </div>
       </section>
       <section>
-        <h3 className="ex_title">💡주요 기능</h3>
+        <h3 className="ex_title">주요 기능💡</h3>
         <div className="summary_txt">
           <div className="explain">
             <div>• 검색 페이지에서 상품을 검색하여 상세 페이지로 이동할 수 있고, 최근 검색어 또한 확인할 수 있습니다.</div>
@@ -103,23 +103,23 @@ const Shop = () => {
         </div>
       </section>
       <section>
-        <h3 className="ex_title">⚒️사용 기술</h3>
+        <h3 className="ex_title">사용 기술⚒️</h3>
         <div className="summary_txt">
           <div className="explain">
-            <h4 className="ex_h4">- 주요 기술</h4>
+            <h4 className="ex_h4">주요 기술</h4>
             <div><span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
             <div><span className="cem">TypeScript</span> - 타입 정의를 통해 코드의 안정성을 높이고 가독성을 높혔습니다.</div>
             <div><span className="cem">React Router</span> - 쇼핑몰의 검색 페이지, 상품 상세 페이지, 장바구니 등 페이지간 전환을 원활하게 하였습니다.</div>
             <div><span className="cem">OAuth</span> - 네이버, 카카오, 구글 로그인 기능을 OAuth 인증을 통해 구현하였습니다.</div>
             <div><span className="cem">Daum 주소 API</span> - 사용자가 배송지 입력 시 편의성을 더하기 위해 사용하였습니다.</div>
 
-            <h4 className="ex_h4">- 스타일링</h4>
+            <h4 className="ex_h4">스타일링</h4>
             <div><span className="cem">SCSS</span> - 공통 스타일을 변수로 관리해 코드의 재사용성을 높이고 유지보수하기 쉽게 작성했습니다.</div>
 
-            <h4 className="ex_h4">- 상태 관리</h4>
+            <h4 className="ex_h4">상태 관리</h4>
             <div><span className="cem">Recoil</span> - 상품 리스트, 장바구니, 찜목록 상태 등을 atom으로 정의하고 페이지 간 상태를 공유하였습니다.</div>
 
-            <h4 className="ex_h4">- 웹 접근성 및 UI/UX 개선</h4>
+            <h4 className="ex_h4">웹 접근성 및 UI/UX 개선</h4>
             <div>
               <span className="cem">로딩 중 레이아웃 안정화</span> - 상품 이미지가 로딩 중일 경우, 플레이스홀더 공간에 회색 배경을 표시해 이미지가 로드되는 동안 레이아웃 시프트가 발생하지 않도록 처리했습니다.
             </div>
@@ -129,8 +129,51 @@ const Shop = () => {
           </div>
         </div>
       </section>
+      <section>
+        <h3 className="ex_title">성능 개선🪄</h3>
+        <div className="summary_txt">
+          <div className="explain">
+            <h4 className="ex_h4">큰 이미지 용량으로 인한 성능 저하</h4>
+            <div>
+              • 기존 jpg, png 파일을 차세대 이미지 형식인 Webp 파일 변환을 통해 이미지 크기를 약 90% 압축하였습니다. (총 32MB 에서 3MB로 압축)
+            </div>
+            <h4 className="ex_h4">초기 렌더링 속도 개선</h4>
+            <div>
+              • 초기 렌더링 시 보이지 않는 이미지는 필요시에만 렌더링 하도록 Lazy Loading을 적용하였습니다.
+            </div>
+            <div>
+              • script 태그에 defer를 사용하여 HTML이 파싱 된 후 script코드가 실행되도록 하여 초기 렌더링 속도를 향상시켰습니다.
+            </div>
+            <h4 className="ex_h4">레이아웃 시프트 현상</h4>
+            <div>
+              • 첫 화면의 레이아웃을 안정적으로 로드하기 위해 필요한 글꼴, 이미지를 preload로 레이아웃 시프트가 일어나지 않도록 하였습니다.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 className="ex_title">성능 개선 결과🎉</h3>
+        <div className="explain">
+          <div className="shop-flex">
+            <div className="shop-flex-in">
+              <h4 className="ex_h4">개선 전</h4>
+              <img src="/assets/before2.webp" alt="개선전 이미지2" />
+              <img src="/assets/before1.webp" alt="개선전 이미지1" />
+            </div>
+            <div className="shop-flex-in">
+              <h4 className="ex_h4">개선 후</h4>
+              <img src="/assets/after2.webp" alt="개선후 이미지2" />
+              <img src="/assets/after1.webp" alt="개선후 이미지1" />
+            </div>
+          </div>
+          <div>• FCP(First Contentful Paint) : 3.5초에서 0.2초(94.29% 개선)</div>
+          <div>• LCP (Largest Contentful Paint) : 6.7초에서 1.8초(73.13% 개선)</div>
+          <div>• Speed Index (속도 지수) : 3.5초에서 0.3초(91.43% 개선)</div>
+          <div>• CLS (Cumulative Layout Shift) : 0.128에서 0(100% 개선)</div>
+        </div>
+      </section>
       <section className="section_bar">
-        <h3 className="ex_title">📊언어 사용 비율 <span>(깃허브 기준)</span></h3>
+        <h3 className="ex_title">언어 사용 비율📊<span>(깃허브 기준)</span></h3>
         <div className="language_wrap">
           <div className="language">
             <div className="txt_wrap">

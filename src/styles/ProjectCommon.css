@@ -481,7 +481,8 @@
   background-color: var(--accent-color);
 }
 .components_wrap .explain .ex_h4 {
-  font-size: 22px;
+  color: var(--text-color);
+  font-size: 20px;
   margin: 40px 0 10px 0;
 }
 .components_wrap section .img_wrap {
@@ -550,6 +551,20 @@
 .components_wrap .img_wrap img {
   width: 100%;
   height: auto;
+}
+.components_wrap .shop-flex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.components_wrap .shop-flex .ex_h4 {
+  margin: 10px 0;
+}
+.components_wrap .shop-flex img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
 }
 /* 추가 설명 토글 부분 끝*/
 /* petdoc */
@@ -680,6 +695,12 @@
   }
   .components_wrap .explain .em {
     font-size: 16px;
+  }
+  .components_wrap .shop-flex {
+    flex-direction: row;
+  }
+  .components_wrap .shop-flex img {
+    width: calc(100% - 20px);
   }
 }
 /* 1024px 시작 */
