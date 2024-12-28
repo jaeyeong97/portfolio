@@ -169,6 +169,7 @@ const Shop = () => {
               <img src="/assets/after1.webp" alt="개선후 이미지1" />
             </div>
           </div>
+          <span className="shop-sub-explain">- 웹페이지 성능 측정은 구글에서 제공하는 오픈 소스인 Lighthouse로 측정하였습니다.</span>
           <div>• FCP(First Contentful Paint) : 3.5초에서 0.2초(94.29% 개선)</div>
           <div>• LCP (Largest Contentful Paint) : 6.7초에서 1.8초(73.13% 개선)</div>
           <div>• Speed Index (속도 지수) : 3.5초에서 0.3초(91.43% 개선)</div>

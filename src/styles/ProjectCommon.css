@@ -462,8 +462,8 @@
 .components_wrap .explain span,
 .components_wrap .explain div {
   font-size: 17px;
-  line-height: 1.6em;
-  margin: 10px 0;
+  line-height: 1.4em;
+  margin: 7px 0;
   color: var(--hover-color);
 }
 .components_wrap .explain .em {
@@ -558,6 +558,9 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.components_wrap .shop-flex .shop-flex-in {
+  margin: 0;
+}
 .components_wrap .shop-flex .ex_h4 {
   margin: 10px 0;
 }
@@ -565,6 +568,11 @@
   width: 100%;
   height: auto;
   max-width: 600px;
+}
+.components_wrap .explain .shop-sub-explain {
+  font-size: 13px;
+  line-height: 1em;
+  margin: 0 0 20px 0;
 }
 /* 추가 설명 토글 부분 끝*/
 /* petdoc */
