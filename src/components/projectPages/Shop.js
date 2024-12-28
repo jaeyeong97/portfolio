@@ -94,7 +94,7 @@ const Shop = () => {
         <div className="summary_txt">
           <div className="explain">
             <div>• 검색 페이지에서 상품을 검색하여 상세 페이지로 이동할 수 있고, 최근 검색어 또한 확인할 수 있습니다.</div>
-            <div>• '좋아요' 버튼을 클릭하여 상품을 찜할 수 있고, 좋아요 페이지에서 확인할 수 있습니다.</div>
+            <div>• 좋아요 버튼을 클릭하여 상품을 찜할 수 있고, 좋아요 페이지에서 확인할 수 있습니다.</div>
             <div>• 상품 상세 페이지에서 상품의 옵션 및 수량을 선택하여 장바구니에 담을 수 있습니다.</div>
             <div>• 상품 구매 페이지에서 '배송지 추가' 버튼을 통해 Daum 우편번호 검색 서비스를 사용해 배송지를 입력할 수 있습니다.</div>
             <div>• 카카오, 네이버, 구글 로그인을 통해 좋아요 페이지와 마이 페이지에 접근할 수 있도록 하였습니다.</div>
@@ -118,14 +118,6 @@ const Shop = () => {
 
             <h4 className="ex_h4">상태 관리</h4>
             <div><span className="cem">Recoil</span> - 상품 리스트, 장바구니, 찜목록 상태 등을 atom으로 정의하고 페이지 간 상태를 공유하였습니다.</div>
-
-            <h4 className="ex_h4">웹 접근성 및 UI/UX 개선</h4>
-            <div>
-              <span className="cem">로딩 중 레이아웃 안정화</span> - 상품 이미지가 로딩 중일 경우, 플레이스홀더 공간에 회색 배경을 표시해 이미지가 로드되는 동안 레이아웃 시프트가 발생하지 않도록 처리했습니다.
-            </div>
-
-            <div><span className="cem">무한 스크롤</span> - 상품의 목록이 길어질 경우 무한 스크롤을 통해 상품이 적절하게 로드되도록 하였습니다.</div>
-            <div><span className="cem">키보드 네비게이션</span> - 웹 접근성을 높이기 위해 키보드만으로도 주요 기능에 접근할 수 있도록 하였습니다.</div>
           </div>
         </div>
       </section>
@@ -135,18 +127,29 @@ const Shop = () => {
           <div className="explain">
             <h4 className="ex_h4">큰 이미지 용량으로 인한 성능 저하</h4>
             <div>
-              • 기존 jpg, png 파일을 차세대 이미지 형식인 Webp 파일 변환을 통해 이미지 크기를 약 90% 압축하였습니다. (총 32MB 에서 3MB로 압축)
+              • 기존 jpg, png 파일을 차세대 이미지 형식인 Webp 파일 변환을 통해 이미지 용량을 최적화 하였습니다. (이미지 용량 90% 개선)
             </div>
             <h4 className="ex_h4">초기 렌더링 속도 개선</h4>
             <div>
               • 초기 렌더링 시 보이지 않는 이미지는 필요시에만 렌더링 하도록 Lazy Loading을 적용하였습니다.
             </div>
             <div>
-              • script 태그에 defer를 사용하여 HTML이 파싱 된 후 script코드가 실행되도록 하여 초기 렌더링 속도를 향상시켰습니다.
+              • defer 속성을 사용하여 스크립트가 HTML 파싱이 완료된 후 실행되도록 최적화함으로써 초기 렌더링 성능을 개선하였습니다.
             </div>
             <h4 className="ex_h4">레이아웃 시프트 현상</h4>
             <div>
-              • 첫 화면의 레이아웃을 안정적으로 로드하기 위해 필요한 글꼴, 이미지를 preload로 레이아웃 시프트가 일어나지 않도록 하였습니다.
+              • 첫 화면의 레이아웃을 안정적으로 로드하기 위해 필요한 글꼴과 이미지를 preload로 미리 로드하여 레이아웃 시프트가 일어나지 않도록 하였습니다.
+            </div>
+            <h4 className="ex_h4">무한 스크롤</h4>
+            <div>
+              • 상품의 목록이 길어질 경우 무한 스크롤을 통해 상품이 적절하게 로드되도록 하였습니다.
+            </div>
+            <h4 className="ex_h4">웹 접근성</h4>
+            <div>
+              • 키보드만으로도 주요 기능에 접근할 수 있도록 하였습니다.
+            </div>
+            <div>
+              • 글자와 배경색상의 명암비를 WCAG(웹 콘텐츠 접근성 가이드라인)에 규정된 요구 사항에 맞게 설정하였습니다.
             </div>
           </div>
         </div>
@@ -185,7 +188,7 @@ const Shop = () => {
               <div className="shop_ts_percent_bar">
                 <AnimatedCountUp
                   start={0}
-                  end={64.5}
+                  end={66.4}
                   duration={2.5}
                   decimal={1}
                 />
@@ -219,7 +222,7 @@ const Shop = () => {
               <div className="shop_js_percent_bar">
                 <AnimatedCountUp
                   start={0}
-                  end={9.1}
+                  end={7}
                   duration={2.5}
                   decimal={1}
                 />
@@ -236,7 +239,7 @@ const Shop = () => {
               <div className="shop_html_percent_txt">
                 <AnimatedCountUp
                   start={0}
-                  end={0.5}
+                  end={0.7}
                   duration={2.5}
                   decimal={1}
                 />
