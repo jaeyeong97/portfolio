@@ -127,7 +127,7 @@ const Shop = () => {
           <div className="explain">
             <h4 className="ex_h4">큰 이미지 용량으로 인한 성능 저하</h4>
             <div>
-              • 기존 jpg, png 파일을 차세대 이미지 형식인 Webp 파일 변환을 통해 이미지 용량을 최적화 하였습니다. (이미지 용량 90% 개선)
+              • 기존 jpg, png 파일을 차세대 이미지 형식인 Webp 파일 변환을 통해 이미지 용량을 최적화 하였습니다. (이미지 파일 크기 90% 개선)
             </div>
             <h4 className="ex_h4">초기 렌더링 속도 개선</h4>
             <div>
@@ -170,9 +170,9 @@ const Shop = () => {
             </div>
           </div>
           <span className="shop-sub-explain">- 웹페이지 성능 측정은 구글에서 제공하는 오픈 소스인 Lighthouse로 측정하였습니다.</span>
-          <div>• FCP(First Contentful Paint) : 3.5초에서 0.2초(94.29% 개선)</div>
-          <div>• LCP (Largest Contentful Paint) : 6.7초에서 1.8초(73.13% 개선)</div>
-          <div>• Speed Index (속도 지수) : 3.5초에서 0.3초(91.43% 개선)</div>
+          <div>• FCP(First Contentful Paint) : 3.5초에서 0.2초(94.3% 개선)</div>
+          <div>• LCP (Largest Contentful Paint) : 6.7초에서 1.6초(76.1% 개선)</div>
+          <div>• Speed Index (속도 지수) : 3.5초에서 0.6초(82.9% 개선)</div>
           <div>• CLS (Cumulative Layout Shift) : 0.128에서 0(100% 개선)</div>
         </div>
       </section>
