@@ -127,7 +127,7 @@ const Shop = () => {
           <div className="explain">
             <h4 className="ex_h4">큰 이미지 용량으로 인한 성능 저하</h4>
             <div>
-              • 기존 jpg, png 파일을 차세대 이미지 형식인 Webp 파일 변환을 통해 이미지 용량을 최적화 하였습니다. (이미지 파일 크기 90% 개선)
+              • 기존 jpg, png 파일을 차세대 이미지 형식인 WebP 파일 변환을 통해 이미지 용량을 최적화 하였습니다. (이미지 파일 크기 90% 개선)
             </div>
             <h4 className="ex_h4">초기 렌더링 속도 개선</h4>
             <div>
