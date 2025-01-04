@@ -25,43 +25,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-#section3 .projects_wrap .buttons {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-#section3 .projects_wrap .buttons button {
-  position: relative;
-  width: 100px;
-  height: 35px;
-  margin: 0 10px;
-  font-size: 14px;
-  border-radius: 5px;
-  overflow: hidden;
-  color: var(--text-color);
-  border: 1px solid var(--text-color);
-}
-#section3 .projects_wrap .buttons .clicked {
-  background-color: var(--accent-color);
-}
-#section3 .projects_wrap .buttons button .btn_wrap_first {
-  transition: 0.3s;
-}
-#section3 .projects_wrap .buttons button .btn_wrap_second {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  transform: translateY(30px) translate(-50%, -50%);
-  transition: 0.3s;
-}
-#section3 .projects_wrap .buttons button:hover .btn_wrap_first {
-  transform: translateY(-30px);
-}
-#section3 .projects_wrap .buttons button:hover .btn_wrap_second {
-  transform: translateY(0) translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.4);
-}
 #section3 .projects_wrap .project {
   position: relative;
   width: 100%;
@@ -181,9 +144,6 @@
   #section3 .projects_wrap .project .page_img::after {
     font-size: 18px;
   }
-  #section3 .projects_wrap .buttons button {
-    font-size: 16px;
-  }
   #section3 .projects_wrap .project .page_img .shop_wrap {
     height: 100%;
   }
@@ -195,17 +155,8 @@
     margin: 0 auto;
     justify-content: space-between;
   }
-  #section3 .projects_wrap .pj.toy_pj {
-    justify-content: flex-start;
-  }
-  #section3 .projects_wrap .pj.toy_pj .project {
-    margin-right: 25px;
-  }
   #section3 .projects_wrap .project {
-    width: calc(25% - 20px);
-    margin: 25px 0;
-  }
-  #section3 .projects_wrap .project .page_img img {
-    height: 330px;
+    width: calc(33.33% - 20px);
+    margin: 15px 0;
   }
 }

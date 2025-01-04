@@ -16,7 +16,6 @@ const Section2 = () => {
     jsIcon: "/assets/JavaScript.webp",
     tsIcon: "/assets/TypeScript.webp",
     reactIcon: "/assets/React.webp",
-    jqueryIcon: "/assets/JQuery.webp",
     figmaIcon: "/assets/Figma.webp",
     githubIcon: "/assets/github.webp",
     vscIcon: "/assets/VisualStudio.webp",
@@ -36,8 +35,6 @@ const Section2 = () => {
     tsEx: "타입을 지정해 코드 안정성을 높일 수 있습니다. 코드의 가독성을 개선할 수 있습니다.",
     reactEx:
       "컴포넌트 단위로 UI를 개발해 최대한 재사용을 하고 성능 최적화를 합니다.",
-    jqueryEx:
-      "DOM조작을 통해 아코디언 UI, 슬라이더등 동적 요소를 구현한 경험이 있습니다.",
     figmaEx: "피그마를 사용하여 프로토타입을 제작하여 협업을 한 경험이 있습니다.",
     githubEx: "깃허브를 통해 프로젝트를 관리합니다.",
     vscEx:
@@ -55,7 +52,6 @@ const Section2 = () => {
     jsTitle: "JavaScript",
     tsTitle: "TypeScript",
     reactTitle: "React",
-    jqueryTitle: "JQuery",
     figmaTitle: "Figma",
     githubTitle: "GitHub",
     vscTitle: "VisualStudioCode",

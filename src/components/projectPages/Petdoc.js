@@ -119,7 +119,7 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle1 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <div className="s_text">- 각 버튼 클릭시 주제에 맞는 답변이 나오게 구현</div>
+                <div className="s_text">- 각 버튼 클릭시 주제에 맞는 답변이 나오게 구현하였습니다.</div>
                 <h3>🚨문제점</h3>
                 <div className="s_text">- 상담 채팅 기록을 관리하는 함수에서 무한루프가 되는 오류 발생</div>
                 <h3>🎯해결 방법</h3>
@@ -139,7 +139,7 @@ const Petdoc = () => {
             <div className={`img_wrap ${toggle2 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
                 <img src="/assets/loading_code.webp" alt="로딩 코드" />
-                <div className="s_text">- <span className="cem">setTimeout</span> 함수를 사용해 2초동안 로딩페이지가 출력되게 구현</div>
+                <div className="s_text">- <span className="cem">setTimeout</span> 함수를 사용해 2초동안 로딩페이지가 출력되게 구현하였습니다.</div>
               </div>
             </div>
             <div className="span_wrap" onClick={() => handleToggle(setToggle3)}>
@@ -150,7 +150,7 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle3 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <div className="s_text">- <span className="cem">filter</span> 메서드를 활용해 사용자가 입력한 검색어에 따라 병원 목록을 필터링</div>
+                <div className="s_text">- <span className="cem">filter</span> 메서드를 활용해 사용자가 입력한 검색어에 따라 병원 목록을 필터링하였습니다.</div>
               </div>
             </div>
           </div>
@@ -181,8 +181,8 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle4 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <div className="s_text">- 반려동물 정보를 추가하고 수정할 수 있는 기능 구현</div>
-                <div className="s_text">- 이미지 업로드 기능 구현</div>
+                <div className="s_text">- 반려동물 정보를 추가하고 수정할 수 있는 기능 구현하였습니다.</div>
+                <div className="s_text">- 이미지 업로드를 통해 반려동물의 사진을 업로드 할 수 있게하였습니다.</div>
               </div>
             </div>
             <div className="span_wrap" onClick={() => handleToggle(setToggle5)}>
@@ -194,9 +194,7 @@ const Petdoc = () => {
             <div className={`img_wrap ${toggle5 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
                 <img src="/assets/bookmark_code.webp" alt="북마크 코드" />
-                <div className="s_text">- 병원을 즐겨찾기 할 수 있는 기능을 구현</div>
-                <div className="s_text">- 즐겨찾기한 병원 배열을 즐겨찾기 페이지로 전달</div>
-                <div className="s_text">- 즐겨찾기 배열을 로컬 스토리지에 저장</div>
+                <div className="s_text">- 병원을 즐겨찾기 할 수 있는 기능을 구현하여, 즐겨찾기 한 병원들을 로컬 스토리지에 저장하였습니다.</div>
               </div>
             </div>
             <div className="span_wrap" onClick={() => handleToggle(setToggle6)}>
@@ -207,8 +205,8 @@ const Petdoc = () => {
             </div>
             <div className={`img_wrap ${toggle6 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <div className="s_text">- Naver Map API를 활용해 지도상에 병원 위치를 마커로 표시</div>
-                <div className="s_text">- 마커 클릭 시 해당 병원의 상세정보를 모달창을 통해 확인 가능</div>
+                <div className="s_text">- Naver Map API를 활용해 지도상에 병원 위치를 마커로 표시하여 병원의 위치를 사용자 입장에서 알아보기 쉽게 하였습니다.</div>
+                <div className="s_text">- 마커 클릭 시 해당 병원의 상세정보를 모달창에서 확인할 수 있게 하였습니다.</div>
               </div>
             </div>
           </div>

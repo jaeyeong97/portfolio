@@ -289,20 +289,8 @@
 .windows .main .main_img {
   background-image: url(../../public/assets/window-frame.webp);
 }
-.bbq .main .main_img {
-  background-image: url(../../public/assets/bbq-frame.webp);
-}
 .movie .main .main_img {
   background-image: url(../../public/assets/movie-frame.webp);
-}
-.ulsan_tour .main .main_img {
-  background-image: url(../../public/assets/ulsan-frame.webp);
-}
-.volvo .main .main_img {
-  background-image: url(../../public/assets/volvo-frame.webp);
-}
-.bookstore .main .main_img {
-  background-image: url(../../public/assets/bookstore-frame.webp);
 }
 .shop .main .main_img {
   background-image: url(../../public/assets/shop-frame.webp);

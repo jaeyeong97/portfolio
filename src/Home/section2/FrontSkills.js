@@ -31,11 +31,6 @@ const FrontSkills = ({ iconImgs, skillsExplain, skillsTitle }) => {
                 skillsTitle={skillsTitle.reactTitle}
             />
             <SkillCard
-                iconImgs={iconImgs.jqueryIcon}
-                skillsExplain={skillsExplain.jqueryEx}
-                skillsTitle={skillsTitle.jqueryTitle}
-            />
-            <SkillCard
                 iconImgs={iconImgs.scssIcon}
                 skillsExplain={skillsExplain.scssEx}
                 skillsTitle={skillsTitle.scssTitle}
@@ -66,7 +61,7 @@ const FrontSkills = ({ iconImgs, skillsExplain, skillsTitle }) => {
                 skillsExplain={skillsExplain.reactQueryEx}
                 skillsTitle={skillsTitle.reactQueryTitle}
             />
-            {/* <div className="empty"></div> */}
+            <div className="empty"></div>
         </div>
     );
 };
