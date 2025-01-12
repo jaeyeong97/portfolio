@@ -6,7 +6,6 @@ import sr from "../../util/ScrollReveal";
 import AnimatedCountUp from "../../util/AnimatedCountUp";
 const Petdoc = () => {
   const [toggle1, setToggle1] = useState(false); // 상담 페이지 토글
-  const [toggle2, setToggle2] = useState(false); // 로딩 페이지 토글
   const [toggle3, setToggle3] = useState(false); // 검색 페이지 토글
   const [toggle4, setToggle4] = useState(false); // 반려동물 추가/수정 페이지 토글
   const [toggle5, setToggle5] = useState(false); // 즐겨찾기 페이지 토글
@@ -101,12 +100,12 @@ const Petdoc = () => {
             <span>&lt;상담 페이지&gt;</span>
           </div>
           <div className="w">
-            <img src="/assets/petdoc_loading.webp" alt="펫닥 로딩 페이지" />
-            <span>&lt;로딩 페이지&gt;</span>
+            <img src="/assets/petdoc_map.webp" alt="펫닥 지도 페이지" />
+            <span>&lt;지도 페이지&gt;</span>
           </div>
           <div className="w">
-            <img src="/assets/petdoc_search.webp" alt="펫닥 검색 페이지" />
-            <span>&lt;검색 페이지&gt;</span>
+            <img src="/assets/petdoc_bookmark.webp" alt="펫닥 즐겨찾기 페이지" />
+            <span>&lt;즐겨찾기 페이지&gt;</span>
           </div>
         </div>
         <div className="explain1_txt">
@@ -130,27 +129,29 @@ const Petdoc = () => {
                   하다는 점을 깨달았습니다.</div>
               </div>
             </div>
-            <div className="span_wrap" onClick={() => handleToggle(setToggle2)}>
-              <span className={`material-symbols-outlined arrow ${toggle2 ? 'rotate' : ''}`}>
+            <div className="span_wrap" onClick={() => handleToggle(setToggle6)}>
+              <span className={`material-symbols-outlined arrow ${toggle6 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
-              <span>로딩 페이지</span>
+              <span>지도 페이지</span>
             </div>
-            <div className={`img_wrap ${toggle2 ? 'show' : 'hide'}`}>
+            <div className={`img_wrap ${toggle6 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <img src="/assets/loading_code.webp" alt="로딩 코드" />
-                <div className="s_text">- <span className="cem">setTimeout</span> 함수를 사용해 2초동안 로딩페이지가 출력되게 구현하였습니다.</div>
+                <div className="s_text">- Naver Map API를 활용해 지도상에 병원 위치를 마커로 표시하여 병원의 위치를 사용자 입장에서 알아보기 쉽게 하였습니다.</div>
+                <div className="s_text">- 마커 클릭 시 해당 병원의 상세정보를 모달창에서 확인할 수 있게 하였습니다.</div>
               </div>
             </div>
-            <div className="span_wrap" onClick={() => handleToggle(setToggle3)}>
-              <span className={`material-symbols-outlined arrow ${toggle3 ? 'rotate' : ''}`}>
+
+            <div className="span_wrap" onClick={() => handleToggle(setToggle5)}>
+              <span className={`material-symbols-outlined arrow ${toggle5 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
-              <span>검색 페이지</span>
+              <span>즐겨찾기 페이지</span>
             </div>
-            <div className={`img_wrap ${toggle3 ? 'show' : 'hide'}`}>
+            <div className={`img_wrap ${toggle5 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <div className="s_text">- <span className="cem">filter</span> 메서드를 활용해 사용자가 입력한 검색어에 따라 병원 목록을 필터링하였습니다.</div>
+                <img src="/assets/bookmark_code.webp" alt="북마크 코드" />
+                <div className="s_text">- 병원을 즐겨찾기 할 수 있는 기능을 구현하여, 즐겨찾기 한 병원들을 로컬 스토리지에 저장하였습니다.</div>
               </div>
             </div>
           </div>
@@ -163,12 +164,10 @@ const Petdoc = () => {
             <span>&lt;반려동물 수정 페이지&gt;</span>
           </div>
           <div className="w">
-            <img src="/assets/petdoc_bookmark.webp" alt="펫닥 즐겨찾기 페이지" />
-            <span>&lt;즐겨찾기 페이지&gt;</span>
+            <img src="/assets/petdoc_search.webp" alt="펫닥 검색 페이지" />
+            <span>&lt;검색 페이지&gt;</span>
           </div>
           <div className="w">
-            <img src="/assets/petdoc_map.webp" alt="펫닥 지도 페이지" />
-            <span>&lt;지도 페이지&gt;</span>
           </div>
         </div>
         <div className="explain1_txt">
@@ -185,28 +184,15 @@ const Petdoc = () => {
                 <div className="s_text">- 이미지 업로드를 통해 반려동물의 사진을 업로드 할 수 있게하였습니다.</div>
               </div>
             </div>
-            <div className="span_wrap" onClick={() => handleToggle(setToggle5)}>
-              <span className={`material-symbols-outlined arrow ${toggle5 ? 'rotate' : ''}`}>
+            <div className="span_wrap" onClick={() => handleToggle(setToggle3)}>
+              <span className={`material-symbols-outlined arrow ${toggle3 ? 'rotate' : ''}`}>
                 arrow_right
               </span>
-              <span>즐겨찾기 페이지</span>
+              <span>검색 페이지</span>
             </div>
-            <div className={`img_wrap ${toggle5 ? 'show' : 'hide'}`}>
+            <div className={`img_wrap ${toggle3 ? 'show' : 'hide'}`}>
               <div className="ani_wrap">
-                <img src="/assets/bookmark_code.webp" alt="북마크 코드" />
-                <div className="s_text">- 병원을 즐겨찾기 할 수 있는 기능을 구현하여, 즐겨찾기 한 병원들을 로컬 스토리지에 저장하였습니다.</div>
-              </div>
-            </div>
-            <div className="span_wrap" onClick={() => handleToggle(setToggle6)}>
-              <span className={`material-symbols-outlined arrow ${toggle6 ? 'rotate' : ''}`}>
-                arrow_right
-              </span>
-              <span>지도 페이지</span>
-            </div>
-            <div className={`img_wrap ${toggle6 ? 'show' : 'hide'}`}>
-              <div className="ani_wrap">
-                <div className="s_text">- Naver Map API를 활용해 지도상에 병원 위치를 마커로 표시하여 병원의 위치를 사용자 입장에서 알아보기 쉽게 하였습니다.</div>
-                <div className="s_text">- 마커 클릭 시 해당 병원의 상세정보를 모달창에서 확인할 수 있게 하였습니다.</div>
+                <div className="s_text">- <span className="cem">filter</span> 메서드를 활용해 사용자가 입력한 검색어에 따라 병원 목록을 필터링하였습니다.</div>
               </div>
             </div>
           </div>
