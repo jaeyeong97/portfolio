@@ -49,7 +49,7 @@ const Shop = () => {
             <div className="main_txt">
               <h2 className="title">SHOP</h2>
               <span className="t1">쇼핑몰 웹사이트</span>
-              <span className="t2">사용 기술: React, TypeScript, Recoil, React Router, SCSS, OAuth</span>
+              <span className="t2">주요 사용 기술: React, TypeScript, Recoil, React Router, SCSS</span>
               <div className="t3">깃허브 주소:&nbsp;<a href="https://github.com/jaeyeong97/SHOP" target="_blank" rel="noreferrer">github.com/jaeyeong97/SHOP</a>
                 <span className="material-symbols-outlined open">
                   open_in_new
@@ -97,7 +97,7 @@ const Shop = () => {
             <div>• 좋아요 버튼을 클릭하여 상품을 찜할 수 있고, 좋아요 페이지에서 확인할 수 있습니다.</div>
             <div>• 상품 상세 페이지에서 상품의 옵션 및 수량을 선택하여 장바구니에 담을 수 있습니다.</div>
             <div>• 상품 구매 페이지에서 '배송지 추가' 버튼을 통해 Daum 우편번호 검색 서비스를 사용해 배송지를 입력할 수 있습니다.</div>
-            <div>• 카카오, 네이버, 구글 로그인을 통해 좋아요 페이지와 마이 페이지에 접근할 수 있도록 하였습니다.</div>
+            <div>• 카카오, 네이버, 구글 로그인을 통해 좋아요를 누른 상품을 확인하고 마이 페이지에 접근할 수 있도록 하였습니다.</div>
             <div>• 상품 썸네일에 마우스를 올려서 상품 상세 이미지를 미리 볼 수 있습니다.</div>
           </div>
         </div>
@@ -108,16 +108,18 @@ const Shop = () => {
           <div className="explain">
             <h4 className="ex_h4">주요 기술</h4>
             <div><span className="cem">React</span> - 재사용과 유지보수를 하기 쉽도록 컴포넌트 구조로 UI를 제작하였습니다.</div>
-            <div><span className="cem">TypeScript</span> - 타입 정의를 통해 코드의 안정성을 높이고 가독성을 높혔습니다.</div>
-            <div><span className="cem">React Router</span> - 쇼핑몰의 검색 페이지, 상품 상세 페이지, 장바구니 등 페이지간 전환을 원활하게 하였습니다.</div>
-            <div><span className="cem">OAuth</span> - 네이버, 카카오, 구글 로그인 기능을 OAuth 인증을 통해 구현하였습니다.</div>
-            <div><span className="cem">Daum 주소 API</span> - 사용자가 배송지 입력 시 편의성을 더하기 위해 사용하였습니다.</div>
+            <div><span className="cem">TypeScript</span> - 함수, 배열 등에 타입을 선언해 코드의 안정성을 높이고 가독성을 높히는데 활용하였습니다.</div>
+            <div><span className="cem">React Router</span> - 쇼핑몰의 검색 페이지, 상품 상세 페이지, 장바구니 등 페이지 전환을 하는데 활용하였습니다.</div>
+            <div><span className="cem">react-intersection-observer</span> - 무한 스크롤 기능을 구현하여 스크롤 시 추가 데이터를 불러오는 작업을 효율적으로 처리하였습니다.</div>
+            <div><span className="cem">react-daum-postcode</span> - 사용자가 다음 주소 api를 통해 편하게 배송지를 입력할 수 있도록 활용하였습니다.</div>
+            <div><span className="cem">react-oauth/google</span> - Google OAuth 인증을 통해 사용자가 Google 계정으로 로그인할 수 있는 기능을 구현하는데 사용했습니다.</div>
+            <div><span className="cem">jwt-decode</span> - Google 로그인 후 사용자 토큰을 받아와 사용자 정보를 출력하는데 활용하였습니다.</div>
 
             <h4 className="ex_h4">스타일링</h4>
             <div><span className="cem">SCSS</span> - 공통 스타일을 변수로 관리해 코드의 재사용성을 높이고 유지보수하기 쉽게 작성했습니다.</div>
 
             <h4 className="ex_h4">상태 관리</h4>
-            <div><span className="cem">Recoil</span> - 상품 리스트, 장바구니, 찜목록 상태 등을 atom으로 정의하고 페이지 간 상태를 공유하였습니다.</div>
+            <div><span className="cem">Recoil</span> - 상품 리스트, 장바구니, 찜목록 상태 등을 atom으로 정의하고 페이지 간 상태를 공유하는데 활용하였습니다.</div>
           </div>
         </div>
       </section>

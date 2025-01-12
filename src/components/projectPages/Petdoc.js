@@ -88,7 +88,7 @@ const Petdoc = () => {
         <h3 className="ex_title">프로젝트 개요📋</h3>
         <div className="loading_txt">
           <div className="explain">
-            <div>• <span className="em">팀 프로젝트</span> &lt;프론트엔드 4명&gt;</div>
+            <div>• <span className="cem">팀 프로젝트</span> &lt;프론트엔드 4명&gt;</div>
             <div>• 반려동물 진료 예약 및 건강 상태를 기록할 수 있는 웹사이트입니다.</div>
           </div>
         </div>

@@ -37,7 +37,6 @@
   width: 100%;
   height: 100%;
   border-radius: 5px;
-
   cursor: pointer;
   overflow: hidden;
 }
@@ -90,22 +89,46 @@
   color: var(--text-color);
   z-index: 1;
 }
+#section3 .projects_wrap .project .page_img .explain-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.2s;
+  z-index: 1;
+  color: var(--text-color);
+}
+#section3 .projects_wrap .project .page_img:hover .explain-wrap {
+  opacity: 1;
+  transform: translateY(0);
+}
 #section3 .projects_wrap .project .page_img .explain {
   position: absolute;
   top: 60px;
-  left: 15px;
-  right: 15px;
-  opacity: 0;
-  transform: translateY(30px);
+  left: 20px;
+  right: 20px;
   font-size: 16px;
   line-height: 1.8em;
-  color: var(--text-color);
-  transition: 0.2s;
-  z-index: 1;
 }
-#section3 .projects_wrap .project .page_img:hover .explain {
-  opacity: 1;
-  transform: translateY(0);
+#section3 .projects_wrap .project .page_img .skills-wrap {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#section3 .projects_wrap .project .page_img .skills-wrap .skill {
+  padding: 4px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 1px solid #ffffff60;
 }
 /* 600px 시작 */
 @media screen and (min-width: 600px) {

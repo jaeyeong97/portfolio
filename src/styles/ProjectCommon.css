@@ -451,18 +451,11 @@
 .components_wrap .explain div {
   font-size: 17px;
   line-height: 1.4em;
-  margin: 7px 0;
+  margin: 15px 0;
   color: var(--hover-color);
 }
-.components_wrap .explain .em {
-  font-size: 16px;
-  padding: 2px 5px;
-  border-radius: 3px;
-  color: var(--text-color);
-  background-color: var(--accent-color);
-}
 .components_wrap .explain .cem {
-  font-size: 16px;
+  font-size: 17px;
   padding: 2px 5px;
   border-radius: 3px;
   color: var(--text-color);

@@ -79,7 +79,7 @@ const Recipes = () => {
         <div className="summary_txt">
           <div className="explain">
             <div>• 개인 프로젝트</div>
-            <div>• <span className="em">음성인식</span> 을 통해 레시피를 검색할 수 있는 웹사이트 입니다.</div>
+            <div>• <span className="cem">음성인식</span> 을 통해 레시피를 검색할 수 있는 웹사이트 입니다.</div>
             <div>• 카테고리별로 선택하여 레시피를 확인할 수 있습니다.</div>
             <div>• 레시피의 상세정보 페이지에서 하트 모양 버튼을 통해 즐겨찾기를 할 수 있습니다.</div>
           </div>
