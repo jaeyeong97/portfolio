@@ -24,7 +24,6 @@
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
 }
 body {
-  max-width: 1200px;
   margin: auto;
   font-family: "Pretendard-Regular", "Noto Sans KR", sans-serif;
   font-size: 14px;
@@ -64,4 +63,8 @@ html::-webkit-scrollbar-thumb {
 }
 html::-webkit-scrollbar-track {
   background-color: #999;
+}
+.Home {
+  max-width: 1200px;
+  margin: 0 auto;
 }

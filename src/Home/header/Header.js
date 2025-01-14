@@ -20,7 +20,7 @@ const Header = () => {
         window.addEventListener('scroll', handleScroll);
     }, []);
 
-    // 로고 클릭 핸들러로 회전 애니메이션 트리거
+    // 로고 클릭 핸들러로 회전 애니메이션 
     const handleLogoClick = () => {
         setRotateLogo(!rotateLogo); // 회전 상태 토글
     };
