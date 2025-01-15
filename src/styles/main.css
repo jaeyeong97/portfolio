@@ -86,15 +86,20 @@
   display: flex;
   flex-direction: column;
 }
+#main .main_wrap .sub_wrap .t3 .text-wrap .s_title {
+  font-size: 20px;
+  margin: 15px 0;
+}
+#main .main_wrap .sub_wrap .t3 .text-wrap span {
+  margin-bottom: 8px;
+  text-indent: -11.5px;
+  padding-left: 10px;
+  white-space: normal;
+}
 #main .main_wrap .sub_wrap .t3 .profile {
   width: 130px;
   margin: 0 auto;
   margin-bottom: 10px;
-}
-#main .main_wrap .sub_wrap .t3 .name {
-  font-size: 22px;
-  text-align: center;
-  color: var(--text-color);
 }
 #main .main_wrap .sub_wrap .icons-wrap {
   display: flex;
@@ -136,12 +141,6 @@
 }
 #main .main_wrap .sub_wrap .icons-wrap .email:hover .icon {
   background-image: url("../../public/assets/email-hover.webp");
-}
-#main .main_wrap .sub_wrap .t3 .text-wrap span {
-  margin-bottom: 8px;
-  text-indent: -11.5px;
-  padding-left: 10px;
-  white-space: normal;
 }
 #main .main_wrap .sub_wrap .flex-wrap {
   margin: 0 20px;
@@ -269,12 +268,6 @@
   }
   #main .main_wrap .sub_wrap .t3 .profile {
     width: 170px;
-  }
-  #main .main_wrap .sub_wrap .t3 .text-wrap {
-    padding: 10px 25px;
-  }
-  #main .main_wrap .sub_wrap .t3 .text-wrap span {
-    line-height: 2.5em;
   }
   #main .main_wrap .sub_wrap {
     width: 100%;

@@ -64,7 +64,7 @@ const Main = () => {
             >👋</span>
           </div>
           <div className="t2">
-            <span>협력하며 함께 성장하고 싶은 <span className="accent">장재영</span>입니다.</span>
+            <span>프론트엔드 개발자 <span className="accent">장재영</span>입니다.</span>
           </div>
         </div>
         <h2 className="about-title">
@@ -76,7 +76,6 @@ const Main = () => {
             <div className="profile">
               <img src="/assets/profile.webp" alt="profile" />
             </div>
-            <div className="name">장재영</div>
             <div className='icons-wrap'>
               <a className='github' href='https://github.com/jaeyeong97' target='_blank' rel="noreferrer">
                 <div className='icon'></div>
@@ -88,14 +87,31 @@ const Main = () => {
               </a>
             </div>
             <div className="text-wrap">
+              <div className="s_title">프로필</div>
               <span>
+                • 이름 : 장재영
+              </span>
+              <span>
+                • 생년월일 : 1997년 11월 03일
+              </span>
+              <span>
+                • 연락처 : 010-9630-1822
+              </span>
+              <span>
+                • 이메일 : rkaakdbdb1822@naver.com
+              </span>
+              <div className="s_title">자기소개</div>
+              {/* <span>
                 • 그린컴퓨터 아카데미에서 프론트엔드 개발 양성과정을 수료해, 웹 개발에 필요한 기본기를 갖추었고 실무에 적용할 수 있는 기술들을 배웠습니다.
               </span>
               <span>
-                • 학원 수료후에도 꾸준히 프로젝트를 만들면서 학습하고 있습니다!
+                • 학원 수료후에도 꾸준히 프로젝트를 만들면서 학습하고 있습니다.
+              </span> */}
+              <span>
+                • 안녕하세요. 프론트엔드 개발자 장재영입니다!
               </span>
               <span>
-                • 부족한 스킬은 주말이나 퇴근 후 시간을 활용해 꾸준히 보완하며, 지속해서 성장해 나가겠습니다. 감사합니다!
+                • 부족한 스킬은 주말이나 퇴근 후 개인 시간을 활용해서 보완하고 발전해 나가겠습니다. 감사합니다.
               </span>
             </div>
           </div>

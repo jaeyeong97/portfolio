@@ -15,7 +15,7 @@ const Gallery = () => {
   };
 
   //스위치 토글
-  const isClicked = () => {
+  const isClicked1 = () => {
     setSwitchToggle(!switchToggle);
   };
 
@@ -34,7 +34,7 @@ const Gallery = () => {
 
   const handleClickMenu = (click) => {
     if (click === 'aboutme') {
-      navigate('/home', { state: { scrollTarget: 'nav_home' } })
+      navigate('/home', { state: { scrollTarget: 'nav_top' } })
     } else if (click === 'skills') {
       navigate('/home', { state: { scrollTarget: 'nav_about' } })
     } else if (click === 'projects') {
@@ -67,19 +67,24 @@ const Gallery = () => {
                       transform: `translateX(-${currentSlide * 100}%)`,
                       transition: 'transform 0.5s'
                     }}>
-                    <div className="imgContainer" onClick={() => handleClickMenu('aboutme')}>
-                      ABOUT ME
+                    <div className="imgContainer" onClick={() => handleClickMenu('aboutme')} title="포트폴리오 웹사이트로 이동">
+                      <div className="text">FRONTEND DEVELOPER</div>
+                      <div className="text">JAEYEONG's</div>
+                      <div className="text">PORTFOLIO</div>
                     </div>
-                    <div className="imgContainer" onClick={() => handleClickMenu('skills')}>
-                      SKILLS
+                    <div className="imgContainer" onClick={() => handleClickMenu('skills')} title="포트폴리오 스킬 섹션 이동">
+                      ABOUT MY SKILLS
                     </div>
-                    <div className="imgContainer" onClick={() => handleClickMenu('projects')}>
+                    <div className="imgContainer" onClick={() => handleClickMenu('projects')} title="포트폴리오 프로젝트 섹션 이동">
                       PROJECTS
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="switch" title="스위치" onClick={() => { isClicked() }}></div>
+              <div className="switch">
+                <div className="btn1" onClick={() => { isClicked1() }} title="스위치2"></div>
+                <div className="btn2" title="스위치1"></div>
+              </div>
             </div>
           </div>
           <div className="cube_face cube_face_right">
@@ -94,6 +99,17 @@ const Gallery = () => {
                 <div className="handle"></div>
               </div>
               <div className="exit_sign"></div>
+              <div className="white_board">
+                <div className="text">
+                  <span>1. 액자를 클릭해서 해당 페이지로 이동할 수 있어요!</span>
+                  <span>2. 기둥의 화살표를 눌러 다음 액자로 넘어갈 수 있어요!</span>
+                  <span>3. 스위치를 눌러 조명을 끌 수 있어요!</span>
+                  <span>4. 문밖으로 나갈 수 있어요!</span>
+                </div>
+                <div className="white_board_bottom"></div>
+                <img src="./assets/marker.png" alt="마카" className="marker"></img>
+                <img src="./assets/eraser.png" alt="지우개" className="eraser"></img>
+              </div>
             </div>
           </div>
           <div className="cube_face cube_face_left">
@@ -134,12 +150,12 @@ const Gallery = () => {
                 <div className="c_top">
                   <div
                     className="c_left arrow"
-                    title="왼쪽"
+                    title="이전"
                     onClick={prevSlide}
                   ></div>
                   <div
                     className="c_right arrow"
-                    title="오른쪽"
+                    title="다음"
                     onClick={nextSlide}
                   ></div>
                 </div>
