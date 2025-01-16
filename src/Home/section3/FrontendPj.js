@@ -92,22 +92,8 @@ const FrontendPj = ({ handleChangePage }) => {
                     </div>
                 </div>
             </div>
-            <div className="project" onClick={() => { handleChangePage('gallery') }}>
-                <div className="page_img">
-                    <img src="/assets/gallery.webp" alt="3d-갤러리 웹 이미지" />
-                    <span className="txt">전시회</span>
-                    <div className="explain-wrap">
-                        <div className="explain">
-                            CSS 속성만을 사용하여 3D 전시회 공간을 만든 웹사이트입니다.
-                        </div>
-                        <div className="skills-wrap">
-                            <div className="skill">react</div>
-                            <div className="skill">fetch</div>
-                            <div className="skill">unsplash api</div>
-                            <div className="skill">css</div>
-                        </div>
-                    </div>
-                </div>
+            <div className="project">
+
             </div>
         </div>
     );

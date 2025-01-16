@@ -87,14 +87,13 @@
   flex-direction: column;
 }
 #main .main_wrap .sub_wrap .t3 .text-wrap .s_title {
-  font-size: 20px;
-  margin: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0;
 }
 #main .main_wrap .sub_wrap .t3 .text-wrap span {
   margin-bottom: 8px;
-  text-indent: -11.5px;
-  padding-left: 10px;
-  white-space: normal;
+  color: var(--hover-color);
 }
 #main .main_wrap .sub_wrap .t3 .profile {
   width: 130px;

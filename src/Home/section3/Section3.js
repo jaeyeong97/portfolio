@@ -18,9 +18,6 @@ const Section3 = () => {
       case 'recipes':
         navigate('/recipes');
         break;
-      case 'gallery':
-        navigate('/gallery');
-        break;
       case 'movie':
         navigate('/movie');
         break;

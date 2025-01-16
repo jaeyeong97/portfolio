@@ -55,30 +55,6 @@
     width: 81%;
   }
 }
-@keyframes gallery_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 0.9%;
-  }
-}
-@keyframes gallery_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 73.4%;
-  }
-}
-@keyframes gallery_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 25.7%;
-  }
-}
 @keyframes windows_html_percent {
   0% {
     width: 0%;
@@ -103,30 +79,6 @@
     width: 29.9%;
   }
 }
-@keyframes bbq_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 64.3%;
-  }
-}
-@keyframes bbq_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 31.6%;
-  }
-}
-@keyframes bbq_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 4.1%;
-  }
-}
 @keyframes movie_html_percent {
   0% {
     width: 0%;
@@ -149,78 +101,6 @@
   }
   100% {
     width: 85.2%;
-  }
-}
-@keyframes ulsan_tour_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55.8%;
-  }
-}
-@keyframes ulsan_tour_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 40.2%;
-  }
-}
-@keyframes ulsan_tour_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 4%;
-  }
-}
-@keyframes volvo_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 72.1%;
-  }
-}
-@keyframes volvo_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 27.2%;
-  }
-}
-@keyframes volvo_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 0.7%;
-  }
-}
-@keyframes bookstore_html_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 66.9%;
-  }
-}
-@keyframes bookstore_css_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 25.8%;
-  }
-}
-@keyframes bookstore_js_percent {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 7.3%;
   }
 }
 @keyframes shop_html_percent {
@@ -282,9 +162,6 @@
 }
 .recipes .main .main_img {
   background-image: url(../../public/assets/recipe-frame.webp);
-}
-.gallery .main .main_img {
-  background-image: url(../../public/assets/gallery-frame.webp);
 }
 .windows .main .main_img {
   background-image: url(../../public/assets/window-frame.webp);
