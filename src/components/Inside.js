@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const Gallery = () => {
   const [switchToggle, setSwitchToggle] = useState(true);
+  const [bulb, setBulb] = useState(false);
   const mousePosition = useRef({ x: 0, y: 0 });
   const [currentSlide, setCurrentSlide] = useState(0);
   const navigate = useNavigate();
@@ -15,8 +16,13 @@ const Gallery = () => {
   };
 
   //스위치 토글
-  const isClicked1 = () => {
+  const isClicked = () => {
     setSwitchToggle(!switchToggle);
+  };
+
+  // 조명 on/off
+  const handleBulb = () => {
+    setBulb(!bulb);
   };
 
   // 마우스 시점 이동
@@ -82,8 +88,8 @@ const Gallery = () => {
                 </div>
               </div>
               <div className="switch">
-                <div className="btn1" onClick={() => { isClicked1() }} title="스위치2"></div>
-                <div className="btn2" title="스위치1"></div>
+                <div className="btn1" onClick={() => { isClicked() }} title="스위치2"></div>
+                <div className="btn2" onClick={() => { handleBulb() }} title="스위치1"></div>
               </div>
             </div>
           </div>
@@ -143,6 +149,10 @@ const Gallery = () => {
               <div className="wing wing2"></div>
               <div className="wing wing3"></div>
             </div>
+            <div className={`bulb bulb1 ${bulb ? 'on' : ''}`}></div>
+            <div className={`bulb bulb2 ${bulb ? 'on' : ''}`}></div>
+            <div className={`bulb bulb3 ${bulb ? 'on' : ''}`}></div>
+            <div className={`bulb bulb4 ${bulb ? 'on' : ''}`}></div>
           </div>
           <div className="cube_face cube_face_bottom">
             <div className="control_wrap">
@@ -162,6 +172,10 @@ const Gallery = () => {
                 <div className="c_stick"></div>
               </div>
             </div>
+            <div className={`bulb_light bulb_light1 ${bulb ? '' : 'off'}`}></div>
+            <div className={`bulb_light bulb_light2 ${bulb ? '' : 'off'}`}></div>
+            <div className={`bulb_light bulb_light3 ${bulb ? '' : 'off'}`}></div>
+            <div className={`bulb_light bulb_light4 ${bulb ? '' : 'off'}`}></div>
           </div>
         </div>
       </div>
