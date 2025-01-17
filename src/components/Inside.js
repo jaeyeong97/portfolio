@@ -16,7 +16,7 @@ const Gallery = () => {
   };
 
   //스위치 토글
-  const isClicked = () => {
+  const handleFan = () => {
     setSwitchToggle(!switchToggle);
   };
 
@@ -60,7 +60,7 @@ const Gallery = () => {
   return (
     <div className="gallery_wrap">
       <div className="scene">
-        <div className={switchToggle ? 'cube' : 'cube off'}>
+        <div className="cube">
           <div className="cube_face cube_face_back">
             <div className="frame_wrap" >
               <div className="frame">
@@ -88,8 +88,8 @@ const Gallery = () => {
                 </div>
               </div>
               <div className="switch">
-                <div className="btn1" onClick={() => { isClicked() }} title="스위치2"></div>
-                <div className="btn2" onClick={() => { handleBulb() }} title="스위치1"></div>
+                <div className="btn1" onClick={() => { handleFan() }} title="실링팬 스위치"></div>
+                <div className="btn2" onClick={() => { handleBulb() }} title="조명 스위치"></div>
               </div>
             </div>
           </div>
@@ -107,10 +107,10 @@ const Gallery = () => {
               <div className="exit_sign"></div>
               <div className="white_board">
                 <div className="text">
-                  <span>1. 액자를 클릭해서 해당 페이지로 이동할 수 있어요!</span>
-                  <span>2. 기둥의 화살표를 눌러 다음 액자로 넘어갈 수 있어요!</span>
-                  <span>3. 스위치를 눌러 조명을 끌 수 있어요!</span>
-                  <span>4. 문밖으로 나갈 수 있어요!</span>
+                  <span>1. 액자를 클릭해서 해당 페이지로 이동할 수 있어요.</span>
+                  <span>2. 기둥의 화살표를 눌러 다음 액자로 넘어갈 수 있어요.</span>
+                  <span>3. 스위치를 작동시킬 수 있어요.</span>
+                  <span>4. 문밖으로 나갈 수 있어요.</span>
                 </div>
                 <div className="white_board_bottom"></div>
                 <img src="./assets/marker.png" alt="마카" className="marker"></img>
@@ -145,9 +145,9 @@ const Gallery = () => {
           <div className="cube_face cube_face_top">
             <div className="light">
               <div className="stick"></div>
-              <div className="wing wing1"></div>
-              <div className="wing wing2"></div>
-              <div className="wing wing3"></div>
+              <div className={`light wing wing1 ${switchToggle ? "paused" : ""}`}></div>
+              <div className={`light wing wing2 ${switchToggle ? "paused" : ""}`}></div>
+              <div className={`light wing wing3 ${switchToggle ? "paused" : ""}`}></div>
             </div>
             <div className={`bulb bulb1 ${bulb ? 'on' : ''}`}></div>
             <div className={`bulb bulb2 ${bulb ? 'on' : ''}`}></div>

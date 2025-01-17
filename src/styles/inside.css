@@ -3,7 +3,7 @@
     transform: translateZ(-50px) rotateY(90deg) rotateX(0deg);
   }
   50% {
-    filter: brightness(0.8);
+    filter: brightness(0.9);
   }
   100% {
     transform: translateZ(-50px) rotateY(90deg) rotateX(720deg);
@@ -65,9 +65,7 @@
   transform-style: preserve-3d;
   transform: translateZ(500px) translateY(-20px);
 }
-.gallery_wrap .cube.off {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+
 .gallery_wrap .cube_face {
   transform-style: preserve-3d;
   position: absolute;
@@ -174,10 +172,10 @@
 }
 .gallery_wrap .cube_face_right .exit .white_board {
   position: absolute;
-  top: 215px;
+  top: 250px;
   right: 250px;
   width: 150px;
-  height: 180px;
+  height: 150px;
   border: 5px solid #acb0b1;
   box-shadow: inset -3px -2px 0px #91928c, inset 0px 3px 0px #91928c,
     -2px -1px 3px #565656;
@@ -496,28 +494,16 @@
   height: 100%;
   transform-style: preserve-3d;
 }
-.gallery_wrap .cube_face_top .light::before {
+.gallery_wrap .cube_face_top .stick::after {
   content: "";
   display: block;
   position: absolute;
-  top: 240px;
-  left: calc(50% - 15px);
+  top: -10px;
+  left: calc(50% - 10px);
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  transform: translateZ(-52px);
-  background: linear-gradient(#373b3d, #66615b, #585d62, #484440);
-}
-.gallery_wrap .cube_face_top .light::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 240px;
-  left: calc(50% - 15px);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  transform: translateZ(-50px);
+  transform: rotateX(70deg);
   background: linear-gradient(#211f1d, #373b3d, #798087, #484440);
 }
 .gallery_wrap .cube_face_top .light .stick {
@@ -539,8 +525,6 @@
   );
 }
 .gallery_wrap .cube_face_top .light .wing {
-  transform: translateZ(-50px) rotateY(90deg) rotateX(360deg)
-    translate3d(0, 0, 0);
   position: absolute;
   top: 185px;
   left: calc(50% - 10px);
@@ -549,15 +533,22 @@
   border-radius: 30%;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   background-color: #826851;
+  animation-play-state: running;
 }
 .gallery_wrap .cube_face_top .light .wing1 {
-  animation: rotate 9s infinite linear;
+  transform: translateZ(-50px) rotateY(90deg) rotateX(20deg);
+  animation: rotate 6s infinite linear;
 }
 .gallery_wrap .cube_face_top .light .wing2 {
-  animation: rotate 9s infinite linear -3s;
+  transform: translateZ(-50px) rotateY(90deg) rotateX(260deg);
+  animation: rotate 6s infinite linear -2s;
 }
 .gallery_wrap .cube_face_top .light .wing3 {
-  animation: rotate 9s infinite linear -6s;
+  transform: translateZ(-50px) rotateY(90deg) rotateX(500deg);
+  animation: rotate 6s infinite linear -4s;
+}
+.gallery_wrap .cube_face_top .light .wing.paused {
+  animation-play-state: paused;
 }
 .gallery_wrap .cube_face_top .bulb {
   position: absolute;
@@ -719,10 +710,4 @@
 .gallery_wrap .cube_face_bottom .bulb_light4 {
   bottom: 250px;
   right: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .gallery_wrap .cube {
-    transform: translateZ(200px) translateY(-20px);
-  }
 }
